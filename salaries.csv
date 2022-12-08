@@ -3,3 +3,6 @@ id,salary,year,university,department,position,phd
 1,29870,2012,UC Berkeley,Astrophysics,Grad Student,2017
 2,30450,2012,Yale University,Astrophysics,Grad Student,2017
 3,31280,2012,Harvard University,Astrophysics,Grad Student,2017
+4,70000,2017,Princeton University,Astrophysics,Postdoc,2017
+5,68500,2020,Princeton University,Astrophysics,Postdoc,2017
+6,160000,2021,Lawrence Livermore National Laboratory,WCI,Research Staff,2017

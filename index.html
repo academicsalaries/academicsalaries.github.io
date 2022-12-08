@@ -28,6 +28,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
     </head>
     
     <body>
@@ -40,7 +41,19 @@
         <div>
 			<p>Let's bring salary transparency to academia and help improve pay.</p>
 		</div> 
+		<hr>
 
+        <!-- Main Interactive Chart -->
+		<div id="plot-wrapper" style="position: relative; overflow: visible; margin: 20px 50px;">
+		<svg id="plotSVG" width=700 height=500></svg>
+		<select id="select-y-var" style="position: absolute; top:0px; left:0px;">
+			<option value="salary" selected>salary (yearly, USD)</option>
+		</select>
+		<select id="select-x-var" style="position: absolute; bottom:0px; left: 500px;">
+			<option value="year" selected>year</option>
+			<option value="phd">year PhD awarded/anticipated</option>
+		</select>
+		</div>
 
         <script src="main.js"></script>
 
