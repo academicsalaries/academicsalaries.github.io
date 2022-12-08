@@ -159,7 +159,7 @@ document.getElementById("select-x-var").addEventListener("change", (e)=>{
   
   // rescale the x-axis
   xScale = d3.scaleLinear()
-    .domain([d3.min(salaryData, d => d[xVar]), d3.max(salaryData, d => d[xVar]) ])    
+    .domain([d3.min(salaryData, d => d[xVar])-1, d3.max(salaryData, d => d[xVar])+1 ])    
     .range([0, 600]);
 
   // redraw the x-axis
