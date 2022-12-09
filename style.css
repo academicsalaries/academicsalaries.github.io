@@ -3,6 +3,7 @@ body {
     background-color: white;
 	width: device-width;
 	max-width: 800px;
+	min-width: 800px;
 	margin: auto;
 }
 
