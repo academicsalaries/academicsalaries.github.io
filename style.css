@@ -1,7 +1,7 @@
 body {
     font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
     background-color: white;
-	width: 800px;
+	width: device-width;
 	max-width: 800px;
 	margin: auto;
 }
