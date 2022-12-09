@@ -17,8 +17,8 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       department: d.department,
       field:      d.field,
       position:   d.position,
-      phd:       +d.phd,
-      phdfield:   d.phdfield,
+      phd:       +d.phdyr,
+      phdfield:   d.phdyrfield,
       toolTipVisible: false
     };
   }).then(function(salaryData) {	
@@ -136,7 +136,7 @@ svg.selectAll(".bubble-tip")
 
 svg.selectAll(".bubble-tip")
   .append("text")
-  .text(d => d.position + " (PhD " + d.phd + ")")
+  .text(d => d.position + " (PhD " + d.phdyr + ")")
   .attr("y", d => 38 )
   .style("font-family", "sans-serif")
   .style("font-style", "italic")
