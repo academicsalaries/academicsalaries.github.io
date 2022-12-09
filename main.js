@@ -15,8 +15,10 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       year:      +d.year,
       university: d.university,
       department: d.department,
+      field:      d.field,
       position:   d.position,
       phd:       +d.phd,
+      phdfield:   d.phdfield,
       toolTipVisible: false
     };
   }).then(function(salaryData) {	
@@ -50,7 +52,7 @@ svg.append("g")   // the axis will be contained in an SVG group element
   .attr("id","yAxis")
   .call(d3.axisLeft(yScale)
           .ticks(5)
-          .tickFormat(d3.format("d"))
+          .tickFormat(d3.format("$,"))
           .tickSizeOuter(0)
        )
   
@@ -216,25 +218,25 @@ document.getElementById("select-y-var").addEventListener("change", (e)=>{
 
 // Filters
 let f1university = document.getElementById("filter1-university").value;
-let f1department = document.getElementById("filter1-department").value;
+let f1field = document.getElementById("filter1-field").value;
 let f1position = document.getElementById("filter1-position").value;
 let f2university = document.getElementById("filter2-university").value;
-let f2department = document.getElementById("filter2-department").value;
+let f2field = document.getElementById("filter2-field").value;
 let f2position = document.getElementById("filter2-position").value;
 
 function visGroup(d) {
   let vis = 0;
-  let grp1active = (f1university=="all" && f1department=="all" && f1position=="all") ? false : true;
-  let grp2active = (f2university=="all" && f2department=="all" && f2position=="all") ? false : true;
+  let grp1active = (f1university=="all" && f1field=="all" && f1position=="all") ? false : true;
+  let grp2active = (f2university=="all" && f2field=="all" && f2position=="all") ? false : true;
   let grpsActive = grp1active || grp2active;
   if(grpsActive) {
 	if(grp1active) {
-	  if( (f1university==d.university || f1university=="all") && (f1department==d.department || f1department=="all") && (f1position==d.position || f1position=="all") ) {
+	  if( (f1university==d.university || f1university=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") ) {
 		  vis = 1;
 	  }
 	}
 	if(grp2active) {
-	  if( (f2university==d.university || f2university=="all") && (f2department==d.department || f2department=="all") && (f2position==d.position || f2position=="all") ) {
+	  if( (f2university==d.university || f2university=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") ) {
 		  vis = 2;
 	  }
 	}
@@ -258,8 +260,8 @@ document.getElementById("filter1-university").addEventListener("change", (e)=>{
   setVisibilities();
 })
 
-document.getElementById("filter1-department").addEventListener("change", (e)=>{ 
-  f1department = e.target.value;
+document.getElementById("filter1-field").addEventListener("change", (e)=>{ 
+  f1field = e.target.value;
   setVisibilities();
 })
 
@@ -273,8 +275,8 @@ document.getElementById("filter2-university").addEventListener("change", (e)=>{
   setVisibilities();
 })
 
-document.getElementById("filter2-department").addEventListener("change", (e)=>{ 
-  f2department = e.target.value;
+document.getElementById("filter2-field").addEventListener("change", (e)=>{ 
+  f2field = e.target.value;
   setVisibilities();
 })
 
@@ -285,16 +287,16 @@ document.getElementById("filter2-position").addEventListener("change", (e)=>{
 
 document.getElementById("reset").onclick = function() {
 	document.getElementById("filter1-university").selectedIndex = 0;
-	document.getElementById("filter1-department").selectedIndex = 0;
+	document.getElementById("filter1-field").selectedIndex = 0;
 	document.getElementById("filter1-position").selectedIndex = 0;
 	document.getElementById("filter2-university").selectedIndex = 0;
-	document.getElementById("filter2-department").selectedIndex = 0;
+	document.getElementById("filter2-field").selectedIndex = 0;
 	document.getElementById("filter2-position").selectedIndex = 0;
     f1university = "all";
-    f1department = "all";
+    f1field = "all";
     f1position = "all";
     f2university = "all";
-    f2department = "all";
+    f2field = "all";
     f2position = "all";
     setVisibilities();
 };
