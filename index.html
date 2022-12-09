@@ -60,50 +60,71 @@
         <hr>
 
         <div>
-			<p>Filter: <input id="reset" type="reset" value="reset"></p>
+			<span>Filter: <input id="reset" type="reset" value="reset"></span>
 		</div> 
 		
-		<span style="color:blue;">Group 1</span>
-		university:
+<table>
+  <tr>
+    <th></th>
+    <th><span style="color:blue;">Group 1</span></th>
+    <th><span style="color:red;">Group 2</span></th>
+  </tr>
+  <tr>
+    <td>university/institute</td>
+    <td>
 		<select id="filter1-university">
 			<option value="all" selected>all</option>
 			<option value="Harvard University">Harvard University</option>
+			<option value="Lawrence Livermore National Laboratory">Lawrence Livermore National Laboratory</option>
 			<option value="Princeton University">Princeton University</option>
+			<option value="Simons Foundation">Simons Foundation</option>
+			<option value="Stanford University">Stanford University</option>
+			<option value="UC Berkeley">UC Berkeley</option>
+			<option value="Yale University">Yale University</option>
 		</select>
-		department:
-		<select id="filter1-department">
-			<option value="all" selected>all</option>
-			<option value="Astrophysics">Astrophysics</option>
-			<option value="Mathematics">Mathematics</option>
-		</select>
-		position:
-		<select id="filter1-position">
-			<option value="all" selected>all</option>
-			<option value="Grad Student">Grad Student</option>
-			<option value="Postdoc">Postdoc</option>
-			<option value="Research Staff">Research Staff</option>
-			<option value="Assistant Prof">Assistant Prof</option>
-			<option value="Assoc Prof">Assoc Prof</option>
-			<option value="Full Prof">Full Prof</option>
-		</select>
-		
-		<div> </div>
-		
-		<span style="color:red;">Group 2</span>
-		university:
+    </td>
+    <td>
 		<select id="filter2-university">
 			<option value="all" selected>all</option>
 			<option value="Harvard University">Harvard University</option>
+			<option value="Lawrence Livermore National Laboratory">Lawrence Livermore National Laboratory</option>
 			<option value="Princeton University">Princeton University</option>
+			<option value="Simons Foundation">Simons Foundation</option>
+			<option value="Stanford University">Stanford University</option>
+			<option value="UC Berkeley">UC Berkeley</option>
+			<option value="Yale University">Yale University</option>
 		</select>
-		department:
-		<select id="filter2-department">
+    </td>
+  </tr>
+  <tr>
+    <td>department/division</td>
+    <td>
+    	<select id="filter1-department">
 			<option value="all" selected>all</option>
 			<option value="Astrophysics">Astrophysics</option>
+			<option value="Biology">Biology</option>
+			<option value="Chemistry">Chemistry</option>
+			<option value="English">English</option>
 			<option value="Mathematics">Mathematics</option>
+			<option value="Physics">Physics</option>
 		</select>
-		position:
-		<select id="filter2-position">
+    </td>
+    <td>
+    	<select id="filter2-department">
+			<option value="all" selected>all</option>
+			<option value="Astrophysics">Astrophysics</option>
+			<option value="Biology">Biology</option>
+			<option value="Chemistry">Chemistry</option>
+			<option value="English">English</option>
+			<option value="Mathematics">Mathematics</option>
+			<option value="Physics">Physics</option>
+		</select>
+    </td>
+  </tr>
+  <tr>
+    <td>position</td>
+    <td>
+    	<select id="filter1-position">
 			<option value="all" selected>all</option>
 			<option value="Grad Student">Grad Student</option>
 			<option value="Postdoc">Postdoc</option>
@@ -112,6 +133,20 @@
 			<option value="Assoc Prof">Assoc Prof</option>
 			<option value="Full Prof">Full Prof</option>
 		</select>
+    </td>
+    <td>
+    	<select id="filter2-position">
+			<option value="all" selected>all</option>
+			<option value="Grad Student">Grad Student</option>
+			<option value="Postdoc">Postdoc</option>
+			<option value="Research Staff">Research Staff</option>
+			<option value="Assistant Prof">Assistant Prof</option>
+			<option value="Assoc Prof">Assoc Prof</option>
+			<option value="Full Prof">Full Prof</option>
+		</select>
+    </td>
+  </tr>
+</table>
 
 		<hr>
 
