@@ -20,7 +20,7 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       toolTipVisible: false
     };
   }).then(function(salaryData) {	
-	   
+console.log(salaryData);	   
 // chart here:
     
 let svg = d3.select("#plotSVG")
@@ -134,7 +134,7 @@ svg.selectAll(".bubble-tip")
 
 svg.selectAll(".bubble-tip")
   .append("text")
-  .text(d => d.position)
+  .text(d => d.position + " (PhD " + d.phd + ")")
   .attr("y", d => 38 )
   .style("font-family", "sans-serif")
   .style("font-style", "italic")
@@ -213,6 +213,91 @@ document.getElementById("select-y-var").addEventListener("change", (e)=>{
   svg.selectAll(".bubble-tip")
       .attr("transform", d => "translate(" + (xScale(d[xVar])+20) + ", " +  yScale(d[yVar]) + ")" )
 })
+
+// Filters
+let f1university = document.getElementById("filter1-university").value;
+let f1department = document.getElementById("filter1-department").value;
+let f1position = document.getElementById("filter1-position").value;
+let f2university = document.getElementById("filter2-university").value;
+let f2department = document.getElementById("filter2-department").value;
+let f2position = document.getElementById("filter2-position").value;
+
+function visGroup(d) {
+  let vis = 0;
+  let grp1active = (f1university=="all" && f1department=="all" && f1position=="all") ? false : true;
+  let grp2active = (f2university=="all" && f2department=="all" && f2position=="all") ? false : true;
+  let grpsActive = grp1active || grp2active;
+  if(grpsActive) {
+	if(grp1active) {
+	  if( (f1university==d.university || f1university=="all") && (f1department==d.department || f1department=="all") && (f1position==d.position || f1position=="all") ) {
+		  vis = 1;
+	  }
+	}
+	if(grp2active) {
+	  if( (f2university==d.university || f2university=="all") && (f2department==d.department || f2department=="all") && (f2position==d.position || f2position=="all") ) {
+		  vis = 2;
+	  }
+	}
+  } else {
+	vis = 3;
+  }
+  return vis;
+}
+
+function setVisibilities() {
+  svg.selectAll(".bubble")
+      .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
+      .attr("stroke", d => ( (visGroup(d)==1) ? "#0000FF" : ((visGroup(d)==2) ? "#FF0000" : posColors[d.position] )) )
+      
+  svg.selectAll(".bubble-tip")
+      .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
+}
+
+document.getElementById("filter1-university").addEventListener("change", (e)=>{ 
+  f1university = e.target.value;
+  setVisibilities();
+})
+
+document.getElementById("filter1-department").addEventListener("change", (e)=>{ 
+  f1department = e.target.value;
+  setVisibilities();
+})
+
+document.getElementById("filter1-position").addEventListener("change", (e)=>{ 
+  f1position = e.target.value;
+  setVisibilities();
+})
+
+document.getElementById("filter2-university").addEventListener("change", (e)=>{ 
+  f2university = e.target.value;
+  setVisibilities();
+})
+
+document.getElementById("filter2-department").addEventListener("change", (e)=>{ 
+  f2department = e.target.value;
+  setVisibilities();
+})
+
+document.getElementById("filter2-position").addEventListener("change", (e)=>{ 
+  f2position = e.target.value;
+  setVisibilities();
+})
+
+document.getElementById("reset").onclick = function() {
+	document.getElementById("filter1-university").selectedIndex = 0;
+	document.getElementById("filter1-department").selectedIndex = 0;
+	document.getElementById("filter1-position").selectedIndex = 0;
+	document.getElementById("filter2-university").selectedIndex = 0;
+	document.getElementById("filter2-department").selectedIndex = 0;
+	document.getElementById("filter2-position").selectedIndex = 0;
+    f1university = "all";
+    f1department = "all";
+    f1position = "all";
+    f2university = "all";
+    f2department = "all";
+    f2position = "all";
+    setVisibilities();
+};
 
 
  });
