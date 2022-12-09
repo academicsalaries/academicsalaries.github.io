@@ -43,16 +43,24 @@
 		<hr>
 
         <!-- Main Interactive Chart -->
-		<div id="plot-wrapper" style="position: relative; overflow: visible; margin: 20px 50px;">
-		<svg id="plotSVG" width=700 height=500></svg>
-		<select id="select-y-var" style="position: absolute; top:0px; left:0px;">
+        <div>
+		<select id="select-y-var">
 			<option value="salary" selected>salary (yearly, USD)</option>
 		</select>
-		<select id="select-x-var" style="position: absolute; bottom:0px; left: 500px;">
+		</div> 
+		
+		<div>
+		<svg id="plotSVG" width=700 height=440></svg>
+		</div> 
+		
+		<div>
+		<select id="select-x-var" style="float: right;">
 			<option value="year" selected>year</option>
 			<option value="phd">year PhD awarded/anticipated</option>
 		</select>
 		</div>
+
+        <br>
 
         <script src="main.js"></script>
 

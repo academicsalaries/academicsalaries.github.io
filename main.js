@@ -28,11 +28,11 @@ console.log(salaryData);
 let svg = d3.select("#plotSVG")
   .style("overflow","visible")
   .append("g")
-  .attr("transform", "translate(50,50)")
+  .attr("transform", "translate(80,0)")
 
 let xScale = d3.scaleLinear()
   .domain([1990, 2025])  // x-variable has a max of 2025
-  .range([0, 600]);      // x-axis is 600px wide
+  .range([0, Math.min(window.innerWidth-100,600)]);      // x-axis is 600px wide
 
 let yScale = d3.scaleLinear()
   .domain([0, 400000])   // y-variable has a max of 400000
