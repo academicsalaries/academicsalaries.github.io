@@ -78,12 +78,13 @@ function visGroup(d) {
 function rescaleY() {
 	if (linear) {
 		yScale = d3.scaleLinear()
-		.domain([0, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
+		.domain([ (d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)-d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)>30000) ? 0 : 
+		d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
 		.range([400, 0]);
 	}
 	else {
 		yScale = d3.scaleLog()
-		.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000 , d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
+		.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
 		.range([400, 0]);
 	}
 }
