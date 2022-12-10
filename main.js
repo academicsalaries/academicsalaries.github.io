@@ -75,6 +75,10 @@ function visGroup(d) {
   return vis;
 }
 
+function shiftX(d) {
+	return (visGroup(d)==1) ? -0.05 : ((visGroup(d)==2) ? 0.05 : 0);
+}
+
 // color by position, or by group if 2 groups are being selected
 function visColor(d) {
    return (visGroup(d)==1) ? "#0000FF" : ((visGroup(d)==2) ? "#FF0000" : posColors[d.position] );
@@ -217,7 +221,7 @@ function transition() {
     svg.selectAll(".bubble")
       .transition()
       .duration(1000)
-      .attr("cx", (d) => xScale(d[xVar]) )
+      .attr("cx", (d) => xScale(d[xVar]+shiftX(d)) )
       .attr("cy", (d) => yScale(d[yVar]) )
   // transition each tooltip
     svg.selectAll(".bubble-tip")
