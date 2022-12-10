@@ -75,6 +75,11 @@ function visGroup(d) {
   return vis;
 }
 
+// color by position, or by group if 2 groups are being selected
+function visColor(d) {
+   return (visGroup(d)==1) ? "#0000FF" : ((visGroup(d)==2) ? "#FF0000" : posColors[d.position] );
+}
+
 // rescale the y-axis
 function rescaleY() {
 	if (linear) {
@@ -275,10 +280,13 @@ document.getElementById("select-y-var").addEventListener("change", (e)=>{
 function setVisibilities() {
   svg.selectAll(".bubble")
       .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
-      .attr("stroke", d => ( (visGroup(d)==1) ? "#0000FF" : ((visGroup(d)==2) ? "#FF0000" : posColors[d.position] )) )
+      .attr("stroke", d => visColor(d) )
       
   svg.selectAll(".bubble-tip")
       .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
+      
+  svg.selectAll(".bubble-tip").selectAll("text")
+      .attr("fill", d => visColor(d) )
       
   rescaleY();
   rescaleX();
