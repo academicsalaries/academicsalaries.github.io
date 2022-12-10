@@ -2,6 +2,7 @@ let posColors = {
     "Grad Student": "#ea5545",   // red
     "Postdoc": "#ef9b20",        // orange
     "Research Staff": "#87bc45", // green
+    "Lecturer": "#ffd700",       // gold
     "Assistant Prof": "#f46a9b", // pink
     "Assoc Prof": "#27aeef",     // blue
     "Full Prof": "#b33dc6"       // purple
