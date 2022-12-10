@@ -3,9 +3,9 @@ let posColors = {
     "Postdoc": "#ef9b20",        // orange
     "Research Staff": "#87bc45", // green
     "Lecturer": "#ffd700",       // gold
-    "Assistant Prof": "#f46a9b", // pink
-    "Assoc Prof": "#27aeef",     // blue
-    "Full Prof": "#b33dc6"       // purple
+    "Assistant Profesor": "#f46a9b", // pink
+    "Assoc Profesor": "#27aeef",     // blue
+    "Full Profesor": "#b33dc6"       // purple
 }
 
 d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.github.io/main/salaries.csv", function(d) {
@@ -29,7 +29,7 @@ console.log(salaryData);
 let svg = d3.select("#plotSVG")
   .style("overflow","visible")
   .append("g")
-  .attr("transform", "translate(80,0)")
+  .attr("transform", "translate(80,10)")
 
 let xScale = d3.scaleLinear()
   .domain([1990, 2025])  // x-variable has a max of 2025
