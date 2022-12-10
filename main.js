@@ -194,7 +194,7 @@ function redrawY() {
   svg.select("#yAxis")            
     .call(d3.axisLeft(yScale)
           .ticks(5)
-          .tickFormat(d3.format("d"))
+          .tickFormat(d3.format("$,"))
           .tickSizeOuter(0)
        )
 }
