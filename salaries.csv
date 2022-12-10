@@ -62,10 +62,10 @@ id,salary,year,university,department,field,position,phd
 60,31350,2022,University of Cincinnati,"Molecular Genetics, Biochemistry, & Microbiology",Biology,Grad Student,2025
 61,34000,2022,University of Colorado - Denver,Cancer Biology,Biology,Grad Student,2026
 62,34000,2022,University of Colorado - Denver,Immunology & Microbiology,Biology,Grad Student,2023
-63,19200,2021,University of Delaware,Joseph R. Biden School of Public Policy and Administration,Public Policy,Grad Student,2024
+63,19200,2021,University of Delaware,Joseph R. Biden School of Public Policy and Administration,Political Science,Grad Student,2024
 64,28800,2022,University of Eastern Finland,Applied Physics,Physics,Grad Student,2027
 65,28000,2022,University of Florida,Electrical and Computer Engineering,Engineering,Grad Student,2027
-66,21000,2022,University of Georgia,Social work,Social Work,Grad Student,2027
+66,21000,2022,University of Georgia,Social work,Social Science,Grad Student,2027
 67,25000,2020,University of Kansas,Pharmaceutical Chemistry,Chemistry,Grad Student,2025
 68,12000,2021,University of Kentucky,Education,Education,Grad Student,2023
 69,25250,2022,University of Kentucky,Computer Science,Computer Science,Grad Student,2024
