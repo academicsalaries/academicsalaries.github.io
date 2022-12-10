@@ -86,3 +86,5 @@ select{
 #yAxis{
   font-size: 16px;
 }
+
+ul li { padding: 5px 0px; }
