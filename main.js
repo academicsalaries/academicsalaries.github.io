@@ -44,23 +44,53 @@ let yVar = document.getElementById("select-y-var").value;
 
 let linear = true;
 
+// Filters:
+let f1university = document.getElementById("filter1-university").value;
+let f1field = document.getElementById("filter1-field").value;
+let f1position = document.getElementById("filter1-position").value;
+let f2university = document.getElementById("filter2-university").value;
+let f2field = document.getElementById("filter2-field").value;
+let f2position = document.getElementById("filter2-position").value;
+
+function visGroup(d) {
+  let vis = 0;
+  let grp1active = (f1university=="all" && f1field=="all" && f1position=="all") ? false : true;
+  let grp2active = (f2university=="all" && f2field=="all" && f2position=="all") ? false : true;
+  let grpsActive = grp1active || grp2active;
+  if(grpsActive) {
+	if(grp1active) {
+	  if( (f1university==d.university || f1university=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") ) {
+		  vis = 1;
+	  }
+	}
+	if(grp2active) {
+	  if( (f2university==d.university || f2university=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") ) {
+		  vis = 2;
+	  }
+	}
+  } else {
+	vis = 3;
+  }
+  return vis;
+}
+
 // rescale the y-axis
 function rescaleY() {
 	if (linear) {
 		yScale = d3.scaleLinear()
-		.domain([0, d3.max(salaryData, d => d[yVar]) ])    
+		.domain([0, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
 		.range([400, 0]);
 	}
 	else {
 		yScale = d3.scaleLog()
-		.domain([d3.min(salaryData, d => d[yVar]) , d3.max(salaryData, d => d[yVar]) ])    
+		.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000 , d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
 		.range([400, 0]);
 	}
 }
 // rescale the x-axis
 function rescaleX() {
   xScale = d3.scaleLinear()
-    .domain([d3.min(salaryData, d => d[xVar])-1, d3.max(salaryData, d => d[xVar])+1 ])    
+    .domain([d3.min(salaryData, d => (visGroup(d)) ? d[xVar] : 9999)-1, d3.max(salaryData, d => (visGroup(d)) ? d[xVar] : 0)+1 ])    
     .range([0, Math.min(window.innerWidth-100,600)]);
 }
   
@@ -238,36 +268,8 @@ document.getElementById("select-y-var").addEventListener("change", (e)=>{
   transition();
 })
 
-// Filters:
-let f1university = document.getElementById("filter1-university").value;
-let f1field = document.getElementById("filter1-field").value;
-let f1position = document.getElementById("filter1-position").value;
-let f2university = document.getElementById("filter2-university").value;
-let f2field = document.getElementById("filter2-field").value;
-let f2position = document.getElementById("filter2-position").value;
 
-function visGroup(d) {
-  let vis = 0;
-  let grp1active = (f1university=="all" && f1field=="all" && f1position=="all") ? false : true;
-  let grp2active = (f2university=="all" && f2field=="all" && f2position=="all") ? false : true;
-  let grpsActive = grp1active || grp2active;
-  if(grpsActive) {
-	if(grp1active) {
-	  if( (f1university==d.university || f1university=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") ) {
-		  vis = 1;
-	  }
-	}
-	if(grp2active) {
-	  if( (f2university==d.university || f2university=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") ) {
-		  vis = 2;
-	  }
-	}
-  } else {
-	vis = 3;
-  }
-  return vis;
-}
-
+// Filter events
 function setVisibilities() {
   svg.selectAll(".bubble")
       .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
@@ -275,6 +277,12 @@ function setVisibilities() {
       
   svg.selectAll(".bubble-tip")
       .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
+      
+  rescaleY();
+  rescaleX();
+  redrawY();
+  redrawX();
+  transition();
 }
 
 document.getElementById("filter1-university").addEventListener("change", (e)=>{ 
