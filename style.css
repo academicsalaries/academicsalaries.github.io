@@ -88,3 +88,18 @@ select{
 }
 
 ul li { padding: 5px 0px; }
+
+.dot {
+  height: 11px;
+  width: 11px;
+  background-color: #bbb;
+  border-radius: 50%;
+  opacity: 50%;
+  display: inline-block;
+}
+
+
+.smalltext{
+    font-size: 11px;
+}
+

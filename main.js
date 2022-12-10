@@ -4,7 +4,7 @@ let posColors = {
     "Research Staff": "#87bc45", // green
     "Lecturer": "#ffd700",       // gold
     "Assistant Professor": "#f46a9b", // pink
-    "Assoc Professor": "#27aeef",     // blue
+    "Associate Professor": "#27aeef", // blue
     "Full Professor": "#b33dc6"       // purple
 }
 
