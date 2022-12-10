@@ -1,10 +1,10 @@
-id,salary,year,university,department,field,position,phd,notes
-0,35219,2012,Stanford University,Astrophysics,Astrophysics,Grad Student,2017,
-1,29870,2012,UC Berkeley,Astrophysics,Astrophysics,Grad Student,2017,
-2,30450,2012,Yale University,Astrophysics,Astrophysics,Grad Student,2017,
-3,31280,2012,Harvard University,Astrophysics,Astrophysics,Grad Student,2017,
-4,85000,2017,Simons Foundation,CCA,Astrophysics,Postdoc,2017,
-5,70000,2017,Princeton University,Astrophysics,Astrophysics,Postdoc,2017,
-6,68500,2020,Princeton University,Astrophysics,Astrophysics,Postdoc,2017,
-7,160000,2021,Lawrence Livermore National Laboratory,WCI,Physics,Research Staff,2017,
-8,200025,2020,UC Santa Cruz,Astrophysics,Astrophysics,Full Professor,2006,
+id,salary,year,university,department,field,position,phd
+0,35219,2012,Stanford University,Astrophysics,Astrophysics,Grad Student,2017
+1,29870,2012,UC Berkeley,Astrophysics,Astrophysics,Grad Student,2017
+2,30450,2012,Yale University,Astrophysics,Astrophysics,Grad Student,2017
+3,31280,2012,Harvard University,Astrophysics,Astrophysics,Grad Student,2017
+4,85000,2017,Simons Foundation,CCA,Astrophysics,Postdoc,2017
+5,70000,2017,Princeton University,Astrophysics,Astrophysics,Postdoc,2017
+6,68500,2020,Princeton University,Astrophysics,Astrophysics,Postdoc,2017
+7,160000,2021,Lawrence Livermore National Laboratory,WCI,Physics,Research Staff,2017
+8,200025,2020,UC Santa Cruz,Astrophysics,Astrophysics,Full Professor,2006
