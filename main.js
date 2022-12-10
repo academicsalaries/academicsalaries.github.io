@@ -3,9 +3,9 @@ let posColors = {
     "Postdoc": "#ef9b20",        // orange
     "Research Staff": "#87bc45", // green
     "Lecturer": "#ffd700",       // gold
-    "Assistant Profesor": "#f46a9b", // pink
-    "Assoc Profesor": "#27aeef",     // blue
-    "Full Profesor": "#b33dc6"       // purple
+    "Assistant Professor": "#f46a9b", // pink
+    "Assoc Professor": "#27aeef",     // blue
+    "Full Professor": "#b33dc6"       // purple
 }
 
 d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.github.io/main/salaries.csv", function(d) {
