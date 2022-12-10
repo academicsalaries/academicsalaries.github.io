@@ -37,7 +37,7 @@ let xScale = d3.scaleLinear()
 
 let yScale = d3.scaleLinear()
   .domain([0, 400000])   // y-variable has a max of 400000
-  .range([600, 0]);      // y-axis is 600px high
+  .range([500, 0]);      // y-axis is 500px high
 
 let xVar = document.getElementById("select-x-var").value;
 let yVar = document.getElementById("select-y-var").value;
@@ -86,12 +86,12 @@ function rescaleY() {
 		yScale = d3.scaleLinear()
 		.domain([ (d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)-d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)>30000) ? 0 : 
 		d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
-		.range([600, 0]);
+		.range([500, 0]);
 	}
 	else {
 		yScale = d3.scaleLog()
 		.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
-		.range([600, 0]);
+		.range([500, 0]);
 	}
 }
 // rescale the x-axis
@@ -113,7 +113,7 @@ svg.append("g")   // the axis will be contained in an SVG group element
           .tickSizeOuter(0)
        )
 svg.append("g")       
-  .attr("transform", "translate(0,600)")   // translate x-axis to bottom of chart
+  .attr("transform", "translate(0,500)")   // translate x-axis to bottom of chart
   .attr("id","xAxis")
   .call(d3.axisBottom(xScale)
           .ticks(5)
