@@ -17,7 +17,7 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       department: d.department,
       field:      d.field,
       position:   d.position,
-      phd:       +d.phdyr,
+      phdyr:     +d.phdyr,
       phdfield:   d.phdyrfield,
       toolTipVisible: false
     };
