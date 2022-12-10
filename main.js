@@ -13,6 +13,7 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       // parse the data into an array of csv objects
       id:        +d.id,
       salary:    +d.salary,   
+      logsalary:  Math.log10(+d.salary),   
       year:      +d.year,
       university: d.university,
       department: d.department,
@@ -23,7 +24,7 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
     };
   }).then(function(salaryData) {	
 console.log(salaryData);	   
-// chart here:
+// CHART BELOW:
     
 let svg = d3.select("#plotSVG")
   .style("overflow","visible")
@@ -31,7 +32,7 @@ let svg = d3.select("#plotSVG")
   .attr("transform", "translate(80,10)")
 
 let xScale = d3.scaleLinear()
-  .domain([1990, 2025])  // x-variable has a max of 2025
+  .domain([2000, 2025])  // x-variable has a max of 2025
   .range([0, Math.min(window.innerWidth-100,600)]);      // x-axis is 600px wide
 
 let yScale = d3.scaleLinear()
@@ -41,13 +42,32 @@ let yScale = d3.scaleLinear()
 let xVar = document.getElementById("select-x-var").value;
 let yVar = document.getElementById("select-y-var").value;
 
+let linear = true;
 
 // rescale the y-axis
-yScale = d3.scaleLinear()
-  .domain([0, d3.max(salaryData, d => d[yVar]) ])    
-  .range([400, 0]);
+function rescaleY() {
+	if (linear) {
+		yScale = d3.scaleLinear()
+		.domain([0, d3.max(salaryData, d => d[yVar]) ])    
+		.range([400, 0]);
+	}
+	else {
+		yScale = d3.scaleLog()
+		.domain([d3.min(salaryData, d => d[yVar]) , d3.max(salaryData, d => d[yVar]) ])    
+		.range([400, 0]);
+	}
+}
+// rescale the x-axis
+function rescaleX() {
+  xScale = d3.scaleLinear()
+    .domain([d3.min(salaryData, d => d[xVar])-1, d3.max(salaryData, d => d[xVar])+1 ])    
+    .range([0, Math.min(window.innerWidth-100,600)]);
+}
+  
+rescaleX();
+rescaleY();
 
-
+// format axes
 svg.append("g")   // the axis will be contained in an SVG group element
   .attr("id","yAxis")
   .call(d3.axisLeft(yScale)
@@ -55,7 +75,6 @@ svg.append("g")   // the axis will be contained in an SVG group element
           .tickFormat(d3.format("$,"))
           .tickSizeOuter(0)
        )
-  
 svg.append("g")       
   .attr("transform", "translate(0,400)")   // translate x-axis to bottom of chart
   .attr("id","xAxis")
@@ -65,6 +84,7 @@ svg.append("g")
           .tickSizeOuter(0)
        )
 
+// Point Data
 svg.selectAll(".bubble")
   .data(salaryData)    // bind each element of the data array to one SVG circle
   .join("circle")
@@ -154,69 +174,71 @@ svg.selectAll(".bubble-tip")
   .attr("stroke", "none")
   .attr("fill", d => posColors[d.position])
 
-document.getElementById("select-x-var").addEventListener("change", (e)=>{
-  
-  // update the x-variable based on the user selection
-  xVar = e.target.value   
-  
-  // rescale the x-axis
-  xScale = d3.scaleLinear()
-    .domain([d3.min(salaryData, d => d[xVar])-1, d3.max(salaryData, d => d[xVar])+1 ])    
-    .range([0, Math.min(window.innerWidth-100,600)]);
-
-  // redraw the x-axis
-  svg.select("#xAxis")            
-    .call(d3.axisBottom(xScale)
-        .ticks(5)
-        .tickFormat(d3.format("d"))
-        .tickSizeOuter(0)
-     )
-
+// transition animation
+function transition() {
   // transition each circle element
     svg.selectAll(".bubble")
       .transition()
       .duration(1000)
       .attr("cx", (d) => xScale(d[xVar]) )
-  
+      .attr("cy", (d) => yScale(d[yVar]) )
   // transition each tooltip
     svg.selectAll(".bubble-tip")
       .transition()
       .duration(1000)
       .attr("transform", d => "translate(" + (xScale(d[xVar])+20) + ", " +  yScale(d[yVar]) + ")" )
-})
+}
 
-document.getElementById("select-y-var").addEventListener("change", (e)=>{
-  
-  // update the y-variable based on the user selection
-  yVar = e.target.value   
-
-  // rescale the y-axis
-  yScale = d3.scaleLinear()
-    .domain([0, d3.max(salaryData, d => d[yVar]) ])    
-    .range([400, 0]);
-
-  // redraw the y-axis
+// redraw the y-axis
+function redrawY() {
   svg.select("#yAxis")            
     .call(d3.axisLeft(yScale)
           .ticks(5)
           .tickFormat(d3.format("d"))
           .tickSizeOuter(0)
        )
+}
 
-  // transition each circle element and tooltip
-  svg.selectAll(".bubble")
-    .transition()
-    .duration(1000)
-    .attr("cy", (d) => yScale(d[yVar]) )
-    
-  svg.selectAll(".bubble-tip-yText")
-    .text(d => "(" + d[yVar] + " " + yVar + ")")
-  
-  svg.selectAll(".bubble-tip")
-      .attr("transform", d => "translate(" + (xScale(d[xVar])+20) + ", " +  yScale(d[yVar]) + ")" )
+// redraw the x-axis
+function redrawX() {
+  svg.select("#xAxis")            
+    .call(d3.axisBottom(xScale)
+        .ticks(5)
+        .tickFormat(d3.format("d"))
+        .tickSizeOuter(0)
+     )
+}
+
+// Action: checkbox
+checkbox = document.getElementById('log');
+checkbox.addEventListener('change', e => {
+    if(e.target.checked){
+        linear = false;
+    } else {
+		linear = true;
+	}
+	rescaleY();
+	redrawY();
+	transition();
+});
+
+// update the x-variable based on the user selection
+document.getElementById("select-x-var").addEventListener("change", (e)=>{
+  xVar = e.target.value   
+  rescaleX();
+  redrawX();
+  transition();
 })
 
-// Filters
+// update the y-variable based on the user selection
+document.getElementById("select-y-var").addEventListener("change", (e)=>{
+  yVar = e.target.value   
+  rescaleY();
+  redrawY();
+  transition();
+})
+
+// Filters:
 let f1university = document.getElementById("filter1-university").value;
 let f1field = document.getElementById("filter1-field").value;
 let f1position = document.getElementById("filter1-position").value;
