@@ -52,6 +52,7 @@ let f2university = document.getElementById("filter2-university").value;
 let f2field = document.getElementById("filter2-field").value;
 let f2position = document.getElementById("filter2-position").value;
 
+// return 0 if hidden, i if part of group i & both groups active, else 3
 function visGroup(d) {
   let vis = 0;
   let grp1active = (f1university=="all" && f1field=="all" && f1position=="all") ? false : true;
@@ -60,12 +61,12 @@ function visGroup(d) {
   if(grpsActive) {
 	if(grp1active) {
 	  if( (f1university==d.university || f1university=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") ) {
-		  vis = 1;
+		  vis = (grp2active) ? 1 : 3;
 	  }
 	}
 	if(grp2active) {
 	  if( (f2university==d.university || f2university=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") ) {
-		  vis = 2;
+		  vis = (grp1active) ? 2 : 3;
 	  }
 	}
   } else {
