@@ -25,7 +25,7 @@ id,salary,year,university,department,field,position,phd
 23,50000,2022,University of Illinois Urbana-Champaign,English ,English ,Lecturer,2012
 24,35200,2022,Tokyo University,Health,Health,Postdoc,2017
 25,85000,2022,Loyola University Chicago,Biology,Biology,Assistant Professor,2013
-26,80000,2022,Unkown,Chemistry,Chemistry,Assistant Professor,2021
+26,80000,2022,Unknown,Chemistry,Chemistry,Assistant Professor,2021
 27,38203,2022,Boston University,Health Services Research,Health,Grad Student,2027
 28,19500,2022,Bowling Green State University,Sociology,Sociology,Grad Student,2027
 29,12000,2022,Bowling Green State University,Communication,Communication,Grad Student,2025
