@@ -8,6 +8,16 @@ let posColors = {
     "Full Professor": "#b33dc6"       // purple
 }
 
+let posEnum = {
+    "Grad Student": 1,
+    "Postdoc": 2,
+    "Research Staff": 3,
+    "Lecturer": 4,
+    "Assistant Professor": 5,
+    "Associate Professor": 6,
+    "Full Professor": 7
+}
+
 d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.github.io/main/salaries.csv", function(d) {
     return {
       // parse the data into an array of csv objects
@@ -19,6 +29,7 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       department: d.department,
       field:      d.field,
       position:   d.position,
+      posEnum:    posEnum[d.position],
       phd:       +d.phd,
       toolTipVisible: false
     };
