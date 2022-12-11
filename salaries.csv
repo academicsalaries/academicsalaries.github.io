@@ -3,13 +3,13 @@ id,salary,year,university,department,field,position,phd
 1,29870,2012,UC Berkeley,Astrophysics,Astrophysics,Grad Student,2017
 2,30450,2012,Yale University,Astrophysics,Astrophysics,Grad Student,2017
 3,31280,2012,Harvard University,Astrophysics,Astrophysics,Grad Student,2017
-4,85000,2017,Simons Foundation,CCA,Astrophysics,Postdoc,2017
+4,85000,2017,Simons Foundation,Center for Computational Astrophysics,Astrophysics,Postdoc,2017
 5,70000,2017,Princeton University,Astrophysics,Astrophysics,Postdoc,2017
 6,68500,2020,Princeton University,Astrophysics,Astrophysics,Postdoc,2017
 7,200025,2020,UC Santa Cruz,Astrophysics,Astrophysics,Full Professor,2006
 8,338728,2018,UC Berkeley,Astrophysics,Astrophysics,Full Professor,1999
 9,128950,2021,UC Berkeley,Gender and Women's Studies,Gender Studies,Associate Professor,2013
-10,160000,2022,Lawrence Livermore National Laboratory,WCI,Physics,Research Staff,2017
+10,160000,2022,Lawrence Livermore National Laboratory,Weapons and Complex Integration,Physics,Research Staff,2017
 11,30000,2022,Boston College,Psychology,Psychology,Grad Student,2027
 12,52000,2022,Regional Comprehensive in the US West,Social Science,Social Science,Assistant Professor,2021
 13,73000,2020,University of Victoria,Mathematics and Statistics,Mathematics,Assistant Professor,2016
@@ -20,90 +20,94 @@ id,salary,year,university,department,field,position,phd
 18,37000,2022,UC Berkeley,Psychology,Psychology,Grad Student,2026
 19,60000,2022,Emory University,English,English,Lecturer,2022
 20,22000,2022,University of New Hampshire,Biological Sciences,Biology,Grad Student,2025
-21,38203,2022,Boston University,Health Services Research,Health,Grad Student,2027
-22,19500,2022,Bowling Green State University,Sociology,Sociology,Grad Student,2027
-23,12000,2022,Bowling Green State University,Communication,Communication,Grad Student,2025
-24,12900,2022,Bowling Green State University,Biology,Biology,Grad Student,2026
-25,32000,2022,Brandeis University,Chemistry,Chemistry,Grad Student,2026
-26,42000,2022,Brown University,Sociology,Sociology,Grad Student,2023
-27,37000,2021,California Institute of Technology,Biology and Biological Engineering,Biology,Grad Student,2026
-28,38500,2022,California Institute of Technology,Biology and Biological Engineering,Biology,Grad Student,2026
-29,18000,2022,Dalhousie University,Psychology and Neuroscience,Psychology,Grad Student,2026
-30,24000,2021,Florida State University,Political Science,Political Science,Grad Student,2026
-31,24567,2022,Fordham University,Computer Science,Computer Science,Grad Student,2027
-32,26567,2022,Fordham University,Psychology,Psychology,Grad Student,2027
-33,31000,2022,Georgia Institute of Technology,Psychology,Psychology,Grad Student,2025
-34,27000,2022,Georgia Institute of Technology,Aerospace Engineering,Engineering,Grad Student,2027
-35,35600,2022,Johns Hopkins University,Electrical Engineering,Engineering,Grad Student,2027
-36,45480,2022,Massachusetts Institute of Technology,Mechanical Engineering,Engineering,Grad Student,2027
-37,7000,2022,Montclair State University,Psychology,Psychology,Grad Student,2026
-38,33600,2022,Nanyang Technological University,"Art, Design & Media",Art,Grad Student,2027
-39,19292,2022,North Carolina State University,Computer Science,Computer Science,Grad Student,2027
-40,24368,2022,North Dakota State University,Plant Pathology,Biology,Grad Student,2025
-41,16905,2022,Northern Illinois University,Geology,Geology,Grad Student,2026
-42,16600,2022,Northern Illinois University,Psychology Neuroscience and Behavior,Psychology,Grad Student,2023
-43,41500,2021,Northwestern University,Kellogg School of Management,Business,Grad Student,2026
-44,15233,2021,Parthenope University of Napoli,Energy Science and Engineering,Engineering,Grad Student,2026
-45,48000,2022,Princeton University,Electrical and Computer Engineering,Engineering,Grad Student,2027
-46,28700,2022,Rensselaer Polytechnic Institute,Computer Science,Computer Science,Grad Student,2027
-47,30315,2022,Stony Brook University,Physics & Astronomy,Physics,Grad Student,2027
-48,22500,2022,Stony Brook University,Music,Music,Grad Student,2025
-49,27000,2022,Texas A&M College Station,Aerospace Engineering,Engineering,Grad Student,2027
-50,42000,2022,UC Berkeley,Metabolics,Health,Grad Student,2026
-51,36000,2022,UC San Diego,Neuroscience,Neuroscience,Grad Student,2027
-52,30900,2022,UMass Amherst,Chemistry,Chemistry,Grad Student,2027
-53,27000,2019,University at Buffalo,Medical Physics,Health,Grad Student,2021
-54,20000,2022,University at Buffalo,Linguistics,Linguistics,Grad Student,2027
-55,18500,2022,University College Cork,Law,Law,Grad Student,2025
-56,19300,2020,University of Arizona,English Literature,English,Grad Student,2023
-57,15300,2020,University of Arizona,English Literature,English,Grad Student,2025
-58,23332,2022,University of Arizona,Ecology & Evolutionary Biology,Biology,Grad Student,2025
-59,28300,2022,University of British Columbia,Botany,Health,Grad Student,2027
-60,35700,2022,University of Chicago,Public Health Sciences,Physics,Grad Student,2027
-61,24475,2022,University of Cincinnati,Physics,Biology,Grad Student,2026
-62,31350,2022,University of Cincinnati,"Molecular Genetics, Biochemistry, & Microbiology",Biology,Grad Student,2025
-63,34000,2022,University of Colorado - Denver,Cancer Biology,Biology,Grad Student,2026
-64,34000,2022,University of Colorado - Denver,Immunology & Microbiology,Biology,Grad Student,2023
-65,19200,2021,University of Delaware,Joseph R. Biden School of Public Policy and Administration,Political Science,Grad Student,2024
-66,28800,2022,University of Eastern Finland,Applied Physics,Physics,Grad Student,2027
-67,28000,2022,University of Florida,Electrical and Computer Engineering,Engineering,Grad Student,2027
-68,21000,2022,University of Georgia,Social work,Social Science,Grad Student,2027
-69,25000,2020,University of Kansas,Pharmaceutical Chemistry,Chemistry,Grad Student,2025
-70,12000,2021,University of Kentucky,Education,Education,Grad Student,2023
-71,25250,2022,University of Kentucky,Computer Science,Computer Science,Grad Student,2024
-72,20000,2022,University of Kentucky,Animal and Food Sciences,Biology,Grad Student,2023
-73,16950,2022,University of Kentucky,Geography,Geography,Grad Student,2026
-74,18000,2022,University of Kentucky,History,History,Grad Student,2026
-75,13200,2022,University of Kentucky,Educational psychology,Psychology,Grad Student,2026
-76,19178,2022,University of Kentucky,Geography,Geography,Grad Student,2026
-77,30000,2022,University of Maryland - Baltimore,Molecular Medicine,Health,Grad Student,2026
-78,26850,2022,University of Maryland - College Park,Computer Science,Computer Science,Grad Student,2026
-79,29500,2021,University of Michigan - Ann Arbor,Developmental Psychology,Psychology,Grad Student,2024
-80,26000,2022,University of Minnesota - Twin Cities,Computer Science,Computer Science,Grad Student,2026
-81,12900,2022,University of Montana,Geoscience,Geoscience,Grad Student,2025
-82,27250,2022,University of Nevada - Las Vegas,Radiochemistry,Chemistry,Grad Student,2023
-83,15462,2022,University of North Texas,Clinical Psychology,Psychology,Grad Student,2027
-84,38000,2022,University of Pennsylvania,Bioengineering,Biology,Grad Student,2027
-85,18600,2022,University of Primorska,"Faculty of Mathematics, Natural Sciences and Information Technologies",Mathematics,Grad Student,2026
-86,19325,2022,University of Rhode Island,Business,Business,Grad Student,2026
-87,25000,2022,University of South Carolina,Mechanical Engineering,Engineering,Grad Student,2025
-88,21200,2022,University of South Florida,Psychology,Psychology,Grad Student,2023
-89,36000,2022,University of Southern California,English,English,Grad Student,2025
-90,38000,2022,University of Southern California,Neuroscience Graduate Program,Neuroscience,Grad Student,2025
-91,38000,2022,University of Southern California,Computer Science,Computer Science,Grad Student,2025
-92,7900,2022,University of Southern Mississippi,Clinical Psychology,Psychology,Grad Student,2026
-93,28500,2021,UT Health San Antonio,Radiological Sciences,Health,Grad Student,2024
-94,18500,2021,University of Utah,Mechanical engineering,Engineering,Grad Student,2024
-95,34880,2022,University of Washington,Public Health Genetics,Health,Grad Student,2027
-96,37820,2022,University of Washington,Bioengineering,Biology,Grad Student,2027
-97,26300,2022,University of Wisconsin - Madison,Comparative Biomedical Sciences,Biology,Grad Student,2023
-98,16000,2022,UT Austin,Chemical Engineering,Chemistry,Grad Student,2027
-99,32400,2022,Vanderbilt University,Civil & Environmental Engineering,Engineering,Grad Student,2025
-100,35000,2022,Vanderbilt University,Biological Sciences,Biology,Grad Student,2024
-101,27745,2022,Virginia Tech,Civil Engineering,Engineering,Grad Student,2027
-102,27500,2019,Wayne State University,Physiology,Health,Grad Student,2024
-103,27500,2020,Wayne State University,Physiology,Health,Grad Student,2024
-104,27500,2021,Wayne State University,Physiology,Health,Grad Student,2024
-105,27500,2021,Wayne State University,Physiology,Health,Grad Student,2023
-106,27500,2022,Wayne State University,Physiology,Health,Grad Student,2024
-107,12120,2022,Yonsei University,Business administration,Business,Grad Student,2025
+21,50000,2022,Trinity University,Chemistry,Postdoc,Chemistry,2022
+22,74250,2022,Argonne National Laboratory,Chemical Sciences and Engineering,Postdoc,Chemistry,2020
+23,50000,2022,University of Illinois Urbana-Champaign,English ,Lecturer,English ,2012
+24,35200,1987,Tokyo University,Health,Postdoc,Health,2017
+25,38203,2022,Boston University,Health Services Research,Health,Grad Student,2027
+26,19500,2022,Bowling Green State University,Sociology,Sociology,Grad Student,2027
+27,12000,2022,Bowling Green State University,Communication,Communication,Grad Student,2025
+28,12900,2022,Bowling Green State University,Biology,Biology,Grad Student,2026
+29,32000,2022,Brandeis University,Chemistry,Chemistry,Grad Student,2026
+30,42000,2022,Brown University,Sociology,Sociology,Grad Student,2023
+31,37000,2021,California Institute of Technology,Biology and Biological Engineering,Biology,Grad Student,2026
+32,38500,2022,California Institute of Technology,Biology and Biological Engineering,Biology,Grad Student,2026
+33,18000,2022,Dalhousie University,Psychology and Neuroscience,Psychology,Grad Student,2026
+34,24000,2021,Florida State University,Political Science,Political Science,Grad Student,2026
+35,24567,2022,Fordham University,Computer Science,Computer Science,Grad Student,2027
+36,26567,2022,Fordham University,Psychology,Psychology,Grad Student,2027
+37,31000,2022,Georgia Institute of Technology,Psychology,Psychology,Grad Student,2025
+38,27000,2022,Georgia Institute of Technology,Aerospace Engineering,Engineering,Grad Student,2027
+39,35600,2022,Johns Hopkins University,Electrical Engineering,Engineering,Grad Student,2027
+40,45480,2022,Massachusetts Institute of Technology,Mechanical Engineering,Engineering,Grad Student,2027
+41,7000,2022,Montclair State University,Psychology,Psychology,Grad Student,2026
+42,33600,2022,Nanyang Technological University,"Art, Design & Media",Art,Grad Student,2027
+43,19292,2022,North Carolina State University,Computer Science,Computer Science,Grad Student,2027
+44,24368,2022,North Dakota State University,Plant Pathology,Biology,Grad Student,2025
+45,16905,2022,Northern Illinois University,Geology,Geology,Grad Student,2026
+46,16600,2022,Northern Illinois University,Psychology Neuroscience and Behavior,Psychology,Grad Student,2023
+47,41500,2021,Northwestern University,Kellogg School of Management,Business,Grad Student,2026
+48,15233,2021,Parthenope University of Napoli,Energy Science and Engineering,Engineering,Grad Student,2026
+49,48000,2022,Princeton University,Electrical and Computer Engineering,Engineering,Grad Student,2027
+50,28700,2022,Rensselaer Polytechnic Institute,Computer Science,Computer Science,Grad Student,2027
+51,30315,2022,Stony Brook University,Physics & Astronomy,Physics,Grad Student,2027
+52,22500,2022,Stony Brook University,Music,Music,Grad Student,2025
+53,27000,2022,Texas A&M College Station,Aerospace Engineering,Engineering,Grad Student,2027
+54,42000,2022,UC Berkeley,Metabolics,Health,Grad Student,2026
+55,36000,2022,UC San Diego,Neuroscience,Neuroscience,Grad Student,2027
+56,30900,2022,UMass Amherst,Chemistry,Chemistry,Grad Student,2027
+57,27000,2019,University at Buffalo,Medical Physics,Health,Grad Student,2021
+58,20000,2022,University at Buffalo,Linguistics,Linguistics,Grad Student,2027
+59,18500,2022,University College Cork,Law,Law,Grad Student,2025
+60,19300,2020,University of Arizona,English Literature,English,Grad Student,2023
+61,15300,2020,University of Arizona,English Literature,English,Grad Student,2025
+62,23332,2022,University of Arizona,Ecology & Evolutionary Biology,Biology,Grad Student,2025
+63,28300,2022,University of British Columbia,Botany,Health,Grad Student,2027
+64,35700,2022,University of Chicago,Public Health Sciences,Physics,Grad Student,2027
+65,24475,2022,University of Cincinnati,Physics,Biology,Grad Student,2026
+66,31350,2022,University of Cincinnati,"Molecular Genetics, Biochemistry, & Microbiology",Biology,Grad Student,2025
+67,34000,2022,University of Colorado - Denver,Cancer Biology,Biology,Grad Student,2026
+68,34000,2022,University of Colorado - Denver,Immunology & Microbiology,Biology,Grad Student,2023
+69,19200,2021,University of Delaware,Joseph R. Biden School of Public Policy and Administration,Political Science,Grad Student,2024
+70,28800,2022,University of Eastern Finland,Applied Physics,Physics,Grad Student,2027
+71,28000,2022,University of Florida,Electrical and Computer Engineering,Engineering,Grad Student,2027
+72,21000,2022,University of Georgia,Social work,Social Science,Grad Student,2027
+73,25000,2020,University of Kansas,Pharmaceutical Chemistry,Chemistry,Grad Student,2025
+74,12000,2021,University of Kentucky,Education,Education,Grad Student,2023
+75,25250,2022,University of Kentucky,Computer Science,Computer Science,Grad Student,2024
+76,20000,2022,University of Kentucky,Animal and Food Sciences,Biology,Grad Student,2023
+77,16950,2022,University of Kentucky,Geography,Geography,Grad Student,2026
+78,18000,2022,University of Kentucky,History,History,Grad Student,2026
+79,13200,2022,University of Kentucky,Educational psychology,Psychology,Grad Student,2026
+80,19178,2022,University of Kentucky,Geography,Geography,Grad Student,2026
+81,30000,2022,University of Maryland - Baltimore,Molecular Medicine,Health,Grad Student,2026
+82,26850,2022,University of Maryland - College Park,Computer Science,Computer Science,Grad Student,2026
+83,29500,2021,University of Michigan - Ann Arbor,Developmental Psychology,Psychology,Grad Student,2024
+84,26000,2022,University of Minnesota - Twin Cities,Computer Science,Computer Science,Grad Student,2026
+85,12900,2022,University of Montana,Geoscience,Geoscience,Grad Student,2025
+86,27250,2022,University of Nevada - Las Vegas,Radiochemistry,Chemistry,Grad Student,2023
+87,15462,2022,University of North Texas,Clinical Psychology,Psychology,Grad Student,2027
+88,38000,2022,University of Pennsylvania,Bioengineering,Biology,Grad Student,2027
+89,18600,2022,University of Primorska,"Faculty of Mathematics, Natural Sciences and Information Technologies",Mathematics,Grad Student,2026
+90,19325,2022,University of Rhode Island,Business,Business,Grad Student,2026
+91,25000,2022,University of South Carolina,Mechanical Engineering,Engineering,Grad Student,2025
+92,21200,2022,University of South Florida,Psychology,Psychology,Grad Student,2023
+93,36000,2022,University of Southern California,English,English,Grad Student,2025
+94,38000,2022,University of Southern California,Neuroscience Graduate Program,Neuroscience,Grad Student,2025
+95,38000,2022,University of Southern California,Computer Science,Computer Science,Grad Student,2025
+96,7900,2022,University of Southern Mississippi,Clinical Psychology,Psychology,Grad Student,2026
+97,28500,2021,UT Health San Antonio,Radiological Sciences,Health,Grad Student,2024
+98,18500,2021,University of Utah,Mechanical engineering,Engineering,Grad Student,2024
+99,34880,2022,University of Washington,Public Health Genetics,Health,Grad Student,2027
+100,37820,2022,University of Washington,Bioengineering,Biology,Grad Student,2027
+101,26300,2022,University of Wisconsin - Madison,Comparative Biomedical Sciences,Biology,Grad Student,2023
+102,16000,2022,UT Austin,Chemical Engineering,Chemistry,Grad Student,2027
+103,32400,2022,Vanderbilt University,Civil & Environmental Engineering,Engineering,Grad Student,2025
+104,35000,2022,Vanderbilt University,Biological Sciences,Biology,Grad Student,2024
+105,27745,2022,Virginia Tech,Civil Engineering,Engineering,Grad Student,2027
+106,27500,2019,Wayne State University,Physiology,Health,Grad Student,2024
+107,27500,2020,Wayne State University,Physiology,Health,Grad Student,2024
+109,27500,2021,Wayne State University,Physiology,Health,Grad Student,2024
+110,27500,2021,Wayne State University,Physiology,Health,Grad Student,2023
+111,27500,2022,Wayne State University,Physiology,Health,Grad Student,2024
+112,12120,2022,Yonsei University,Business administration,Business,Grad Student,2025
