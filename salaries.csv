@@ -20,10 +20,10 @@ id,salary,year,university,department,field,position,phd
 18,37000,2022,UC Berkeley,Psychology,Psychology,Grad Student,2026
 19,60000,2022,Emory University,English,English,Lecturer,2022
 20,22000,2022,University of New Hampshire,Biological Sciences,Biology,Grad Student,2025
-21,50000,2022,Trinity University,Chemistry,Postdoc,Chemistry,2022
-22,74250,2022,Argonne National Laboratory,Chemical Sciences and Engineering,Postdoc,Chemistry,2020
-23,50000,2022,University of Illinois Urbana-Champaign,English ,Lecturer,English ,2012
-24,35200,2022,Tokyo University,Health,Postdoc,Health,2017
+21,50000,2022,Trinity University,Chemistry,Chemistry,Postdoc,2022
+22,74250,2022,Argonne National Laboratory,Chemical Sciences and Engineering,Chemistry,Postdoc,2020
+23,50000,2022,University of Illinois Urbana-Champaign,English ,English ,Lecturer,2012
+24,35200,2022,Tokyo University,Health,Health,Postdoc,2017
 25,38203,2022,Boston University,Health Services Research,Health,Grad Student,2027
 26,19500,2022,Bowling Green State University,Sociology,Sociology,Grad Student,2027
 27,12000,2022,Bowling Green State University,Communication,Communication,Grad Student,2025
