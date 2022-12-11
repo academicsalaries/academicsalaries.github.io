@@ -141,7 +141,7 @@ svg.selectAll(".bubble")
   .data(salaryData)    // bind each element of the data array to one SVG circle
   .join("circle")
   .attr("class", "bubble")
-  .attr("cx", d => xScale(d.year))     // set the x position based on year
+  .attr("cx", d => xScale(d[xVar]))     // set the x position based on xVar
   .attr("cy", d => yScale(d.salary))   // set the y position based on salary
   .attr("r", d => 4)
   .attr("stroke", d => posColors[d.position])
@@ -176,7 +176,7 @@ svg.selectAll(".bubble-tip")
   .join("g")
   .attr("class", "bubble-tip")
   .attr("id", (d)=> "bubble-tip-"+d.id)
-  .attr("transform", d => "translate(" + (xScale( d.year )+20) + ", " + yScale( d.salary) + ")"  )
+  .attr("transform", d => "translate(" + (xScale( d[xVar] )+20) + ", " + yScale( d.salary) + ")"  )
   .style("display", "none")   
   .append("rect")     // this is the background to the tooltip
   .attr("x",-5)
