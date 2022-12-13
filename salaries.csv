@@ -104,33 +104,38 @@ id,salary,year,university,department,field,position,phd
 102,30000,2022,Boston College,Psychology,Psychology,Grad Student,2027
 103,52000,2022,Regional Comprehensive in the US West,Social Science,Social Science,Assistant Professor,2021
 104,73000,2020,University of Victoria,Mathematics and Statistics,Mathematics,Assistant Professor,2016
-105,43450,2022,University of Lincoln,Life Sciences,Life Sciences,Lecturer,2018
-106,76000,2022,R1,Unknown,Unknown,Assistant Professor,2020
-107,80000,2022,Baylor University,Nursing,Nursing,Assistant Professor,2024
-109,103000,2022,Boise State University,Science,Science,Assistant Professor,2017
-110,37000,2022,UC Berkeley,Psychology,Psychology,Grad Student,2026
-111,60000,2022,Emory University,English,English,Lecturer,2022
-112,22000,2022,University of New Hampshire,Biological Sciences,Biology,Grad Student,2025
-113,50000,2022,Trinity University,Chemistry,Chemistry,Postdoc,2022
-114,74250,2022,Argonne National Laboratory,Chemical Sciences and Engineering,Chemistry,Postdoc,2020
-115,50000,2022,University of Illinois Urbana-Champaign,English ,English ,Lecturer,2012
-116,35200,2022,Tokyo University,Health,Health,Postdoc,2017
-117,85000,2022,Loyola University Chicago,Biology,Biology,Assistant Professor,2013
-118,80000,2022,Unknown,Chemistry,Chemistry,Assistant Professor,2021
-119,26354,2022,Telecom Paris,Computer Science,Computer Science,Grad Student,2024
-120,92000,2021,Public State College (4-yr),Social Sciences,Social Sciences,Full Professor,1981
-121,52500,2019,Perimeter Institute,Physics,Physics,Postdoc,2019
-122,100000,2022,Lawrence Berkeley National Laboratory,Applied Mathematics and Computational Research,Physics,Postdoc,2019
-123,26200,2022,University of Miami,Dept of Education and Psychological Studies,Psychology,Grad Student,2025
-124,40800,2022,Technion Institute,Electronic Engineering,Engineering,Postdoc,2016
-125,25000,2022,Weizmann Institute of Science,Biomolecular Sciences,Biology,Grad Student,2026
-126,36774,2022,University in Israel,Astrophysics ,Astrophysics ,Postdoc,2022
-127,57000,2022,German Cancer Research Center,Medical Physics,Health,Postdoc,2021
-128,86000,2023,DePaul University,Humanities,Humanities,Associate Professor,2004
-129,43220,2022,"University in South East England, UK",Space Sciences and Space Engineering,Engineering,Postdoc,2021
-130,77000,2022,University of New South Wales,Psychology,Psychology,Postdoc,2019
-131,24570,2022,Weizmann Institute of Science,Physics,Physics,Grad Student,2026
-132,32730,2022,Weizmann Institute of Science,Molecular Chemistry and Materials Science,Chemistry,Postdoc,2015
-133,28000,2022,Villanova University,Philosophy,Philosophy,Grad Student,2028
-134,53760,2022,Emory University,School of Medicine,Health,Postdoc,2022
-135,70000,2022,Lawrence Berkeley National Laboratory,Molecular Biophysics and Integrated Bioimaging,Biology,Postdoc,2021
+105,46000,2022,Nazarbayev University,Writing Program,English,Lecturer,2022
+106,43450,2022,University of Lincoln,Life Sciences,Life Sciences,Lecturer,2018
+107,76000,2022,R1,Unknown,Unknown,Assistant Professor,2020
+109,80000,2022,Baylor University,Nursing,Nursing,Assistant Professor,2024
+110,103000,2022,Boise State University,Science,Science,Assistant Professor,2017
+111,37000,2022,UC Berkeley,Psychology,Psychology,Grad Student,2026
+112,60000,2022,Emory University,English,English,Lecturer,2022
+113,22000,2022,University of New Hampshire,Biological Sciences,Biology,Grad Student,2025
+114,50000,2022,Trinity University,Chemistry,Chemistry,Postdoc,2022
+115,74250,2022,Argonne National Laboratory,Chemical Sciences and Engineering,Chemistry,Postdoc,2020
+116,50000,2022,University of Illinois Urbana-Champaign,English ,English ,Lecturer,2012
+117,35200,2022,Tokyo University,Health,Health,Postdoc,2017
+118,85000,2022,Loyola University Chicago,Biology,Biology,Assistant Professor,2013
+119,80000,2022,Unknown,Chemistry,Chemistry,Assistant Professor,2021
+120,26354,2022,Telecom Paris,Computer Science,Computer Science,Grad Student,2024
+121,92000,2021,Public State College (4-yr),Social Sciences,Social Sciences,Full Professor,1981
+122,52500,2019,Perimeter Institute,Physics,Physics,Postdoc,2019
+123,100000,2022,Lawrence Berkeley National Laboratory,Applied Mathematics and Computational Research,Physics,Postdoc,2019
+124,26200,2022,University of Miami,Dept of Education and Psychological Studies,Psychology,Grad Student,2025
+125,40800,2022,Technion Institute,Electronic Engineering,Engineering,Postdoc,2016
+126,25000,2022,Weizmann Institute of Science,Biomolecular Sciences,Biology,Grad Student,2026
+127,36774,2022,University in Israel,Astrophysics ,Astrophysics ,Postdoc,2022
+128,57000,2022,German Cancer Research Center,Medical Physics,Health,Postdoc,2021
+129,86000,2023,DePaul University,Humanities,Humanities,Associate Professor,2004
+130,43220,2022,"University in South East England, UK",Space Sciences and Space Engineering,Engineering,Postdoc,2021
+131,77000,2022,University of New South Wales,Psychology,Psychology,Postdoc,2019
+132,24570,2022,Weizmann Institute of Science,Physics,Physics,Grad Student,2026
+133,32730,2022,Weizmann Institute of Science,Molecular Chemistry and Materials Science,Chemistry,Postdoc,2015
+134,28000,2022,Villanova University,Philosophy,Philosophy,Grad Student,2028
+135,53760,2022,Emory University,School of Medicine,Health,Postdoc,2022
+136,70000,2022,Lawrence Berkeley National Laboratory,Molecular Biophysics and Integrated Bioimaging,Biology,Postdoc,2021
+137,24000,2022,Montana State University,Chemistry & Biochemistry,Chemistry,Grad Student,2024
+138,55350,2022,Norwegian University of Science and Technology,Faculty of Medicine and Health Sciences,Health,Postdoc,2021
+139,50000,2022,Northwestern University ,Chemistry ,Chemistry,Postdoc,2022
+140,60000,2022,Rice University,Physics,Physics,Postdoc,2019
