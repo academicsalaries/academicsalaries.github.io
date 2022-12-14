@@ -11,15 +11,15 @@ id,salary,year,university,department,field,position,phd
 9,338728,2018,UC Berkeley,Astrophysics,Astrophysics,Full Professor,1999
 10,128950,2021,UC Berkeley,Gender and Women's Studies,Gender Studies,Associate Professor,2013
 11,124452,2021,UC Berkeley,Philosophy,Philosophy,Associate Professor,2012
-12,230092,2021,UC Berkeley,School of Social Welfare,Sociology,Associate Professor,2010
+12,230092,2021,UC Berkeley,School of Social Welfare,Social Science,Associate Professor,2010
 13,120600,2021,UC Berkeley,South & Southeast Asian Studies,Asian Studies,Associate Professor,1985
 14,144900,2021,UC Berkeley,Dept of Ethnic Studies,Asian Studies,Associate Professor,1990
 15,38203,2022,Boston University,Health Services Research,Health,Grad Student,2027
-16,19500,2022,Bowling Green State University,Sociology,Sociology,Grad Student,2027
+16,19500,2022,Bowling Green State University,Sociology,Social Science,Grad Student,2027
 17,12000,2022,Bowling Green State University,Communication,Communication,Grad Student,2025
 18,12900,2022,Bowling Green State University,Biology,Biology,Grad Student,2026
 19,32000,2022,Brandeis University,Chemistry,Chemistry,Grad Student,2026
-20,42000,2022,Brown University,Sociology,Sociology,Grad Student,2023
+20,42000,2022,Brown University,Sociology,Social Science,Grad Student,2023
 21,37000,2021,California Institute of Technology,Biology and Biological Engineering,Biology,Grad Student,2026
 22,38500,2022,California Institute of Technology,Biology and Biological Engineering,Biology,Grad Student,2026
 23,18000,2022,Dalhousie University,Psychology and Neuroscience,Psychology,Grad Student,2026
@@ -42,7 +42,7 @@ id,salary,year,university,department,field,position,phd
 40,28700,2022,Rensselaer Polytechnic Institute,Computer Science,Computer Science,Grad Student,2027
 41,30315,2022,Stony Brook University,Physics & Astronomy,Physics,Grad Student,2027
 42,22500,2022,Stony Brook University,Music,Music,Grad Student,2025
-43,27000,2022,Texas A&M College Station,Aerospace Engineering,Engineering,Grad Student,2027
+43,27000,2022,Texas A&M University,Aerospace Engineering,Engineering,Grad Student,2027
 44,42000,2022,UC Berkeley,Metabolics,Health,Grad Student,2026
 45,36000,2022,UC San Diego,Neuroscience,Neuroscience,Grad Student,2027
 46,30900,2022,UMass Amherst,Chemistry,Chemistry,Grad Student,2027
@@ -146,3 +146,78 @@ id,salary,year,university,department,field,position,phd
 145,127000,2023,Argonne National Laboratory,Mathematics and Computer Science Division,Computer Science,Research Staff,2019
 146,115000,2023,Pennsylvania State University,Information Science and Technology,Computer Science,Assistant Professor,2019
 147,55600,2022,UC San Diego,Political Science,Political Science,Postdoc,2022
+148,45500,2022,Massachusetts Institute of Technology,Aeronautics and Astronautics,Aeronautics,Grad Student,2025
+149,45000,2022,"Istituto Italiano di Tecnologia, Genova",Unknown,Unknown,Postdoc,2022
+150,68000,2022,Stanford University,School of Medicine,Health,Postdoc,2022
+151,74000,2022,University of Hamburg,Unknown,Unknown,Postdoc,2022
+152,49700,2022,SLAC,Psychology,Psychology,Assistant Professor,2013
+153,14400,2022,Okinawa Institute of Science and Technology,Unknown,Unknown,Grad Student,2022
+154,91000,2022,University of Groningen,Philosophy,Philosophy,Assistant Professor,2014
+155,110000,2022,Santa Clara University,Computer Science and Engineering,Computer Science,Assistant Professor,2022
+156,30500,2021,University of Illinois Urbana-Champaign,Materials Science and Engineering ,Engineering,Grad Student,2026
+157,65000,2022,Santa Fe Institute,Complexity Science,Complexity Science,Postdoc,2022
+158,150000,2022,Columbia University,Physicians and surgeons,Health,Assistant Professor,2018
+159,90000,2022,University of Applied Sciences and Arts Northwestern Switzerland,School of Life Sciences,Life Sciences,Postdoc,2021
+160,40000,2022,Swansea University,Engineering,Engineering,Postdoc,2020
+161,56470.43,2022,University of Oxford,Department of Engineering Science,Engineering,Postdoc,2018
+162,40927,2022,University of Cambridge,Sainsbury Laboratory,Biology,Postdoc,2022
+163,50400,2022,Private University (4 year) ,Political Science,Political Science,Grad Student,2024
+164,117000,2022,Texas A&M University,Veterinary Medicine,Health,Clinical Assistant Professor,2019
+165,57700,2023,Ecole polytechnique federale de Lausanne,SV,Life Sciences,Grad Student,2027
+166,40500,2022,Rothamsted Research,Smart Crop Protection,Biology,Research Staff,2014
+167,87000,2022,Memorial Sloan Kettering Cancer Center,Surgery (Engineering position),Engineering,Postdoc,2020
+168,116725,2022,University of Florida,College of medicine,Health,Assistant Professor,2015
+169,65000,2022,Harvard University ,Biological Chemistry & Molecular Pharmacology,Biology,Postdoc,2018
+170,54000,2022,Columbia University ,Psychiatry,Psychology,Postdoc,2019
+171,60000,2022,Northeastern University,Electrical and computer engineering,Computer Science,Postdoc,2021
+172,89009,2022,Saint Joseph's University,Psychology,Psychology,Associate Professor,2006
+173,109000,2022,University of Zurich,Faculty of Arts and Social Sciences,Unknown,Postdoc,2016
+174,205000,2022,Johns Hopkins University,Applied Physics Laboratory,Physics,Research Staff,2018
+175,52000,2022,Uniformed Services University of the Health Sciences,Biochemistry ,Chemistry,Postdoc,2021
+176,42144,2022,University of Manchester,Physics,Physics,Postdoc,2022
+177,52000,2022,Bangor University,Natural Sciences,Natural Sciences,Assistant Professor,2015
+178,42500,2022,University of Ottawa,Department of Mathematics and Statistics,Mathematics,Postdoc,2019
+179,21950,2022,University of Oxford,Department of Earth Sciences,Earth Sciences,Grad Student,2023
+180,66000,2022,University of Minnesota,Liberal Arts Collegiate Research Support ,Unknown,Research Staff,2015
+181,83000,2022,Virginia Commonwealth University,Occupational Therapy,Health,Assistant Professor,2022
+182,65000,2022,Helmholtz Munich,Research group,Unknown,Research Staff,2023
+183,85000,2022,Argonne National Laboratory ,Applied materials division ,Material Science,Postdoc,2022
+184,201000,2022,R1 University in Boston,Political Science,Political Science,Full Professor,2005
+185,65000,2022,Argonne National Laboratory,Atmospheric Science,Atmospheric Science,Postdoc,2022
+186,129000,2022,Florida State University,Sociology,Social Science,Assistant Professor,2016
+187,104000,2021,Florida State University,Sociology,Social Science,Assistant Professor,2016
+188,20000,2022,Auburn University,"Fisheries, Aquaculture and Aquatic Sciences",Biology,Grad Student,2025
+189,72000,2022,"R2, Southern US",Education,Education,Assistant Professor,2020
+190,60000,2022,Tennessee State University,"Languages, Literature, Philosophy",English,Assistant Professor,2019
+191,56000,2022,University of South Carolina ,Neuroscience ,Neuroscience,Postdoc,2019
+192,46000,2022,University of Chicago,Social Work,Social Science,Grad Student,2024
+193,48000,2022,State University of New York at Albany,Biology,Biology,Postdoc,2019
+194,40000,2021,Stanford University,Medicine,Health,Grad Student,2022
+195,24000,2022,Cleveland State University,Electrical Engineering,Engineering,Grad Student,2028
+196,115000,2022,Vanderbilt,Nursing,Nursing,Assistant Professor,2011
+197,44677.8,2022,Simon Fraser University,Department of Mathematics,Mathematics,Postdoc,2021
+198,68000,2022,St. Bonaventure University,Chemistry,Chemistry,Associate Professor,2015
+199,60000,2022,SLAC in the great plains,Social Science,Social Science,Associate Professor,2010
+200,135000,2022,ETH Zurich,Information Technology and Electrical Engineering,Engineering,Research Staff,2011
+201,14800,2022,University of Arkansas,Mathematical Sciences,Mathematics,Grad Student,2025
+202,100000,2022,Private Regional SLAC,Philosophy,Philosophy,Full Professor,2007
+203,56480,2022,Monell Chemical Senses Center ,No departments ,Unknown,Postdoc,2022
+204,32000,2022,R1 in Texas,Genetics ,Biology,Grad Student,2024
+205,72000,2019,Pacific Northwest National Laboratory,Earth and Biological Sciences ,Earth Sciences,Postdoc,2019
+206,16000,2022,Universite de Picardie Jules Verne,INSERM,Health,Grad Student,2024
+207,37000,2022,Tel Aviv University,Engineering,Engineering,Grad Student,2023
+208,75000,2022,Northwestern University,Chemistry,Chemistry,Postdoc,2018
+209,32000,2022,Brandeis University,Chemistry,Chemistry,Grad Student,2025
+210,105000,2022,"Public R2, GA",Computer Science,Computer Science,Assistant Professor,2016
+211,40670,2022,University of Calgary,Veterinary Medicine,Health,Grad Student,2023
+212,21500,2022,University of Wisconsin - Madison,Human Ecology,Social Science,Grad Student,2026
+213,56600,2022,Oregon Health & Science University,Neuroscience,Neuroscience,Postdoc,2019
+214,120000,2022,Public R1,Atmospheric science ,Atmospheric Science,Assistant Professor,2018
+215,108000,2022,Cornell University,School of Integrative Plant Science,Biology,Assistant Professor,2019
+216,80000,2022,university,humanities,Humanities,Full Professor,2010
+217,61000,2023,Georgetown University Medical Center,Oncology,Health,Postdoc,2019
+218,60000,2022,Georgetown University Medical Center,Oncology,Health,Postdoc,2019
+219,55000,2023,University of Pittsburgh,Department of Psychiatry,Psychology,Postdoc,2022
+220,54000,2022,Cornell University,Biological and Biomedical Sciences,Biology,Postdoc,2021
+221,68000,2022,Northern Arizona University,Department of Health and Human Services,Health,Postdoc,2020
+222,161500,2022,UC San Francisco,Medicine,Health,Assistant Professor,2021
