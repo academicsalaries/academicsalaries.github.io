@@ -214,7 +214,7 @@ id,salary,year,university,department,field,position,phd
 213,56600,2022,Oregon Health & Science University,Neuroscience,Neuroscience,Postdoc,2019
 214,120000,2022,Public R1,Atmospheric science ,Atmospheric Science,Assistant Professor,2018
 215,108000,2022,Cornell University,School of Integrative Plant Science,Biology,Assistant Professor,2019
-216,80000,2022,university,humanities,Humanities,Full Professor,2010
+216,80000,2022,Unknown,Humanities,Humanities,Full Professor,2010
 217,61000,2023,Georgetown University Medical Center,Oncology,Health,Postdoc,2019
 218,60000,2022,Georgetown University Medical Center,Oncology,Health,Postdoc,2019
 219,55000,2023,University of Pittsburgh,Department of Psychiatry,Psychology,Postdoc,2022
