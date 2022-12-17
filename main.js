@@ -143,7 +143,7 @@ svg.selectAll(".bubble")
   .attr("class", "bubble")
   .attr("cx", d => xScale(d[xVar]))     // set the x position based on xVar
   .attr("cy", d => yScale(d.salary))   // set the y position based on salary
-  .attr("r", d => 4)
+  .attr("r", d => 5)
   .attr("stroke", d => posColors[d.position])
   .attr("fill", d => posColors[d.position])
   .attr("fill-opacity", 0.5)
