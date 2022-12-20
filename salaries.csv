@@ -167,8 +167,8 @@ id,salary,year,university,department,field,position,phd
 166,40500,2022,Rothamsted Research,Smart Crop Protection,Biology,Research Staff,2014
 167,87000,2022,Memorial Sloan Kettering Cancer Center,Surgery (Engineering position),Engineering,Postdoc,2020
 168,116725,2022,University of Florida,College of medicine,Health,Assistant Professor,2015
-169,65000,2022,Harvard University ,Biological Chemistry & Molecular Pharmacology,Biology,Postdoc,2018
-170,54000,2022,Columbia University ,Psychiatry,Psychology,Postdoc,2019
+169,65000,2022,Harvard University,Biological Chemistry & Molecular Pharmacology,Biology,Postdoc,2018
+170,54000,2022,Columbia University,Psychiatry,Psychology,Postdoc,2019
 171,60000,2022,Northeastern University,Electrical and computer engineering,Computer Science,Postdoc,2021
 172,89009,2022,Saint Joseph's University,Psychology,Psychology,Associate Professor,2006
 173,109000,2022,University of Zurich,Faculty of Arts and Social Sciences,Unknown,Postdoc,2016
@@ -189,19 +189,19 @@ id,salary,year,university,department,field,position,phd
 188,20000,2022,Auburn University,"Fisheries, Aquaculture and Aquatic Sciences",Biology,Grad Student,2025
 189,72000,2022,"R2, Southern US",Education,Education,Assistant Professor,2020
 190,60000,2022,Tennessee State University,"Languages, Literature, Philosophy",English,Assistant Professor,2019
-191,56000,2022,University of South Carolina ,Neuroscience ,Neuroscience,Postdoc,2019
+191,56000,2022,University of South Carolina,Neuroscience ,Neuroscience,Postdoc,2019
 192,46000,2022,University of Chicago,Social Work,Social Science,Grad Student,2024
 193,48000,2022,State University of New York at Albany,Biology,Biology,Postdoc,2019
 194,40000,2021,Stanford University,Medicine,Health,Grad Student,2022
 195,24000,2022,Cleveland State University,Electrical Engineering,Engineering,Grad Student,2028
-196,115000,2022,Vanderbilt,Nursing,Nursing,Assistant Professor,2011
+196,115000,2022,Vanderbilt University,Nursing,Nursing,Assistant Professor,2011
 197,44677.8,2022,Simon Fraser University,Department of Mathematics,Mathematics,Postdoc,2021
 198,68000,2022,St. Bonaventure University,Chemistry,Chemistry,Associate Professor,2015
 199,60000,2022,SLAC in the great plains,Social Science,Social Science,Associate Professor,2010
 200,135000,2022,ETH Zurich,Information Technology and Electrical Engineering,Engineering,Research Staff,2011
 201,14800,2022,University of Arkansas,Mathematical Sciences,Mathematics,Grad Student,2025
 202,100000,2022,Private Regional SLAC,Philosophy,Philosophy,Full Professor,2007
-203,56480,2022,Monell Chemical Senses Center ,No departments ,Unknown,Postdoc,2022
+203,56480,2022,Monell Chemical Senses Center,No departments ,Unknown,Postdoc,2022
 204,32000,2022,R1 in Texas,Genetics ,Biology,Grad Student,2024
 205,72000,2019,Pacific Northwest National Laboratory,Earth and Biological Sciences ,Earth Sciences,Postdoc,2019
 206,16000,2022,Universite de Picardie Jules Verne,INSERM,Health,Grad Student,2024
@@ -257,10 +257,10 @@ id,salary,year,university,department,field,position,phd
 256,33000,2022,University of Tennesee - Knoxville,Nuclear Engineering,Physics,Grad Student,2024
 257,42000,2023,Ecole Polytechnique,Chemistry,Chemistry,Postdoc,2022
 258,76000,2022,UC Berkeley,Physics,Physics,Postdoc,2021
-259,69000,2022,Harvard,Physics,Physics,Postdoc,2019
+259,69000,2022,Harvard University,Physics,Physics,Postdoc,2019
 260,197000,2022,Unknown,Unknown,Unknown,Research Staff,2004
-261,19200,2022,University of Missouri – Kansas City,Physics & Astronomy,Physics,Grad Student,2024
-262,124000,2022,University of Oklahoma ,Physics & Astronomy ,Physics,Research Staff,1985
+261,19200,2022,University of Missouri - Kansas City,Physics & Astronomy,Physics,Grad Student,2024
+262,124000,2022,University of Oklahoma,Physics & Astronomy ,Physics,Research Staff,1985
 263,56000,2022,Princeton University,Mechanical and Aerospace Engineering,Engineering,Postdoc,2020
 264,59894,2022,Princeton University,Princeton Neuroscience Institute,Neuroscience,Postdoc,2022
 265,53760,2022,Princeton University,Princeton Neuroscience Institute,Neuroscience,Postdoc,2022
@@ -292,7 +292,7 @@ id,salary,year,university,department,field,position,phd
 291,48000,2022,Princeton University,Atmospheric and Oceanic Sciences,Earth Sciences,Grad Student,2027
 292,35232,2022,University of Michigan,College of Engineering,Engineering,Grad Student,2023
 293,33000,2022,University of Massachusetts Dartmouth,College of Engineering,Engineering,Grad Student,2023
-294,59000,2022,Karlsruhe Institute of Technology ,Institute for meteorology and climate,Earth Sciences,Postdoc,2021
+294,59000,2022,Karlsruhe Institute of Technology,Institute for meteorology and climate,Earth Sciences,Postdoc,2021
 295,141799,2022,The University of Arizona,Geosciences,Earth Sciences,Full Professor,2010
 296,64260,2022,Fitchburg State University,Mathematics,Mathematics,Assistant Professor,2021
 297,63000,2021,Fitchburg State University ,Mathematics ,Mathematics,Assistant Professor,2021
@@ -321,13 +321,13 @@ id,salary,year,university,department,field,position,phd
 320,104000,2022,ETH Zurich,Environmental Systems Science,Environment,Postdoc,2019
 321,51300,2023,NSERC,School of Earth and Ocean Sciences,Earth Sciences,Postdoc,2018
 322,40000,2022,Cornell University,Applied Math,Mathematics,Grad Student,2025
-323,142000,2022,University Of Washington,College of the Environment,Environment,Assistant Professor,2017
+323,142000,2022,University of Washington,College of the Environment,Environment,Assistant Professor,2017
 324,118000,2022,"R2, East Coast",Engineering,Engineering,Assistant Professor,2018
 325,65000,2022,Brown University,Earth Science,Earth Sciences,Postdoc,2020
 326,71060,2022,Princeton University,Psychology,Psychology,Postdoc,2021
 327,59000,2022,SLAC Northeast USA,Psychology,Psychology,Lecturer,2016
 328,93000,2021,Private liberal arts college in New England,Geology,Earth Sciences,Assistant Professor,2013
-329,27000,2020,UCLA,Psychology,Psychology,Grad Student,2020
+329,27000,2020,UC Los Angeles,Psychology,Psychology,Grad Student,2020
 330,82000,2017,Private liberal arts college in New England,Geology,Earth Sciences,Assistant Professor,2013
 331,60000,2020,University of Pennsylvania,School of Communication,Communication,Postdoc,2020
 332,50000,2021,Princeton University,Psychology,Psychology,Postdoc,2020
