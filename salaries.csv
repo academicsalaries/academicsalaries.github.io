@@ -259,3 +259,82 @@ id,salary,year,university,department,field,position,phd
 258,76000,2022,UC Berkeley,Physics,Physics,Postdoc,2021
 259,69000,2022,Harvard,Physics,Physics,Postdoc,2019
 260,197000,2022,Unknown,Unknown,Unknown,Research Staff,2004
+261,19200,2022,University of Missouri – Kansas City,Physics & Astronomy,Physics,Grad Student,2024
+262,124000,2022,University of Oklahoma ,Physics & Astronomy ,Physics,Research Staff,1985
+263,56000,2022,Princeton University,Mechanical and Aerospace Engineering,Engineering,Postdoc,2020
+264,59894,2022,Princeton University,Princeton Neuroscience Institute,Neuroscience,Postdoc,2022
+265,53760,2022,Princeton University,Princeton Neuroscience Institute,Neuroscience,Postdoc,2022
+266,54000,2022,Princeton University,Mechanical and Aerospace Engineering,Engineering,Postdoc,2021
+267,58600,2022,Princeton University,Neuroscience,Neuroscience,Postdoc,2018
+268,60000,2022,Princeton University,Neuroscience,Neuroscience,Postdoc,2020
+269,38500,2022,California Institute of Technology,Geological and Planetary Sciences - Geophysics,Earth Sciences,Grad Student,2027
+270,114000,2022,UC Berkeley,Earth and Planetary sciences,Earth Sciences,Assistant Professor,2021
+271,25836,2021,University of Pittsburgh,Epidemiology ,Health,Grad Student,2023
+272,21804,2020,University of Pittsburgh ,Epidemiology ,Health,Grad Student,2023
+273,60000,2022,University of Pennsylvania,Annenberg School for Communication,Communication,Postdoc,2022
+274,105000,2022,University of Colorado,Anschutz Medical Campus,Health,Research Staff,2012
+275,60574,2022,University of Bologna,Physics,Physics,Associate Professor,2010
+276,88000,2021,Unknown,Unknown,Unknown,Postdoc,2021
+277,101000,2023,Montana State University ,Physics,Physics,Assistant Professor,2018
+278,72000,2022,Princeton University,Astrophysical Sciences,Astrophysics,Postdoc,2022
+279,31500,2021,Arizona State University,School of Earth and Space Exploration,Astrophysics,Grad Student,2022
+280,60000,2022,European Southern Observatory,PSO,Astrophysics,Postdoc,2015
+281,18000,2022,University of Texas at Arlington,Computer Science and Engineering,Computer Science,Grad Student,2026
+282,68000,2022,Princeton University,Neuroscience,Neuroscience,Postdoc,2022
+283,35500,2022,Baylor College of Medicine,Neuroscience,Neuroscience,Grad Student,2026
+284,65000,2022,Max Planck Institute,Intelligent Systems,Computer Science,Postdoc,2022
+285,69000,2022,Princeton University,Astrophysics,Astrophysics,Postdoc,2018
+286,87000,2022,Columbia University,Lamont Doherty Earth Observatory,Astrophysics,Research Staff,2016
+287,61000,2017,New York University,Courant Institute of Mathematical Sciences,Mathematics,Postdoc,2016
+288,64000,2020,University of Washington,School of Oceanography,Earth Sciences,Postdoc,2016
+289,48860,2022,"National Oceanography Centre, UK",Marine Systems Modelling Group,Biology,Research Staff,2019
+290,155000,2022,Public R2,Earth Science,Earth Sciences,Full Professor,1999
+291,48000,2022,Princeton University,Atmospheric and Oceanic Sciences,Earth Sciences,Grad Student,2027
+292,35232,2022,University of Michigan,College of Engineering,Engineering,Grad Student,2023
+293,33000,2022,University of Massachusetts Dartmouth,College of Engineering,Engineering,Grad Student,2023
+294,59000,2022,Karlsruhe Institute of Technology ,Institute for meteorology and climate,Earth Sciences,Postdoc,2021
+295,141799,2022,The University of Arizona,Geosciences,Earth Sciences,Full Professor,2010
+296,64260,2022,Fitchburg State University,Mathematics,Mathematics,Assistant Professor,2021
+297,63000,2021,Fitchburg State University ,Mathematics ,Mathematics,Assistant Professor,2021
+298,142000,2022,University of Pittsburgh,"Department of Medicine, Division of Cardiology ",Health,Assistant Professor,2008
+299,41000,2016,Columbia University ,Applied Physics & Applied Mathematics ,Physics,Grad Student,2021
+300,142000,2022,Public R1 US West,Biomedical Informatics,Health,Assistant Professor,2016
+301,80000,2022,Boston R1,Oceanography,Earth Sciences,Research Staff,2011
+302,54840,2022,Princeton University,Lewis-Sigler Institute for Integrative Genomics,Biology,Postdoc,2022
+303,60000,2022,Colorado State University,Atmospheric Science,Earth Sciences,Postdoc,2022
+304,120000,2022,Baylor College of Medicine,Molecular Virology,Biology,Assistant Professor,2007
+305,71000,2022,Ohio University,College of Medicine,Health,Assistant Professor,2012
+306,35100,2022,University of Miami,"Rosenstiel School of Marine, Atmospheric, and Earth Science",Earth Sciences,Grad Student,2023
+307,86000,2022,University of East Anglia,Environmental Sciences,Environment,Full Professor,1996
+308,57000,2023,Montana State University,Earth Sciences,Earth Sciences,Postdoc,2022
+309,69000,2022,Massachusetts Institute of Technology,Astrophysics,Astrophysics,Research Staff,0
+310,75000,2022,Princeton University ,High Meadows Environmental Institute ,Environment,Research Staff,2017
+311,87650,2022,"Private Liberal Arts College, US Northeast",Neuroscience,Neuroscience,Assistant Professor,2011
+312,215000,2021,University of Arizona,Unknown,Unknown,Full Professor,1984
+313,36636,2022,University of Washington,Oceanography,Earth Sciences,Grad Student,2026
+314,60000,2022,University of Alaska Fairbanks,College of fisheries and ocean sciences,Earth Sciences,Postdoc,2020
+315,36000,2020,Florida State University,"Environmental Science, Geology, Oceanography, and Meteorology",Earth Sciences,Grad Student,2020
+316,133500,2022,Northeastern University,Chemical Engineering ,Chemistry,Associate Professor,2013
+317,38000,2022,California Institute of Technology,Geological and Planetary Science,Earth Sciences,Grad Student,2023
+318,48750,2022,Aarhus University,Biology,Biology,Grad Student,2024
+319,115000,2022,Northeastern University,Engineering,Engineering,Assistant Professor,2013
+320,104000,2022,ETH Zurich,Environmental Systems Science,Environment,Postdoc,2019
+321,51300,2023,NSERC,School of Earth and Ocean Sciences,Earth Sciences,Postdoc,2018
+322,40000,2022,Cornell University,Applied Math,Mathematics,Grad Student,2025
+323,142000,2022,University Of Washington,College of the Environment,Environment,Assistant Professor,2017
+324,118000,2022,"R2, East Coast",Engineering,Engineering,Assistant Professor,2018
+325,65000,2022,Brown University,Earth Science,Earth Sciences,Postdoc,2020
+326,71060,2022,Princeton University,Psychology,Psychology,Postdoc,2021
+327,59000,2022,SLAC Northeast USA,Psychology,Psychology,Lecturer,2016
+328,93000,2021,Private liberal arts college in New England,Geology,Earth Sciences,Assistant Professor,2013
+329,27000,2020,UCLA,Psychology,Psychology,Grad Student,2020
+330,82000,2017,Private liberal arts college in New England,Geology,Earth Sciences,Assistant Professor,2013
+331,60000,2020,University of Pennsylvania,School of Communication,Communication,Postdoc,2020
+332,50000,2021,Princeton University,Psychology,Psychology,Postdoc,2020
+333,50000,2013,Columbia University,Lamont-Doherty Earth Observatory,Earth Sciences,Postdoc,2013
+334,90000,2022,Pomona College,Psychology,Psychology,Assistant Professor,2020
+335,30500,2022,Public R1 US East,Geosciences/Earth Sciences,Earth Sciences,Grad Student,2025
+336,62000,2022,Ball State University,Psychological Science,Psychology,Assistant Professor,2016
+337,16500,2020,Universitat Autonoma de Barcelona,Economics,Economics,Grad Student,2024
+338,135690,2022,Private R1 East Coast,Biomedicine,Biology,Associate Professor,2010
+339,82400,2022,University of Colorado,Geological Sciences,Geology,Research Staff,2006
