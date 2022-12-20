@@ -163,7 +163,7 @@ id,salary,year,university,department,field,position,phd
 162,40927,2022,University of Cambridge,Sainsbury Laboratory,Biology,Postdoc,2022
 163,50400,2022,Private University (4 year) ,Political Science,Political Science,Grad Student,2024
 164,117000,2022,Texas A&M University,Veterinary Medicine,Health,Assistant Professor,2019
-165,57700,2023,Ecole polytechnique federale de Lausanne,SV,Life Sciences,Grad Student,2027
+165,57700,2023,Ecole Polytechnique,SV,Life Sciences,Grad Student,2027
 166,40500,2022,Rothamsted Research,Smart Crop Protection,Biology,Research Staff,2014
 167,87000,2022,Memorial Sloan Kettering Cancer Center,Surgery (Engineering position),Engineering,Postdoc,2020
 168,116725,2022,University of Florida,College of medicine,Health,Assistant Professor,2015
@@ -230,3 +230,32 @@ id,salary,year,university,department,field,position,phd
 229,10640,2021,University of Patras,Physics,Physics,Grad Student,2023
 230,54000,2022,Cornell University,Entomology,Biology,Postdoc,2021
 231,30000,2022,University of North Carolina at Chapel Hill,Physics and Astronomy,Physics,Grad Student,2023
+232,48000,2023,Princeton University,Astrophysics,Astrophysics,Grad Student,2025
+233,88400,2022,Princeton University,Department of Astrophysical Sciences,Astrophysics,Research Staff,2016
+234,147000,2022,University of Maryland - College Park,Astronomy,Astrophysics,Assistant Professor,2015
+235,53000,2023,Non Profit Institute US West Coast,Astronomy,Astrophysics,Postdoc,2008
+236,30600,2022,University of Patras,Physics,Physics,Assistant Professor,2009
+237,278000,2022,US West Coast R1,Physical sciences,Physics,Full Professor,2001
+238,32000,2022,University of Hawaii,Institute for Astronomy,Astrophysics,Grad Student,2025
+239,45000,2022,Harvard University,Astronomy,Astrophysics,Grad Student,2025
+240,41500,2021,UC Los Angeles,Physics & Astronomy,Astrophysics,Grad Student,2025
+241,35370,2022,University of Pennsylvania,Physics & Astronomy,Astrophysics,Grad Student,2024
+242,94000,2022,Los Alamos National Laboratory,Center for Theoretical Astrophysics,Astrophysics,Postdoc,2021
+243,65000,2023,Georgia Institute of Technology,Physics,Physics,Postdoc,2018
+244,141000,2022,Ohio State University,Earth Sciences,Earth Sciences,Full Professor,2001
+245,40000,2022,UC Santa Cruz,Astronomy,Astrophysics,Grad Student,2027
+246,105000,2022,Harvey Mudd College,Physics,Physics,Assistant Professor,2014
+247,48573,2022,Queen Mary University of London,Astrophysics,Astrophysics,Postdoc,2020
+248,25166,2022,University of Florida,Astronomy,Astrophysics,Grad Student,2023
+249,219000,2022,Research Museum,Astrophysics,Astrophysics,Full Professor,1989
+250,125000,2022,Stanford University,Astrophysics,Astrophysics,Research Staff,2013
+251,72000,2022,California Institute of Technology,Physics,Physics,Postdoc,2019
+252,75000,2022,California Institute of Technology,Astronomy,Astrophysics,Postdoc,2012
+253,17000,2022,University of Alberta,Physics,Physics,Grad Student,2025
+254,68500,2022,Massachusetts Institute of Technology,Physics,Physics,Postdoc,2016
+255,51100,2019,Perimeter Institute,Physics,Physics,Postdoc,2016
+256,33000,2022,University of Tennesee - Knoxville,Nuclear Engineering,Physics,Grad Student,2024
+257,42000,2023,Ecole Polytechnique,Chemistry,Chemistry,Postdoc,2022
+258,76000,2022,UC Berkeley,Physics,Physics,Postdoc,2021
+259,69000,2022,Harvard,Physics,Physics,Postdoc,2019
+260,197000,2022,Unknown,Unknown,Unknown,Research Staff,2004
