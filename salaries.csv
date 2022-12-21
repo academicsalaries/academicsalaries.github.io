@@ -347,7 +347,7 @@ id,salary,year,university,department,field,position,phd
 346,135000,2022,Public R1 US West Coast,Earth and Space,Earth Sciences,Research Staff,1999
 347,198600,2022,University of Illinois Urbana-Champaign,Atmospheric Sciences,Atmospheric Science,Full Professor,2003
 348,147000,2022,Rutgers University,Life Sciences,Life Sciences,Assistant Professor,2015
-349,122.4,2022,Western Washington University,Environmental Science,Environment,Full Professor,2006
+349,122400,2022,Western Washington University,Environmental Science,Environment,Full Professor,2006
 350,33200,2022,University of Hawaii,Institute for Astronomy,Astrophysics,Grad Student,2026
 351,91000,2022,University of Chicago,Humanities,Humanities,Assistant Professor,2015
 352,34000,2019,Yale University,Psychology,Psychology,Grad Student,2019
@@ -414,7 +414,7 @@ id,salary,year,university,department,field,position,phd
 413,78279,2022,Columbia University,"Center for Theoretical Neuroscience, Zuckerman Institute",Neuroscience,Postdoc,2017
 414,88000,2022,Skidmore College,Psychology,Psychology,Associate Professor,2014
 415,77000,2022,Harvard University,Astrophysics,Astrophysics,Postdoc,2019
-416,27190.3,2022,Istituto Nazionale Geofisica e Vulcanologia,RM1,Earth Sciences,Research Staff,2018
+416,27190,2022,Istituto Nazionale Geofisica e Vulcanologia,RM1,Earth Sciences,Research Staff,2018
 417,89000,2022,Columbia University,Earth and Environmental Science,Earth Sciences,Research Staff,2017
 418,55000,2019,Princeton University,Electical and Computer Engineering,Engineering,Postdoc,2019
 419,70000,2022,Princeton University,Electical and Computer Engineering,Engineering,Postdoc,2019
