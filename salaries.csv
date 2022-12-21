@@ -338,3 +338,84 @@ id,salary,year,university,department,field,position,phd
 337,16500,2020,Universitat Autonoma de Barcelona,Economics,Economics,Grad Student,2024
 338,135690,2022,Private R1 East Coast,Biomedicine,Biology,Associate Professor,2010
 339,82400,2022,University of Colorado,Geological Sciences,Geology,Research Staff,2006
+340,20000,2022,University of Arizona,Psychology,Psychology,Grad Student,2027
+341,65000,2022,United States Forest Service,Pacific Northwest Research Station,Environment,Postdoc,2020
+342,80800,2022,Hawaii Pacific University,Marine Science,Biology,Assistant Professor,2017
+343,30000,2022,Boston College,Psychology & Neuroscience,Psychology,Grad Student,2023
+344,78000,2022,Iowa State University ,Geological and Atmospheric Sciences ,Geology,Assistant Professor,2017
+345,25290,2022,Syracuse University,Earth and Environmental Sciences,Earth Sciences,Grad Student,2023
+346,135000,2022,Public R1 US West Coast,Earth and Space,Earth Sciences,Research Staff,1999
+347,198600,2022,University of Illinois Urbana-Champaign,Atmospheric Sciences,Atmospheric Science,Full Professor,2003
+348,147000,2022,Rutgers University,Life Sciences,Life Sciences,Assistant Professor,2015
+349,122.4,2022,Western Washington University,Environmental Science,Environment,Full Professor,2006
+350,33200,2022,University of Hawaii,Institute for Astronomy,Astrophysics,Grad Student,2026
+351,91000,2022,University of Chicago,Humanities,Humanities,Assistant Professor,2015
+352,34000,2019,Yale University,Psychology,Psychology,Grad Student,2019
+353,55000,2020,New York University,Psychology,Psychology,Postdoc,2019
+354,76000,2022,University of New Hampshire,Psychology,Psychology,Assistant Professor,2019
+355,70000,2022,Alfred Wegener Institute,Geosciences,Earth Sciences,Postdoc,2018
+356,183400,2022,University of Virginia,Public Policy,Social Science,Associate Professor,2016
+357,195000,2021,Georgetown University,McCourt School of Public Policy,Political Science,Associate Professor,2015
+358,27040,2022,University of Minnesota,Institute of Child Development,Human Development ,Grad Student,2024
+359,60000,2022,Northeastern University,Psychology,Psychology,Postdoc,2022
+360,60000,2020,Princeton University,PNI / Neuroscience,Neuroscience,Postdoc,2019
+361,98734,2022,Northeastern University,Communication Studies,Communication,Assistant Professor,2016
+362,45610,2022,University of Colorado,Atmospheric and Oceanic Sciences,Atmospheric Science,Grad Student,2024
+363,75668,2022,University of New Hampshire,English,English,Assistant Professor,2016
+364,130000,2022,Brigham Young University,Political Science,Political Science,Associate Professor,2014
+365,69000,2022,Princeton University,Neuroscience,Neuroscience,Postdoc,2018
+366,15427,2022,Universite du Quebec a Montreal,Earth and Atmospheric Sciences,Earth Sciences,Grad Student,2023
+367,96000,2022,UK Russell Group university,Geography,Geography,Full Professor,1997
+368,66500,2022,Wilkes University,College of Arts and Social sciences,Social Science,Assistant Professor,2018
+369,105000,2022,University of Miami ,Earth sciences ,Earth Sciences,Assistant Professor,2016
+370,85000,2022,Georgia State University ,Criminology and criminal justice ,Criminology,Assistant Professor,2021
+371,64000,2022,UC Berkeley,Earth and Planetary Sciences,Earth Sciences,Postdoc,2018
+372,83000,2020,Scottish Technology University,Politics,Political Science,Full Professor,1996
+373,45000,2022,Columbia University,Department of Earth Science,Earth Sciences,Grad Student,2026
+374,92000,2023,Mount Holyoke College,Psychology,Psychology,Assistant Professor,2022
+375,40000,2022,University of Colorado - Boulder,Psychology and Neuroscience,Psychology,Postdoc,2022
+376,68675,2022,Columbia University ,Lamont-Doherty Earth Observatory,Earth Sciences,Postdoc,2021
+377,67000,2021,Columbia University ,Lamont-Doherty Earth Observatory ,Earth Sciences,Postdoc,2021
+378,66000,2022,Columbia University ,Earth Sciences,Earth Sciences,Postdoc,2021
+379,190000,2022,"Private R1, US east coast",Economics,Economics,Assistant Professor,2021
+380,70000,2021,Private east coast US R1,Economics ,Economics,Postdoc,2021
+381,134000,2022,R1 Southwestern US,Earth Sciences,Earth Sciences,Full Professor,2007
+382,42000,2010,California Institute of Technology,Geological and Planetary Sciences,Earth Sciences,Postdoc,2010
+383,60000,2013,Columbia University ,Lamont Doherty Earth Observatory,Earth Sciences,Postdoc,2010
+384,65000,2016,UC Davis,Earth and Planetary Sciences,Earth Sciences,Assistant Professor,2010
+385,36600,2020,Harvard University,Government,Political Science,Grad Student,2026
+386,24000,2018,Georgia State University ,Economics,Economics,Grad Student,2023
+387,70000,2022,Brookhaven National Laboratory,Environmental science,Environment,Postdoc,2021
+388,43000,2022,Massachusetts Institute of Technology,Political Science,Political Science,Grad Student,2024
+389,139000,2022,Indiana University,Geography ,Geography,Full Professor,1992
+390,40500,2022,University of Southampton,Oceanography,Earth Sciences,Postdoc,2022
+391,89000,2022,Western University,Psychology,Psychology,Assistant Professor,2015
+392,85000,2022,University of Cambridge,Business School,Business,Associate Professor,2012
+393,39000,2022,University of Pennsylvania,Wharton School (real estate),Business,Grad Student,2024
+394,45000,2022,Princeton University ,Psychology,Psychology,Grad Student,2024
+395,49200,2022,Stanford University,Computational and Mathematical Engineering,Engineering,Grad Student,2026
+396,50000,2022,Princeton University,Psychology,Psychology,Grad Student,2026
+397,75000,2022,Private Christian University - US Southeast,Psychology,Psychology,Assistant Professor,2022
+398,24500,2022,Indiana University ,Psychological and Brain Sciences ,Psychology,Grad Student,2024
+399,138972,2022,University of Hawaii,Oceanography,Earth Sciences,Assistant Professor,2015
+400,127000,2022,Public R1 Pacific Northwest ,Human Development ,Human Development ,Associate Professor,2013
+401,257000,2022,Private R1 US West Coast,Engineering,Engineering,Full Professor,2002
+402,35000,2022,UC Berkeley,Marketing,Business,Grad Student,2026
+403,34000,2022,University of Southern California,Psychology,Psychology,Grad Student,2025
+404,90000,2022,University of Dusseldorf ,Political Science ,Political Science,Full Professor,2013
+405,63000,2022,Utrecht University,Earth Science,Earth Sciences,Assistant Professor,2016
+406,77150,2022,Illinois State University,"Geography, Geology",Geography,Associate Professor,2016
+407,65500,2022,University of Washington ,Earth and Space Sciences,Earth Sciences,Postdoc,2022
+408,65500,2023,University of Washington ,Atmospheric Sciences,Atmospheric Science,Postdoc,2022
+409,75000,2022,University of New South Wales,Mathematics ,Mathematics,Postdoc,2020
+410,54000,2022,"Private SLAC, US Midwest ",Psychology ,Psychology,Assistant Professor,2022
+411,41000,2022,McGill University,Earth and Planetary Sciences,Earth Sciences,Postdoc,2019
+412,66000,2022,University of Cambridge ,Earth Sciences,Psychology,Associate Professor,2013
+413,78279,2022,Columbia University,"Center for Theoretical Neuroscience, Zuckerman Institute",Neuroscience,Postdoc,2017
+414,88000,2022,Skidmore College,Psychology,Psychology,Associate Professor,2014
+415,77000,2022,Harvard University,Astrophysics,Astrophysics,Postdoc,2019
+416,27190.3,2022,Istituto Nazionale Geofisica e Vulcanologia,RM1,Earth Sciences,Research Staff,2018
+417,89000,2022,Columbia University,Earth and Environmental Science,Earth Sciences,Research Staff,2017
+418,55000,2019,Princeton University,Electical and Computer Engineering,Engineering,Postdoc,2019
+419,70000,2022,Princeton University,Electical and Computer Engineering,Engineering,Postdoc,2019
+420,120000,2022,Northwestern University,Unknown,Unknown,Assistant Professor,2012
