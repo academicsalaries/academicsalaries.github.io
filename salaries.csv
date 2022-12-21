@@ -358,7 +358,7 @@ id,salary,year,university,department,field,position,phd
 357,195000,2021,Georgetown University,McCourt School of Public Policy,Political Science,Associate Professor,2015
 358,27040,2022,University of Minnesota,Institute of Child Development,Human Development ,Grad Student,2024
 359,60000,2022,Northeastern University,Psychology,Psychology,Postdoc,2022
-360,60000,2020,Princeton University,PNI / Neuroscience,Neuroscience,Postdoc,2019
+360,60000,2020,Princeton University,"PNI, Neuroscience",Neuroscience,Postdoc,2019
 361,98734,2022,Northeastern University,Communication Studies,Communication,Assistant Professor,2016
 362,45610,2022,University of Colorado,Atmospheric and Oceanic Sciences,Atmospheric Science,Grad Student,2024
 363,75668,2022,University of New Hampshire,English,English,Assistant Professor,2016
@@ -416,6 +416,6 @@ id,salary,year,university,department,field,position,phd
 415,77000,2022,Harvard University,Astrophysics,Astrophysics,Postdoc,2019
 416,27190,2022,Istituto Nazionale Geofisica e Vulcanologia,RM1,Earth Sciences,Research Staff,2018
 417,89000,2022,Columbia University,Earth and Environmental Science,Earth Sciences,Research Staff,2017
-418,55000,2019,Princeton University,Electical and Computer Engineering,Engineering,Postdoc,2019
-419,70000,2022,Princeton University,Electical and Computer Engineering,Engineering,Postdoc,2019
+418,55000,2019,Princeton University,Electrical and computer engineering,Engineering,Postdoc,2019
+419,70000,2022,Princeton University,Electrical and computer engineering,Engineering,Postdoc,2019
 420,120000,2022,Northwestern University,Unknown,Unknown,Assistant Professor,2012
