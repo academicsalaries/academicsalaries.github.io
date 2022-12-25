@@ -26,6 +26,7 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       infsalary:  Math.round((+d.salary)*Math.pow(1.025,2022-(d.year))),   
       year:      +d.year,
       university: d.university,
+      country:    d.country,
       department: d.department,
       field:      d.field,
       position:   d.position,
@@ -192,7 +193,7 @@ svg.selectAll(".bubble-tip")
 // Bubble Tip text
 svg.selectAll(".bubble-tip")
   .append("text")
-  .text(d =>d.university)
+  .text(d =>d.university + " (" + d.country + ")")
   .style("font-family", "sans-serif")
   .style("font-size", 14)
   .attr("stroke", "none")
