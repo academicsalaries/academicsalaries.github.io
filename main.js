@@ -62,24 +62,26 @@ let noscatter = true;
 let f1university = document.getElementById("filter1-university").value;
 let f1field = document.getElementById("filter1-field").value;
 let f1position = document.getElementById("filter1-position").value;
+let f1country = document.getElementById("filter1-country").value;
 let f2university = document.getElementById("filter2-university").value;
 let f2field = document.getElementById("filter2-field").value;
 let f2position = document.getElementById("filter2-position").value;
+let f2country = document.getElementById("filter2-country").value;
 
 // return 0 if hidden, i if part of group i & both groups active, else 3
 function visGroup(d) {
   let vis = 0;
-  let grp1active = (f1university=="all" && f1field=="all" && f1position=="all") ? false : true;
-  let grp2active = (f2university=="all" && f2field=="all" && f2position=="all") ? false : true;
+  let grp1active = (f1university=="all" && f1field=="all" && f1position=="all" && f1country=="all") ? false : true;
+  let grp2active = (f2university=="all" && f2field=="all" && f2position=="all" && f2country=="all") ? false : true;
   let grpsActive = grp1active || grp2active;
   if(grpsActive) {
 	if(grp1active) {
-	  if( (f1university==d.university || f1university=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") ) {
+	  if( (f1university==d.university || f1university=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") && (f1country==d.country || f1country=="all") ) {
 		  vis = (grp2active) ? 1 : 3;
 	  }
 	}
 	if(grp2active) {
-	  if( (f2university==d.university || f2university=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") ) {
+	  if( (f2university==d.university || f2university=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") && (f2country==d.country || f2country=="all")) {
 		  vis = (grp1active) ? 2 : 3;
 	  }
 	}
@@ -90,7 +92,7 @@ function visGroup(d) {
 }
 
 function shiftX(d) {
-	return (visGroup(d)==1) ? -0.05 : ((visGroup(d)==2) ? 0.05 : 0) + ((noscatter) ? 0 : d.scatter);
+	return ((visGroup(d)==1) ? -0.1 : ((visGroup(d)==2) ? 0.1 : 0)) + ((noscatter) ? 0 : d.scatter);
 }
 
 // color by position, or by group if 2 groups are being selected
@@ -338,6 +340,11 @@ document.getElementById("filter1-position").addEventListener("change", (e)=>{
   setVisibilities();
 })
 
+document.getElementById("filter1-country").addEventListener("change", (e)=>{ 
+  f1country = e.target.value;
+  setVisibilities();
+})
+
 document.getElementById("filter2-university").addEventListener("change", (e)=>{ 
   f2university = e.target.value;
   setVisibilities();
@@ -353,13 +360,20 @@ document.getElementById("filter2-position").addEventListener("change", (e)=>{
   setVisibilities();
 })
 
+document.getElementById("filter2-country").addEventListener("change", (e)=>{ 
+  f2country = e.target.value;
+  setVisibilities();
+})
+
 document.getElementById("reset").onclick = function() {
 	document.getElementById("filter1-university").selectedIndex = 0;
 	document.getElementById("filter1-field").selectedIndex = 0;
 	document.getElementById("filter1-position").selectedIndex = 0;
+	document.getElementById("filter1-country").selectedIndex = 0;
 	document.getElementById("filter2-university").selectedIndex = 0;
 	document.getElementById("filter2-field").selectedIndex = 0;
 	document.getElementById("filter2-position").selectedIndex = 0;
+	document.getElementById("filter2-country").selectedIndex = 0;
     f1university = "all";
     f1field = "all";
     f1position = "all";
