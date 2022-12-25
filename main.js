@@ -377,9 +377,11 @@ document.getElementById("reset").onclick = function() {
     f1university = "all";
     f1field = "all";
     f1position = "all";
+    f1country = "all";
     f2university = "all";
     f2field = "all";
     f2position = "all";
+    f2country = "all";
     setVisibilities();
 };
 
