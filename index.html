@@ -66,11 +66,14 @@
 
         <!-- Main Interactive Chart -->
         <div>
-		<select id="select-y-var">
+		<select id="select-y-var" style="width: 170px;">
 			<option value="salary" selected>salary (yearly, USD)</option>
+			<option value="infsalary">inflation-corrected salary, adj. to 2022 (yearly, USD)</option>
 		</select>
-		 <input type="checkbox" id="log" name="log" value="false">
+		<input type="checkbox" id="log" name="log" value="false">
         <label for="log"> log scale?</label>
+        <input type="checkbox" id="scatter" name="scatter" value="false">
+        <label for="scatter"> add scatter?</label>
 		</div> 
 		
 		<div>

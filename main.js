@@ -23,7 +23,7 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       // parse the data into an array of csv objects
       id:        +d.id,
       salary:    +d.salary,   
-      logsalary:  Math.log10(+d.salary),   
+      infsalary:  Math.round((+d.salary)*Math.pow(1.025,2022-(d.year))),   
       year:      +d.year,
       university: d.university,
       department: d.department,
@@ -31,7 +31,8 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       position:   d.position,
       posEnum:    posEnum[d.position],
       phd:       +d.phd,
-      toolTipVisible: false
+      toolTipVisible: false,
+      scatter:    0.5*(Math.random()-0.5),
     };
   }).then(function(salaryData) {	
 console.log(salaryData);	   
@@ -54,6 +55,7 @@ let xVar = document.getElementById("select-x-var").value;
 let yVar = document.getElementById("select-y-var").value;
 
 let linear = true;
+let noscatter = true;
 
 // Filters:
 let f1university = document.getElementById("filter1-university").value;
@@ -87,7 +89,7 @@ function visGroup(d) {
 }
 
 function shiftX(d) {
-	return (visGroup(d)==1) ? -0.05 : ((visGroup(d)==2) ? 0.05 : 0);
+	return (visGroup(d)==1) ? -0.05 : ((visGroup(d)==2) ? 0.05 : 0) + ((noscatter) ? 0 : d.scatter);
 }
 
 // color by position, or by group if 2 groups are being selected
@@ -141,9 +143,9 @@ svg.selectAll(".bubble")
   .data(salaryData)    // bind each element of the data array to one SVG circle
   .join("circle")
   .attr("class", "bubble")
-  .attr("cx", d => xScale(d[xVar]))     // set the x position based on xVar
-  .attr("cy", d => yScale(d.salary))   // set the y position based on salary
-  .attr("r", d => 5)
+  .attr("cx", d => xScale(d[xVar]))   // set the x position based on xVar
+  .attr("cy", d => yScale(d[yVar]))   // set the y position based on salary
+  .attr("r", d => 4.5)
   .attr("stroke", d => posColors[d.position])
   .attr("fill", d => posColors[d.position])
   .attr("fill-opacity", 0.5)
@@ -176,7 +178,7 @@ svg.selectAll(".bubble-tip")
   .join("g")
   .attr("class", "bubble-tip")
   .attr("id", (d)=> "bubble-tip-"+d.id)
-  .attr("transform", d => "translate(" + (xScale( d[xVar] )+20) + ", " + yScale( d.salary) + ")"  )
+  .attr("transform", d => "translate(" + (xScale( d[xVar] )+20) + ", " + yScale( d[yVar]) + ")"  )
   .style("display", "none")   
   .append("rect")     // this is the background to the tooltip
   .attr("x",-5)
@@ -219,7 +221,7 @@ svg.selectAll(".bubble-tip")
 svg.selectAll(".bubble-tip")
   .append("text")
   .classed("bubble-tip-yText", true)
-  .text(d => "$" + d[yVar].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " (" + d.year + ")")
+  .text(d => "$" + d.salary.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " (" + d.year + ") -> worth " + "$" + d.infsalary.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " in 2022")
   .attr("y", d => 56 )
   .style("font-family", "sans-serif")
   .style("font-size", 14)
@@ -261,9 +263,9 @@ function redrawX() {
      )
 }
 
-// Action: checkbox
-checkbox = document.getElementById('log');
-checkbox.addEventListener('change', e => {
+// Action: checkboxes
+logCheckbox = document.getElementById('log');
+logCheckbox.addEventListener('change', e => {
     if(e.target.checked){
         linear = false;
     } else {
@@ -273,6 +275,16 @@ checkbox.addEventListener('change', e => {
 	redrawY();
 	transition();
 });
+
+scatterCheckbox = document.getElementById('scatter');
+scatterCheckbox.addEventListener('change', e => {
+    if(e.target.checked){
+        noscatter = false;
+    } else {
+		noscatter = true;
+	}
+	transition();
+})
 
 // update the x-variable based on the user selection
 document.getElementById("select-x-var").addEventListener("change", (e)=>{
