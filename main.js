@@ -154,7 +154,7 @@ svg.selectAll(".bubble")
   .attr("fill-opacity", 0.5)
   .on("mouseover",(e,d) => {    // event listener to show tooltip on hover
     d3.select("#bubble-tip-"+d.id)
-      .style("display","block");
+      .style("display","block"); 
   })
   .on("mouseout", (e,d) => {    // event listener to hide tooltip after hover
     if(!d.toolTipVisible){
@@ -311,6 +311,7 @@ function setVisibilities() {
   svg.selectAll(".bubble")
       .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
       .attr("stroke", d => visColor(d) )
+      .sort((a,b) => visGroup(a)-visGroup(b))
       
   svg.selectAll(".bubble-tip")
       .attr("opacity", d => ( visGroup(d) ? 1 : 0) )
