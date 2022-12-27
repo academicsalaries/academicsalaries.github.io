@@ -24,6 +24,8 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       id:        +d.id,
       salary:    +d.salary,   
       infsalary:  Math.round((+d.salary)*Math.pow(1.025,2022-(d.year))),   
+      livingwage: +d.livingwage,
+      lwsalary:   Math.round((+d.salary)*Math.pow(1.025,2022-(d.year))*20.0/(+d.livingwage)),   
       year:      +d.year,
       university: d.university,
       country:    d.country,
