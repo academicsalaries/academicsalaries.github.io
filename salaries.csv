@@ -244,7 +244,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 242,65000,2023,Georgia Institute of Technology,United States,19.02,Physics,Physics,Postdoc,2018
 243,141000,2022,Ohio State University,United States,16.53,Earth Sciences,Earth Sciences,Full Professor,2001
 244,40000,2022,UC Santa Cruz,United States,27.44,Astronomy,Astrophysics,Grad Student,2027
-245,105000,2022,Harvey Mudd College,United States,21.89,Physics,Physics,Assistant Professor,2014
+245,105000,2022,University of Pennsylvania,United States,21.89,Physics,Physics,Assistant Professor,2014
 246,48573,2022,Queen Mary University of London,United Kingdom,20,Astrophysics,Astrophysics,Postdoc,2020
 247,25166,2022,University of Florida,United States,16.38,Astronomy,Astrophysics,Grad Student,2023
 248,219000,2022,Research Museum,United States,20,Astrophysics,Astrophysics,Full Professor,1989
@@ -291,7 +291,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 289,155000,2022,Public R2,Unknown,20,Earth Science,Earth Sciences,Full Professor,1999
 290,48000,2022,Princeton University,United States,19.12,Atmospheric and Oceanic Sciences,Earth Sciences,Grad Student,2027
 291,35232,2022,University of Michigan,United States,19.12,College of Engineering,Engineering,Grad Student,2023
-292,33000,2022,University of Massachusetts Dartmouth,United States,18.12,College of Engineering,Engineering,Grad Student,2023
+292,33000,2022,UMass Dartmouth,United States,18.12,College of Engineering,Engineering,Grad Student,2023
 293,59000,2022,Karlsruhe Institute of Technology,Germany,9.82,Institute for meteorology and climate,Earth Sciences,Postdoc,2021
 294,141799,2022,University of Arizona,United States,15.82,Geosciences,Earth Sciences,Full Professor,2010
 295,64260,2022,Fitchburg State University,United States,18.79,Mathematics,Mathematics,Assistant Professor,2021
@@ -459,3 +459,231 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 457,68000,2022,University of Mary Washington ,United States,22.98,Chemistry,Chemistry,Associate Professor,2011
 458,27320,2022,Colorado State University ,United States,18.97,Chemistry,Chemistry,Grad Student,2023
 459,22000,2022,North Carolina State University,United States,18.95,Mechanical Engineering ,Engineering,Grad Student,2025
+460,98000,2023,University of Central Florida,United States,18.19,Health Sciences,Health,Assistant Professor,2020
+461,133000,2022,Vanderbilt University,United States,17.63,Social Science,Social Science,Assistant Professor,2018
+462,14592,2022,Public University,Unknown,20,Departamento de quimica ,Chemistry,Grad Student,2024
+463,82000,2020,UC Riverside,United States,18.66,Social Science,Social Science,Assistant Professor,2018
+464,18386,2022,McMaster University,Canada,13.96,Neuroscience,Neuroscience,Grad Student,2025
+465,21000,2022,University of Oklahoma,United States,16.41,Biology,Biology,Grad Student,2024
+466,32000,2022,UT Austin,United States,18.04,Mathematics,Mathematics,Grad Student,2027
+467,10000,2021,University of Louisiana at Lafayette ,United States,15.79,Honors Department ,Unknown,Grad Student,2025
+468,22000,2022,Case Western Reserve University,United States,15.64,Mathematics,Mathematics,Grad Student,2025
+469,25000,2022,University of Kansas,United States,17.07,Chemistry,Chemistry,Grad Student,2023
+470,32000,2022,University of Texas Medical Branch,United States,16.95,Biochemistry & Molecular Biology,Chemistry,Grad Student,2023
+471,64000,2020,University of North Carolina - Wilmington,United States,16.95,Biology & Marine Biology,Biology,Assistant Professor,2016
+472,36000,2022,Friedrich Alexander University,Germany,9,Physics,Physics,Grad Student,2025
+473,11400,2022,University of Waterloo,Canada,13.82,Combinatorics and Optimization,Mathematics,Grad Student,2025
+474,70000,2022,"Private university in Nashville, TN",United States,20,Engineering,Engineering,Lecturer,2015
+475,86000,2022,University of New England,United States,19.37,Mathematics,Mathematics,Full Professor,2010
+476,35000,2022,Pennsylvania State University,United States,17.61,Sociology and Criminology ,Social Science,Grad Student,2027
+477,30000,2022,Michigan State University,United States,16.69,Teacher Education,Education,Grad Student,2027
+478,57739,2022,Max Planck Institute,Germany,14.06,Unknown,Unknown,Postdoc,2022
+479,6500,2022,California Institute of Technology,United States,21.89,Chemistry,Chemistry,Postdoc,2019
+480,35000,2022,UC Davis,United States,19.68,Biochemistry,Chemistry,Grad Student,2026
+481,40380,2022,University of British Columbia,Canada,16.65,Orthopaedics,Health,Postdoc,2022
+482,74575,2022,CUNY,United States,25.42,Music,Music,Lecturer,2023
+483,42000,2022,Boston University,United States,22.56,Computer Science,Computer Science,Grad Student,2026
+484,24000,2022,"State R01, midwest ",United States,20,Health and Human Physiology,Health,Grad Student,2023
+485,18000,2022,UT San Antonio ,United States,18.04,Anthropology ,Anthropology ,Grad Student,2027
+486,305000,2022,Emory University,United States,19.02,Rollins School of Public Health,Health,Full Professor,2006
+487,42500,2022,Amsterdam United Methodist Church,Netherlands,15.65,Medicine ,Health,Grad Student,2023
+488,65474,2022,Washington University - St. Louis,United States,16.73,Neurology,Health,Research Staff,2020
+489,30750,2022,University of Delaware,United States,18.24,Engineering,Engineering,Grad Student,2024
+490,46000,2022,"Public Liberal Arts, South East US",United States,20,Political Science,Political Science,Assistant Professor,2020
+491,27500,2022,Wayne State University,United States,16.59,OBGYN,Health,Grad Student,2023
+492,18500,2022,Middle Tennessee State University,United States,17.63,Mathematics and Science Education,Mathematics,Grad Student,2027
+493,47202,2022,Massachusetts Institute of Technology,United States,23.93,Computational and Systems Biology,Biology,Grad Student,2025
+494,18200,2022,University of Utah,United States,17.59,Linguistics,English,Grad Student,2023
+495,41000,2022,University of Washington,United States,19.81,Biochemistry ,Chemistry,Grad Student,2026
+496,240000,2022,University of Michigan,United States,19.12,Marketing,Business,Assistant Professor,2019
+497,44000,2022,Columbia University,United States,25.42,Biomedical Engineering,Health,Grad Student,2026
+498,35196,2022,Northwestern University,United States,19.29,Electrical and Computer Engineering,Engineering,Grad Student,2024
+499,28800,2022,Colorado School of Mines,United States,20.31,Physics,Physics,Grad Student,2026
+500,65000,2022,Harvard University,United States,23.93,"Busienss School, Organizational Behavior",Complexity Science,Research Staff,2029
+501,32000,2021,University of Wisconsin - Madison,United States,18.37,Biomedical Engineering,Health,Grad Student,2025
+502,38000,2022,Stevens Institute of Technology,United States,23.75,Biomedical Engineering,Health,Grad Student,2024
+503,35000,2018,University of Pittsburgh ,United States,16.47,Geology and Environmental Science,Earth Sciences,Grad Student,2020
+504,22000,2022,University of British Columbia,Canada,16.65,Bioinformatics,Biology,Grad Student,2025
+505,19000,2022,State University of New York at Albany,United States,18,Political Science,Political Science,Grad Student,2025
+506,24000,2022,University of Edinburgh,United Kingdom,12.28,Chemistry,Chemistry,Grad Student,2024
+507,19300,2022,University of Glasgow,United Kingdom,11.11,"School of Biodiversity, One Health & Veterinary Medicine",Health,Grad Student,2024
+508,28000,2022,Tulane University ,United States,16.79,Epidemiology ,Health,Grad Student,2027
+509,53000,2020,Public R3,United States,20,Biology,Biology,Assistant Professor,2016
+510,30000,2022,University of Vermont,United States,19.64,Complex Systems and Data Science,Complexity Science,Grad Student,2024
+511,63500,2022,Public R3,United States,20,Biology ,Biology,Assistant Professor,2016
+512,52215,2022,Truman State University,United States,14.92,Health and Exercise Sciences,Health,Assistant Professor,2020
+513,46500,2022,Weill Cornell Medicine,United States,25.42,Immunology and Microbial Pathogenesis,Health,Grad Student,2027
+514,63000,2022,Dana Farber Cancer Institute,United States,22.56,Cancer biology,Biology,Postdoc,2019
+515,35500,2022,Pennsylvania State University,United States,17.61,English,English,Associate Professor,2015
+516,53000,2019,Massachusetts General Hospital,United States,22.56,Center for cancer research,Health,Postdoc,2019
+517,100000,2022,Massachusetts General Hospital,United States,22.56,Surgery,Health,Lecturer,2019
+518,45000,2016,Drexel University,United States,17.87,Psychology,Psychology,Grad Student,2023
+519,36800,2022,University of British Columbia,Canada,16.65,Electrical and Computer Engineering,Engineering,Postdoc,2021
+520,16194,2019,Simon Fraser University,Canada,16,Applied Sciences,Science,Grad Student,2021
+521,25000,2018,Florida International University,United States,18.21,Biological Sciences,Biology,Grad Student,2023
+522,27000,2012,Boston University,United States,22.56,Biology,Biology,Grad Student,2022
+523,27500,2022,Boston College,United States,24.7,Social Sciences,Social Science,Grad Student,2022
+524,36500,2021,UC Berkeley,United States,24.26,Nutritional Sciences and Toxicology,Health,Grad Student,2022
+525,80000,2021,Auburn University,United States,14.87,Mathematics & Statistics,Mathematics,Assistant Professor,2018
+526,23484,2022,Utah State University,United States,15.18,Biology,Biology,Grad Student,2025
+527,33000,2019,University of Pittsburgh ,United States,16.47,Neurobiology,Biology,Research Staff,2020
+528,30800,2022,DePaul University,United States,19.29,Sociology ,Social Science,Adjunct Professor,2017
+529,79310,2022,University of Florida,United States,16.38,Agricultural and Life Sciences ,Agriculture,Lecturer,2019
+530,18000,2022,Trinity College Dublin ,Ireland,16.51,Botany ,Biology,Grad Student,2025
+531,66500,2022,Stanford University,United States,30.81,Cardiovascular Institute,Health,Postdoc,2022
+532,30000,2020,University of Wisconsin - Madison,United States,18.37,Physics,Physics,Grad Student,2021
+533,60000,2022,Ohio State University,United States,16.53,Physics,Physics,Postdoc,2022
+534,187300,2022,Top 25 US Liberal Arts College,United States,20,Engineering,Engineering,Full Professor,2008
+535,48000,2022,Stanford University,United States,30.81,Materials science and engineering,Material Science,Grad Student,2025
+536,37000,2022,University of Pennsylvania,United States,17.87,Cell and Molecular Biology,Biology,Grad Student,2026
+537,31500,2022,University of Iowa,United States,17.47,Genetics,Biology,Grad Student,2024
+538,32000,2022,Rice University,United States,16.95,Electrical and Computer Engineering,Engineering,Grad Student,2024
+539,80000,2020,University of Minnesota,United States,18.74,English,English,Assistant Professor,2020
+540,18000,2018,University of Montreal,Canada,12.51,Computer Science,Computer Science,Grad Student,2023
+541,34000,2022,University of Southern California,United States,21.89,Physics,Physics,Grad Student,2026
+542,31376,2022,University of Rochester ,United States,17.14,Microbiology and Immunology,Health,Grad Student,2027
+543,26713,2022,Wayne State University,United States,16.59,Oncology,Health,Grad Student,2025
+544,14700,2022,Concordia University,Canada,12.51,"Geography, Planning and Environment",Geography,Grad Student,2025
+545,42000,2022,University of Kansas,United States,17.07,Animal Science,Biology,Postdoc,2020
+546,54017,2022,Technical University of Munich,Germany,14.06,Department of Education,Education,Grad Student,2026
+547,33000,2022,University of New Hampshire,United States,17.91,Earth Sciences,Earth Sciences,Grad Student,2024
+548,18000,2022,University of Illinois Urbana-Champaign,United States,17.03,Social Sciences,Social Science,Grad Student,2025
+549,19000,2021,University of Kansas,United States,17.07,Fine Arts MFA,Art,Grad Student,2024
+550,28000,2021,Pennsylvania State University,United States,17.61,College of Information Sciences & Technology,Science,Grad Student,2025
+551,17700,2022,University of Utah,United States,17.59,Health and Kinesiology,Health,Grad Student,2024
+552,90000,2022,Santa Clara University,United States,29.32,Political Science,Political Science,Assistant Professor,2021
+553,33600,2023,Colorado School of Mines,United States,20.31,Civil Engineering ,Engineering,Grad Student,2025
+554,17700,2022,University of Utah,United States,17.59,Health and Kinesiology,Health,Grad Student,2024
+555,28000,2022,Arizona State University,United States,18.08,School of Earth and Space Exploration,Earth Sciences,Grad Student,2027
+556,30000,2019,Rush University,United States,19.29,Graduate College,Unknown,Grad Student,2024
+557,73647,2022,Lawrence Berkeley National Laboratory,United States,24.26,Physics,Physics,Postdoc,2022
+558,82500,2021,Public PUI US in New York (SUNY),United States,20,Biology,Biology,Assistant Professor,2011
+559,12000,2021,Southern Methodist University,United States,17.82,Stage Design,Art,Grad Student,2024
+560,30000,2022,University of Utah,United States,17.59,Chemistry,Chemistry,Grad Student,2024
+561,33000,2021,University of Washington ,United States,19.81,Chemistry ,Chemistry,Grad Student,2023
+562,37000,2022,University of Chicago,United States,19.29,Chemistry,Chemistry,Grad Student,2023
+563,28000,2023,Clark University,United States,18.79,Holocaust and Genocide Studies,History,Grad Student,2027
+564,35000,2022,Northwestern University,United States,19.29,Chemistry,Chemistry,Grad Student,2023
+565,34333,2022,University of Florida,United States,16.38,Mechanical and Aerospace Engineering,Engineering,Grad Student,2027
+566,30000,2022,University of Delaware,United States,18.24,Chemistry,Chemistry,Grad Student,2024
+567,34000,2022,UC Berkeley,United States,24.26,English ,English,Grad Student,2027
+568,26000,2022,Utah State University ,United States,15.18,Department of Mathematics,Mathematics,Grad Student,2025
+569,70000,2022,Temple University,United States,17.87,Communication and Social Influence,Communication,Lecturer,2022
+570,12492,2022,University of North Texas,United States,17.82,College of Music,Music,Grad Student,2025
+571,24615,2022,Purdue University,United States,16.16,Animal Sciences ,Biology,Grad Student,2024
+572,36670,2022,Rice University,United States,16.95,Computer Science,Computer Science,Grad Student,2027
+573,10188,2022,University of Wisconsin - Oshkosh,United States,15.59,Biology,Biology,Grad Student,2025
+574,34000,2022,UC Berkeley,United States,24.26,English,Engineering,Grad Student,2027
+575,26000,2021,University of South Carolina,United States,17.7,Chemistry and Biochemistry ,Chemistry,Grad Student,2022
+576,32000,2022,UT Austin,United States,18.04,Chemistry,Chemistry,Grad Student,2024
+577,22000,2022,University of Toronto,Canada,16.56,Psychology,Psychology,Grad Student,2026
+578,26355,2022,University of Illinois - Chicago,United States,19.29,Chemistry,Chemistry,Grad Student,2025
+579,66000,2022,Cornell University,United States,19.33,"Architecture, Art, Planning ",Architecture,Postdoc,2022
+580,37000,2022,Boston University,United States,22.56,Electrical and Computer Engineering,Engineering,Grad Student,2027
+581,22500,2022,Texas A&M University,United States,15.34,Civil and Environmental Engineering,Engineering,Grad Student,2025
+582,35700,2022,University of Chicago,United States,19.29,Biological Sciences,Biology,Grad Student,2026
+583,27000,2021,Public R1 Southeast United States,United States,20,Oceanography,Earth Sciences,Grad Student,2025
+584,22348,2022,University of Cambridge,United Kingdom,14,Biochemistry,Chemistry,Grad Student,2026
+585,40111,2022,Cornell University,United States,19.33,Chemistry ,Chemistry,Grad Student,2028
+586,29200,2022,University of Wisconsin - Madison,United States,18.37,Chemistry ,Chemistry,Grad Student,2024
+587,43860,2022,Harvard University,United States,23.93,Computer Science,Computer Science,Grad Student,2028
+588,34000,2022,Johns Hopkins University,United States,18.07,Unknown,Unknown,Grad Student,2026
+589,62000,2022,Icahn School of Medicine at Mount Sinai,United States,25.42,Oncological Sciences,Health,Postdoc,2019
+590,45000,2022,University of Rome,Italy,11.2,Industrial Engineering,Engineering,Assistant Professor,2019
+591,34000,2022,Georgia Institute of Technology,United States,19.02,Civil and Environmental Engineering,Engineering,Grad Student,2024
+592,75000,2021,Saint Joseph's University,United States,25.42,Mathematics and Computer Science,Mathematics,Associate Professor,2016
+593,65000,2022,State University of New York at New Paltz,United States,18.4,Mathematics,Mathematics,Assistant Professor,2016
+594,74000,2022,University of New South Wales,Australia,16.62,Chemistry,Chemistry,Postdoc,2013
+595,23000,2022,University of New Orleans,United States,16.79,Biology,Biology,Grad Student,2023
+596,58000,2022,Wake Forest University,United States,15.95,Spanish,Spanish,Lecturer,2016
+597,25000,2022,Florida State University,United States,16.18,Clinical Psychology,Psychology,Grad Student,2027
+598,12160,2022,Florida Atlantic University ,United States,17.67,History,History,Grad Student,2024
+599,38000,2022,University of Southern California,United States,21.89,Chemical Engineering and Materials Science,Material Science,Grad Student,2025
+600,31404,2022,Ohio State University,United States,16.53,Radiation Oncology,Health,Grad Student,2025
+601,81613,2022,University of Scranton,United States,15.54,History,History,Associate Professor,2012
+602,27000,2022,Florida International University,United States,18.21,Biology,Biology,Grad Student,2027
+603,18000,2019,Portland State University ,United States,21.6,Biology ,Biology,Grad Student,2024
+604,27435,2022,University of Minnesota,United States,18.74,Institute of Child Development,Health,Grad Student,2026
+605,128600,2022,University of New England,United States,19.37,Health professions,Health,Associate Professor,2006
+606,95000,2022,Private SLAC east coast ,United States,20,Humanities ,Humanities,Associate Professor,2013
+607,18296,2021,University of Missouri,United States,16.74,Psychological Sciences,Psychology,Grad Student,2023
+608,25000,2019,University of Missouri,United States,16.74,Psychological Sciences,Psychology,Grad Student,2023
+609,25000,2021,UMass Amherst,United States,17.22,Kinesiology,Health,Grad Student,2025
+610,32500,2022,University of Pittsburgh ,United States,16.47,Neuroscience,Neuroscience,Grad Student,2024
+611,66500,2022,University of Northern Colorado,United States,17.61,Geography and Sustainability,Geography,Associate Professor,2017
+612,15000,2022,University of Montreal,Canada,12.51,Economics,Economics,Grad Student,2025
+613,34000,2022,Rice University,United States,16.95,Mechanical Engineering,Engineering,Grad Student,2025
+614,37000,2022,UT Southwestern Medical Center,United States,17.82,Bioinformatics ,Biology,Grad Student,2022
+615,22908,2021,Washington State University,United States,14.74,Entomology,Biology,Grad Student,2023
+616,31800,2022,University of Notre Dame,United States,15.89,Biological Sciences,Biology,Grad Student,2027
+617,24000,2022,University of Central Florida ,United States,18.19,Department of Sociology ,Social Science,Grad Student,2023
+618,27425,2022,Indiana University,United States,16.66,Chemistry,Chemistry,Grad Student,2023
+619,32500,2022,Vanderbilt University,United States,17.63,Electrical Engineering,Engineering,Grad Student,2027
+620,36000,2023,University of Colorado - Boulder,United States,21.07,Engineering,Engineering,Grad Student,2027
+621,27000,2021,Indiana University,United States,16.66,History Department,History,Grad Student,2026
+622,48000,2021,Stanford University,United States,30.81,Geophysics ,Earth Sciences,Grad Student,2022
+623,38000,2022,University of Southern California,United States,21.89,Computer Science,Computer Science,Grad Student,2023
+624,39000,2022,Columbia University,United States,25.42,Sociology,Social Science,Grad Student,2025
+625,30000,2022,CUNY,United States,25.42,Latin American and Iberian cultures,Social Science,Grad Student,2027
+626,21700,2023,University of Georgia,United States,15.89,Mathematics ,Mathematics,Grad Student,2025
+627,9000,2021,Unknown,Unknown,20,Philosophy and Arts,Philosophy,Grad Student,2025
+628,31500,2022,University of Iowa,United States,17.47,Immunology,Health,Grad Student,2025
+629,26200,2022,University of South Florida,United States,17.71,Electrical Engineering ,Engineering,Grad Student,2027
+630,40000,2022,Cornell University,United States,19.33,Plant Breeding & Genetics,Biology,Grad Student,2024
+631,18000,2021,University of Toledo,United States,15.16,Psychology,Psychology,Grad Student,2026
+632,19181,2022,McGill University,Canada,12.51,Sociology,Social Science,Grad Student,2027
+633,28000,2018,Rutgers University,United States,21.07,Chemical Engineering,Chemistry,Grad Student,2019
+634,30000,2023,University of Virginia,United States,18.59,History,History,Grad Student,2023
+635,23000,2022,George Mason University,United States,22.98,Writing and Rhetoric,English,Grad Student,2025
+636,33000,2022,University of Pittsburgh ,United States,16.47,Department of Biomedical Informatics ,Biology,Grad Student,2025
+637,17000,2022,University of Cincinnati,United States,15.68,Criminal Justice,Political Science,Grad Student,2027
+638,20655,2022,University of Illinois Urbana-Champaign,United States,17.03,Psychology,Psychology,Grad Student,2027
+639,18432,2022,University of Calgary,Canada,13.63,Biological sciences,Biology,Grad Student,2028
+640,24000,2022,University of Alabama - Huntsville,United States,15.64,Atmospheric & Earth Science,Atmospheric Science,Grad Student,2025
+641,32000,2023,Loma Linda University ,United States,18.66,Department of Basic Sciences ,Science,Grad Student,2027
+642,31500,2022,Vanderbilt University,United States,17.63,Economics,Economics,Grad Student,2028
+643,25233,2022,University of Vienna,Austria,11.46,Musicology,Music,Grad Student,2025
+644,37000,2022,University of Kansas,United States,17.07,"Medical Center, Pharmacology/Toxicology",Chemistry,Grad Student,2025
+645,21000,2022,University of Iowa,United States,17.47,Computer Science,Computer Science,Grad Student,2027
+646,34745,2022,Max Planck Institute,Germany,14.06,Physics,Physics,Grad Student,2025
+647,6500,2022,St. John's University (MN),United States,16.66,School of Theology,Religion,Grad Student,2025
+648,34000,2023,Washington University - St. Louis,United States,16.73,Political Science,Political Science,Grad Student,2028
+649,16586,2022,Concordia University,Canada,12.51,Chemistry,Chemistry,Grad Student,2026
+650,31165,2022,University of Rochester ,United States,17.14,MD/PhD ,Health,Grad Student,2029
+651,18000,2021,Oregon State University,United States,19.08,Statistics,Mathematics,Grad Student,2025
+652,12000,2022,Clemson University,United States,17.3,"Department of Sociology, Anthropology, and Criminal Justice",Social Science,Grad Student,2023
+653,22000,2019,University of Miami,United States,18.21,Humanities,Humanities,Grad Student,2024
+654,45000,2022,University of Tennessee - Knoxville,United States,14.92,Chemistry,Chemistry,Postdoc,2021
+655,17308,2021,Binghamton University,United States,16.62,Economics ,Economics,Grad Student,2026
+656,57456,2021,Private R1 Midwest,United States,20,Related to health/biological sciences ,Health,Grad Student,2024
+657,18500,2022,University of Idaho,United States,15.4,College of Natural Resources,Science,Grad Student,2024
+658,30000,2022,Boise State University,United States,16.59,Materials Science ,Material Science,Grad Student,2024
+659,85000,2022,Private Midwest college,United States,20,Research,Science,Assistant Professor,2019
+660,130000,2022,Pennsylvania State University,United States,17.61,Laboratory,Science,Research Staff,2018
+661,35000,2022,University of Colorado - Boulder,United States,21.07,Chemistry,Chemistry,Grad Student,2027
+662,19000,2021,University of Houston ,United States,16.95,Education ,Education ,Grad Student,2022
+663,20000,2020,UT Austin,United States,18.04,Anthropology ,Anthropology ,Grad Student,2026
+664,32100,2018,Ohio State University,United States,16.53,Psychology,Psychology,Grad Student,2024
+665,45480,2022,Massachusetts Institute of Technology,United States,23.93,Chemistry,Chemistry,Grad Student,2026
+666,50380,2022,Stanford University,United States,30.81,Bioengineering,Biology,Grad Student,2026
+667,15000,2020,Auburn University,United States,14.87,History ,History,Grad Student,2025
+668,24000,2020,University of Montana,United States,16.7,"Cellular, Molecular, and Microbial Biology",Biology,Grad Student,2023
+669,18500,2021,Texas A&M University - Commerce,United States,17.82,Psychology,Psychology,Grad Student,2022
+670,31000,2020,Stony Brook University,United States,22.16,Atmospheric Science,Atmospheric Science,Grad Student,2025
+671,35810,2022,Okinawa Institute of Science and Technology,Japan,8.38,Cognitive Science,Neuroscience,Postdoc,2019
+672,12000,2022,Georgia State University ,United States,19.02,English,English,Grad Student,2023
+673,26156,2022,University of South Florida,United States,17.71,Chemistry,Chemistry,Grad Student,2026
+674,23500,2021,Louisiana State University,United States,17.01,Economics,Economics,Grad Student,2024
+675,75000,2022,Stanford University,United States,30.81,Electrical Engineering,Engineering,Postdoc,2020
+676,21000,2022,R1 public midwest US,United States,20,History ,History,Grad Student,2023
+677,30000,2022,Case Western Reserve University,United States,15.64,Chemical engineering ,Chemistry,Grad Student,2024
+678,240000,2022,University of Montana,United States,16.7,Division of Biological Sciences,Biology,Grad Student,2027
+679,18000,2022,Binghamton University,United States,16.62,History ,History,Grad Student,2023
+680,80000,2022,Private mid-level university in Tokyo,Japan,20,Linguistics,Linguistics,Associate Professor,2010
+681,115000,2022,UC San Francisco,United States,30.81,Pharmaceutical Chemistry,Chemistry,Adjunct Professor,2004
+682,66000,2022,University of North Texas,United States,17.82,Ethnomusicology,Music,Assistant Professor,2016
+683,16233,2022,University of British Columbia,Canada,16.65,Chemistry,Chemistry,Grad Student,2027
+684,48540,2022,Stanford University,United States,30.81,Engineering,Engineering,Grad Student,2026
+685,42000,2021,University of Washington ,United States,19.81,Biochemistry,Chemistry,Grad Student,2026
+686,144900,2022,UC Irvine,United States,24.92,Clinical Pharmacy Practice,Health,Assistant Professor,2016
+687,41000,2022,University of Washington,United States,19.81,Biochemistry ,Chemistry,Grad Student,2022
