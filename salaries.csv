@@ -527,7 +527,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 525,80000,2021,Auburn University,United States,14.87,Mathematics & Statistics,Mathematics,Assistant Professor,2018
 526,23484,2022,Utah State University,United States,15.18,Biology,Biology,Grad Student,2025
 527,33000,2019,University of Pittsburgh ,United States,16.47,Neurobiology,Biology,Research Staff,2020
-528,30800,2022,DePaul University,United States,19.29,Sociology ,Social Science,Adjunct Professor,2017
+528,30800,2022,DePaul University,United States,19.29,Sociology ,Social Science,Lecturer,2017
 529,79310,2022,University of Florida,United States,16.38,Agricultural and Life Sciences ,Agriculture,Lecturer,2019
 530,18000,2022,Trinity College Dublin ,Ireland,16.51,Botany ,Biology,Grad Student,2025
 531,66500,2022,Stanford University,United States,30.81,Cardiovascular Institute,Health,Postdoc,2022
@@ -677,10 +677,10 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 675,75000,2022,Stanford University,United States,30.81,Electrical Engineering,Engineering,Postdoc,2020
 676,21000,2022,R1 public midwest US,United States,20,History ,History,Grad Student,2023
 677,30000,2022,Case Western Reserve University,United States,15.64,Chemical engineering ,Chemistry,Grad Student,2024
-678,240000,2022,University of Montana,United States,16.7,Division of Biological Sciences,Biology,Grad Student,2027
+678,24000,2022,University of Montana,United States,16.7,Division of Biological Sciences,Biology,Grad Student,2027
 679,18000,2022,Binghamton University,United States,16.62,History ,History,Grad Student,2023
 680,80000,2022,Private mid-level university in Tokyo,Japan,20,Linguistics,Linguistics,Associate Professor,2010
-681,115000,2022,UC San Francisco,United States,30.81,Pharmaceutical Chemistry,Chemistry,Adjunct Professor,2004
+681,115000,2022,UC San Francisco,United States,30.81,Pharmaceutical Chemistry,Chemistry,Lecturer,2004
 682,66000,2022,University of North Texas,United States,17.82,Ethnomusicology,Music,Assistant Professor,2016
 683,16233,2022,University of British Columbia,Canada,16.65,Chemistry,Chemistry,Grad Student,2027
 684,48540,2022,Stanford University,United States,30.81,Engineering,Engineering,Grad Student,2026
