@@ -191,7 +191,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 189,60000,2022,Tennessee State University,United States,17.63,"Languages, Literature, Philosophy",English,Assistant Professor,2019
 190,56000,2022,University of South Carolina,United States,17.7,Neuroscience ,Neuroscience,Postdoc,2019
 191,46000,2022,University of Chicago,United States,19.29,Social Work,Social Science,Grad Student,2024
-192,48000,2022,State University of New York at Albany,United States,18,Biology,Biology,Postdoc,2019
+192,48000,2022,SUNY Albany,United States,18,Biology,Biology,Postdoc,2019
 193,40000,2021,Stanford University,United States,30.81,Medicine,Health,Grad Student,2022
 194,24000,2022,Cleveland State University,United States,15.64,Electrical Engineering,Engineering,Grad Student,2028
 195,115000,2022,Vanderbilt University,United States,17.63,Nursing,Nursing,Assistant Professor,2011
@@ -342,7 +342,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 340,65000,2022,United States Forest Service,United States,22.07,Pacific Northwest Research Station,Environment,Postdoc,2020
 341,80800,2022,Hawaii Pacific University,United States,22.69,Marine Science,Biology,Assistant Professor,2017
 342,30000,2022,Boston College,United States,24.7,Psychology & Neuroscience,Psychology,Grad Student,2023
-343,78000,2022,Iowa State University ,United States,17.58,Geological and Atmospheric Sciences ,Geology,Assistant Professor,2017
+343,78000,2022,Iowa State University,United States,17.58,Geological and Atmospheric Sciences ,Geology,Assistant Professor,2017
 344,25290,2022,Syracuse University,United States,16.75,Earth and Environmental Sciences,Earth Sciences,Grad Student,2023
 345,135000,2022,Public R1 US West Coast,United States,20,Earth and Space,Earth Sciences,Research Staff,1999
 346,198600,2022,University of Illinois Urbana-Champaign,United States,17.03,Atmospheric Sciences,Atmospheric Science,Full Professor,2003
@@ -473,7 +473,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 471,64000,2020,University of North Carolina - Wilmington,United States,16.95,Biology & Marine Biology,Biology,Assistant Professor,2016
 472,36000,2022,Friedrich Alexander University,Germany,9,Physics,Physics,Grad Student,2025
 473,11400,2022,University of Waterloo,Canada,13.82,Combinatorics and Optimization,Mathematics,Grad Student,2025
-474,70000,2022,"Private university in Nashville, TN",United States,20,Engineering,Engineering,Lecturer,2015
+474,70000,2022,"Private university in Nashville, TN",United States,17.63,Engineering,Engineering,Lecturer,2015
 475,86000,2022,University of New England,United States,19.37,Mathematics,Mathematics,Full Professor,2010
 476,35000,2022,Pennsylvania State University,United States,17.61,Sociology and Criminology ,Social Science,Grad Student,2027
 477,30000,2022,Michigan State University,United States,16.69,Teacher Education,Education,Grad Student,2027
@@ -504,7 +504,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 502,38000,2022,Stevens Institute of Technology,United States,23.75,Biomedical Engineering,Health,Grad Student,2024
 503,35000,2018,University of Pittsburgh ,United States,16.47,Geology and Environmental Science,Earth Sciences,Grad Student,2020
 504,22000,2022,University of British Columbia,Canada,16.65,Bioinformatics,Biology,Grad Student,2025
-505,19000,2022,State University of New York at Albany,United States,18,Political Science,Political Science,Grad Student,2025
+505,19000,2022,SUNY Albany,United States,18,Political Science,Political Science,Grad Student,2025
 506,24000,2022,University of Edinburgh,United Kingdom,12.28,Chemistry,Chemistry,Grad Student,2024
 507,19300,2022,University of Glasgow,United Kingdom,11.11,"School of Biodiversity, One Health & Veterinary Medicine",Health,Grad Student,2024
 508,28000,2022,Tulane University ,United States,16.79,Epidemiology ,Health,Grad Student,2027
@@ -592,7 +592,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 590,45000,2022,University of Rome,Italy,11.2,Industrial Engineering,Engineering,Assistant Professor,2019
 591,34000,2022,Georgia Institute of Technology,United States,19.02,Civil and Environmental Engineering,Engineering,Grad Student,2024
 592,75000,2021,Saint Joseph's University,United States,25.42,Mathematics and Computer Science,Mathematics,Associate Professor,2016
-593,65000,2022,State University of New York at New Paltz,United States,18.4,Mathematics,Mathematics,Assistant Professor,2016
+593,65000,2022,SUNY New Paltz,United States,18.4,Mathematics,Mathematics,Assistant Professor,2016
 594,74000,2022,University of New South Wales,Australia,16.62,Chemistry,Chemistry,Postdoc,2013
 595,23000,2022,University of New Orleans,United States,16.79,Biology,Biology,Grad Student,2023
 596,58000,2022,Wake Forest University,United States,15.95,Spanish,Spanish,Lecturer,2016
@@ -778,7 +778,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 776,11478,2022,Western University,Canada,12.4,Biomedical Engineering,Health,Grad Student,2023
 777,1481,2022,University of Prince Edward Island,Canada,12.43,Science ,Science,Grad Student,2025
 778,35370,2022,University of Pennsylvania,United States,17.87,Physics,Physics,Grad Student,2024
-779,129000,2023,James Madison University ,United States,16.65,Marketing ,Business,Assistant Professor,2023
+779,129000,2023,James Madison University,United States,16.65,Marketing ,Business,Assistant Professor,2023
 780,78000,2016,University of Hawaii,United States,22.69,Medicine,Health,Assistant Professor,2013
 781,38253,2022,Boston University,United States,22.56,Earth and Environment,Earth Sciences,Grad Student,2027
 782,42258,2022,University of Washington,United States,19.81,Neuroscience,Neuroscience,Grad Student,2025
@@ -817,3 +817,102 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 815,34500,2022,Washington University - St. Louis,United States,16.73,Division of Biology and Biomedical Sciences,Biology,Grad Student,2026
 816,130000,2022,University of Michigan,United States,19.12,Survey research center,Business,Assistant Professor,2021
 817,98000,2022,Mount Holyoke College,United States,17.22,Psychology,Psychology,Associate Professor,2007
+818,34000,2022,Columbia University,United States,25.42,Political Science,Political Science,Grad Student,2022
+819,40000,2021,Purdue University,United States,16.16,"Earth, Atmospheric, and Planetary Sciences",Earth Sciences,Grad Student,2024
+820,30000,2022,University of Illinois Urbana-Champaign,United States,17.03,"Nuclear, Plasma and Radiological Engineering",Engineering,Grad Student,2026
+821,53530,2022,University College Dublin,Ireland,16.51,Psychology,Psychology,Research Staff,2016
+822,31000,2022,Georgia Institute of Technology,United States,19.02,Earth Sciences,Earth Sciences,Grad Student,2027
+823,95000,2022,Midwest Private R2,United States,20,Art,Art,Full Professor,1998
+824,89000,2022,CSU Channel Islands,United States,21.11,Environmental Science & Resource Management,Environment,Assistant Professor,2019
+825,69000,2022,University of Louisville,United States,16.02,Geography,Geography,Assistant Professor,2016
+826,60000,2022,Black Hills State University,United States,15.07,Natural Sciences,Natural Sciences,Assistant Professor,2013
+827,97000,2021,Northern Virginia Community College,United States,22.98,English,English,Full Professor,2012
+828,96000,2022,CSU Fullerton,United States,24.92,Mechanical Engineering,Engineering,Assistant Professor,2018
+829,59000,2022,Community College,United States,20,English,English,Full Professor,2008
+830,80000,2022,Georgia State University,United States,19.02,Biology,Biology,Lecturer,1993
+831,127000,2022,Ohio State University,United States,16.53,Neurology,Health,Assistant Professor,2020
+832,130000,2020,Pennsylvania State University,United States,17.61,Architectural engineering ,Engineering,Assistant Professor,2020
+833,175000,2018,UC San Francisco,United States,30.81,Basic science / biology ,Biology,Assistant Professor,2011
+834,7000,2022,Christopher Newport University,United States,18.68,Computer Science,Computer Science,Lecturer,2015
+835,53000,2022,Nevada State College,United States,16.33,"Data, Media, and Design (Mathematics)",Mathematics,Lecturer,2020
+836,85500,2022,California State University,United States,20,Biology,Biology,Assistant Professor,2012
+837,97000,2022,Colby College,United States,17.05,Statistics,Mathematics,Assistant Professor,2017
+838,87000,2021,Eastern Michigan University,United States,19.12,Economics,Economics,Assistant Professor,2021
+839,69000,2022,SUNY Geneseo,United States,17.14,Sociology,Social Science,Associate Professor,2014
+840,26000,2022,Baylor University,United States,16.95,Engineering,Engineering,Grad Student,2023
+841,75000,2022,Indiana University ,United States,16.66,French and Italian,Languages,Assistant Professor,2020
+842,80000,2022,Public R1 US Midwest,United States,20,Biochemistry,Chemistry,Research Staff,2019
+843,92000,2022,Loyola Marymount University,United States,21.89,Math ,Mathematics,Associate Professor,2011
+844,91200,2022,University of Miami,United States,18.21,School of Nursing & Health Studies ,Health,Associate Professor,2014
+845,96890,2022,University of Delaware,United States,18.24,Communication ,Communication,Associate Professor,2015
+846,79000,2022,"Private M1, Northeast",United States,20,Natural sciences,Natural Sciences,Associate Professor,2010
+847,20093,2022,UC Irvine,United States,24.92,Political Science,Political Science,Grad Student,2024
+848,70000,2022,University College Dublin,Ireland,16.51,Geography,Geography,Assistant Professor,2018
+849,62000,2022,Carnegie Mellon University ,United States,16.47,Neuroscience Institute,Neuroscience,Postdoc,2020
+850,19500,2022,Temple University,United States,17.87,Philosophy ,Philosophy,Grad Student,2028
+851,25400,2022,Oxford University,United Kingdom,12.8,Engineering,Engineering,Grad Student,2024
+852,101000,2022,University of Georgia,United States,15.89,College of Agriculture and Environmental Science ,Environment,Assistant Professor,2012
+853,76008,2019,CSU Los Angeles,United States,21.89,Music,Music,Assistant Professor,2019
+854,25793,2022,University of Victoria,Canada,13.81,Political Science,Political Science,Grad Student,2026
+855,54000,2022,Carson Newman University,United States,14.51,Education ,Education,Full Professor,2001
+856,76236,2022,University of Manchester,United Kingdom,12.78,"Faculty of biology, medicine and health",Biology,Research Staff,0
+857,12999,2022,Public R2 US south,United States,20,Biology,Biology,Grad Student,2023
+858,72000,2022,Duquesne University,United States,16.47,Natural sciences,Natural Sciences,Associate Professor,2008
+859,66664,2022,University of Canterbury,New Zealand,11.9,Political Science,Political Science,Lecturer,2021
+860,46000,2022,Augustana College,United States,15.48,Biology,Biology,Other (please specify in comments at end of form),2021
+861,93200,2022,University of the Pacific,United States,17.81,Political Science,Political Science,Full Professor,1996
+862,168000,2021,University of Washington,United States,19.81,Genome Sciences,Biology,Associate Professor,2007
+863,24000,2022,Clemson University,United States,17.3,Biological Sciences,Biology,Grad Student,2026
+864,84000,2022,"Public, R1, Mid South US",Unknown,20,Geosciences,Earth Sciences,Associate Professor,1992
+865,62757,2022,Valparaiso University,United States,15.83,Arts and Sciences,Science,Associate Professor,2009
+866,64000,2022,Duke University,United States,18.64,Music,Music,Full Professor,2003
+867,64000,2022,Regional state university ,United States,20,Criminal justice ,Criminology,Assistant Professor,2019
+868,17000,2022,Palacky University,Czechia,6.09,Faculty of Arts,Art,Assistant Professor,2016
+869,60000,2022,Johns Hopkins University,United States,18.07,"Bloomberg School of Public Health, Health Policy and Management",Health,Postdoc,2021
+870,52700,2022,Aquinas College,United States,17.63,Theatre,Art,Assistant Professor,2023
+871,25000,2022,Idaho State University,United States,15.28,Geosciences,Earth Sciences,Grad Student,2025
+872,25000,2022,Boston College,United States,24.7,Political Science,Political Science,Grad Student,2026
+873,110000,2022,Private SLAC northeast,United States,20,Physics,Physics,Full Professor,2003
+874,65000,2022,Florida A&M University,United States,16.18,English,English,Assistant Professor,2020
+875,63685,2022,Unkown,United States,20,Sociology,Social Science,Assistant Professor,2016
+876,87000,2022,Rowan University,United States,18.25,English,English,Associate Professor,2013
+877,105500,2022,CSU Northridge,United States,24.92,Communication Studies,Communication,Full Professor,2011
+878,95447,2022,"SLAC, California",United States,20,Biological Sciences,Biology,Assistant Professor,2014
+879,203000,2022,University of Pittsburgh,United States,16.47,Business School,Business,Assistant Professor,2019
+880,96000,2022,Towson University,United States,18.07,Film,Art,Full Professor,2009
+881,55000,2010,Towson University,United States,18.07,Film,Art,Assistant Professor,2009
+882,63000,2022,High Point University,United States,16.71,Psychology ,Psychology,Assistant Professor,2019
+883,63000,2022,University of Chicago,United States,19.29,Romance Languages and Literatures ,Languages,Lecturer,2018
+884,27600,2021,Colorado State University,United States,18.97,Electrical Engineering,Engineering,Grad Student,2026
+885,45000,2022,Rockhurst University ,United States,17.19,Biology,Biology,Assistant Professor,2011
+886,53000,2022,University of South Alabama,United States,16.05,Marine and Environmental Sciences,Environment,Postdoc,2022
+887,56000,2020,Louisiana Tech University,United States,15.43,Humanities,Humanities,Assistant Professor,2020
+888,62000,2021,University of Memphis,United States,15.37,Humanities,Humanities,Assistant Professor,2020
+889,60000,2021,Florida A&M University,United States,16.18,Engineering,Engineering,Lecturer,2020
+890,10000,2019,SUNY Buffalo,United States,17.49,Arts,Art,Lecturer,2020
+891,79000,2022,Baylor University,United States,16.95,Journalism,English,Assistant Professor,2017
+892,75000,2022,Vancouver Community College,Canada,16.65,Business,Business,Full Professor,2010
+893,27000,2022,CUNY,United States,25.42,Anthropology ,Anthropology ,Grad Student,2027
+894,78000,2022,"Community College,  Major Metropolitan Area, Texas, US",United States,20,Earth Science,Earth Sciences,Full Professor,2006
+895,105000,2022,Drexel University,United States,17.87,Computer Science,Computer Science,Lecturer,2023
+896,16000,2022,Texas A&M University,United States,15.34,Anthropology,Anthropology ,Grad Student,2023
+897,90000,2017,Umass Boston ,United States,22.56,Nursing,Nursing,Assistant Professor,2015
+898,34500,2022,Washington University - St. Louis,United States,16.73,Division of Biology and Biomedical Sciences,Health,Grad Student,2023
+899,104000,2022,Jesuit teaching university midwest ,United States,20,Analytics,Business,Assistant Professor,2020
+900,95000,2022,CSU San Bernardino,United States,18.66,English,English,Full Professor,2007
+901,54312,2022,Vanderbilt University,United States,17.63,Peabody College,Education,Research Staff,2020
+902,137000,2022,Brown University,United States,17.72,Behavioral Science,Social Science,Assistant Professor,2013
+903,17838,2022,University of Wyoming,United States,14.64,Mathematics,Mathematics,Grad Student,2026
+904,3500,2018,University of California,United States,20,Department of Computer Science,Computer Science,Research Staff,2020
+905,36495,2022,Helmholtz Centre for Infection Research,Germany,8.39,Biology,Biology,Grad Student,2023
+906,73000,2022,Private,Unknown,20,Animation,Art,Associate Professor,2015
+907,126000,2022,Massachusetts General Hospital ,United States,22.56,"Institute of Health Professions, Nursing",Nursing,Associate Professor,2015
+908,68000,2022,University of Chicago ,United States,19.29,Organismal Biology and Anatomy ,Biology,Postdoc,2018
+909,91000,2020,University of Delaware,United States,18.24,Psychology,Psychology,Assistant Professor,2012
+910,92000,2022,Tufts University,United States,23.93,Mechanical engineering ,Engineering,Lecturer,2019
+911,92500,2022,Mercer University,United States,14.85,School of Medicine ,Health,Assistant Professor,2017
+912,92000,2022,UT San Antonio ,United States,18.04,Educational psychology ,Psychology,Associate Professor,2015
+913,86500,2022,Penn State Erie,United States,15.79,Plastics Engineering Technology,Engineering,Assistant Professor,2017
+914,76000,2022,University of Southern Mississippi,United States,21.89,Chemistry and Biochemistry,Chemistry,Associate Professor,2005
+915,72000,2022,Florida Atlantic University ,United States,17.67,Communication,Communication,Assistant Professor,2018
+916,58000,2022,Royal Holloway University of London,United Kingdom,20,Biological sciences,Biology,Lecturer,2011
