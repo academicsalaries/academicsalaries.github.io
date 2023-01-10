@@ -5,7 +5,7 @@ let posColors = {
     "Lecturer": "#ffd700",       // gold
     "Assistant Professor": "#f46a9b", // pink
     "Associate Professor": "#27aeef", // blue
-    "Full Professor": "#b33dc6"       // purple
+    "Full Professor": "#b33dc6",      // purple
 }
 
 let posEnum = {
@@ -15,7 +15,17 @@ let posEnum = {
     "Lecturer": 4,
     "Assistant Professor": 5,
     "Associate Professor": 6,
-    "Full Professor": 7
+    "Full Professor": 7,
+}
+
+let posNames = {
+    1 : "Grad Student",
+    2 : "Postdoc",
+    3 : "Research Staff",
+    4 : "Lecturer",
+    5 : "Assistant Professor",
+    6 : "Associate Professor",
+    7 : "Full Professor",
 }
 
 d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.github.io/main/salaries.csv", function(d) {
@@ -40,7 +50,8 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
   }).then(function(salaryData) {	
 console.log(salaryData);	   
 // CHART BELOW:
-    
+
+// Basic Variables    
 let svg = d3.select("#plotSVG")
   .style("overflow","visible")
   .append("g")
@@ -59,6 +70,23 @@ let yVar = document.getElementById("select-y-var").value;
 
 let linear = true;
 let noscatter = true;
+
+// Quantiles:
+let posMedians = [0,0,0,0,0,0,0];
+
+function calcQuantiles() {
+  if(xVar == "posEnum") {
+    for (i = 0; i < posMedians.length; i++) {  
+      let posSorted = salaryData
+        .filter(d => d.posEnum === i+1)
+        .map(d => d[yVar])
+        .sort(d3.ascending);
+	  posMedians[i] = d3.quantileSorted(posSorted, 0.5);
+    }
+    console.log(posMedians);
+  }
+  return posMedians;
+}
 
 // Filters:
 let f1university = document.getElementById("filter1-university").value;
@@ -104,17 +132,18 @@ function visColor(d) {
 
 // rescale the y-axis
 function rescaleY() {
-	if (linear) {
-		yScale = d3.scaleLinear()
-		.domain([ (d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)-d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)>30000) ? 0 : 
-		d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
-		.range([500, 0]);
-	}
-	else {
-		yScale = d3.scaleLog()
-		.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
-		.range([500, 0]);
-	}
+  if (linear) {
+  	yScale = d3.scaleLinear()
+  	.domain([ (d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)-d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)>30000) ? 0 : 
+  	d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
+  	.range([500, 0]);
+  }
+  else {
+  	yScale = d3.scaleLog()
+  	.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
+  	.range([500, 0]);
+  } 
+  calcQuantiles();
 }
 // rescale the x-axis
 function rescaleX() {
@@ -142,6 +171,19 @@ svg.append("g")
           .tickFormat(d3.format("d"))
           .tickSizeOuter(0)
        )
+       
+// Median Data
+for (i = 0; i < posMedians.length; i++) {  
+  svg.append("line")
+    .attr("class", "quantile")
+    .style("stroke", posColors[posNames[i+1]])
+    .style("stroke-width", 4)
+    .attr("x1", xScale(i+0.55))
+    .attr("y1", yScale(posMedians[i]))
+    .attr("x2", xScale(i+1.45))
+    .attr("y2", yScale(posMedians[i]))
+    .attr("opacity",1);  
+}  
 
 // Point Data
 svg.selectAll(".bubble")
@@ -246,6 +288,14 @@ function transition() {
       .transition()
       .duration(1000)
       .attr("transform", d => "translate(" + (xScale(d[xVar])+20) + ", " +  yScale(d[yVar]) + ")" )
+  // quantiles
+    svg.selectAll(".quantile")
+      .attr("opacity", xVar=="posEnum" ? 1 : 0)
+    svg.selectAll(".quantile")
+      .transition()
+      .duration(1000)
+      .attr("y1", (d,i) => yScale(posMedians[i]) )   
+      .attr("y2", (d,i) => yScale(posMedians[i]) )   
 }
 
 // redraw the y-axis
