@@ -150,6 +150,11 @@ function rescaleX() {
   xScale = d3.scaleLinear()
     .domain([d3.min(salaryData, d => (visGroup(d)) ? d[xVar] : 9999)-1, d3.max(salaryData, d => (visGroup(d)) ? d[xVar] : 0)+1 ])    
     .range([0, Math.min(window.innerWidth-100,600)]);
+  if (xVar == "posEnum") {
+    xScale = d3.scaleLinear()
+      .domain([0,8])
+      .range([0, Math.min(window.innerWidth-100,600)]);
+  }
 }
   
 rescaleX();
