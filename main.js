@@ -294,8 +294,10 @@ function transition() {
     svg.selectAll(".quantile")
       .transition()
       .duration(1000)
-      .attr("y1", (d,i) => yScale(posMedians[i]) )   
-      .attr("y2", (d,i) => yScale(posMedians[i]) )   
+      .attr("x1", xScale(i+0.55))
+      .attr("y1", yScale(posMedians[i]))
+      .attr("x2", xScale(i+1.45))
+      .attr("y2", yScale(posMedians[i]))
 }
 
 // redraw the y-axis
