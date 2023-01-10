@@ -67,26 +67,32 @@ let yScale = d3.scaleLinear()
 
 let xVar = document.getElementById("select-x-var").value;
 let yVar = document.getElementById("select-y-var").value;
+let yVar_prev = "";
 
 let linear = true;
 let noscatter = true;
 
 // Quantiles:
-let posMedians = [0,0,0,0,0,0,0];
+let posQ1 = [0,0,0,0,0,0,0];
+let posQ2 = [0,0,0,0,0,0,0];
+let posQ3 = [0,0,0,0,0,0,0];
 
 function calcQuantiles() {
-  if(xVar == "posEnum") {
-    for (i = 0; i < posMedians.length; i++) {  
+  if(xVar == "posEnum" && yVar_prev != yVar) {
+    for (i = 0; i < posQ2.length; i++) {  
       let posSorted = salaryData
         .filter(d => d.posEnum === i+1)
         .map(d => d[yVar])
         .sort(d3.ascending);
-	  posMedians[i] = d3.quantileSorted(posSorted, 0.5);
+	  posQ1[i] = d3.quantileSorted(posSorted, 0.25);
+	  posQ2[i] = d3.quantileSorted(posSorted, 0.5);
+	  posQ3[i] = d3.quantileSorted(posSorted, 0.75);
     }
-    console.log(posMedians);
+    yVar_prev = yVar;
   }
-  return posMedians;
 }
+
+calcQuantiles();
 
 // Filters:
 let f1university = document.getElementById("filter1-university").value;
@@ -135,12 +141,12 @@ function rescaleY() {
   if (linear) {
   	yScale = d3.scaleLinear()
   	.domain([ (d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)-d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)>30000) ? 0 : 
-  	d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
+  	d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : posQ1[0])-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : posQ3[6])+1000 ])    
   	.range([500, 0]);
   }
   else {
   	yScale = d3.scaleLog()
-  	.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)+1000 ])    
+  	.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : posQ1[0])-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : posQ3[6])+1000 ])    
   	.range([500, 0]);
   } 
   calcQuantiles();
@@ -159,6 +165,7 @@ function rescaleX() {
   
 rescaleX();
 rescaleY();
+console.log(posQ2);
 
 // format axes
 svg.append("g")   // the axis will be contained in an SVG group element
@@ -177,18 +184,40 @@ svg.append("g")
           .tickSizeOuter(0)
        )
        
-// Median Data
-for (i = 0; i < posMedians.length; i++) {  
+// Quantile Data
+for (i = 0; i < posQ1.length; i++) {  
   svg.append("line")
-    .attr("class", "quantile")
+    .attr("class", "quantile1")
     .style("stroke", posColors[posNames[i+1]])
-    .style("stroke-width", 4)
+    .style("stroke-width", 1)
     .attr("x1", xScale(i+0.55))
-    .attr("y1", yScale(posMedians[i]))
+    .attr("y1", yScale(posQ1[i]))
     .attr("x2", xScale(i+1.45))
-    .attr("y2", yScale(posMedians[i]))
+    .attr("y2", yScale(posQ1[i]))
     .attr("opacity",1);  
-}  
+}
+for (i = 0; i < posQ2.length; i++) {  
+  svg.append("line")
+    .attr("class", "quantile2")
+    .style("stroke", posColors[posNames[i+1]])
+    .style("stroke-width", 3)
+    .attr("x1", xScale(i+0.55))
+    .attr("y1", yScale(posQ2[i]))
+    .attr("x2", xScale(i+1.45))
+    .attr("y2", yScale(posQ2[i]))
+    .attr("opacity",1);  
+}
+for (i = 0; i < posQ3.length; i++) {  
+  svg.append("line")
+    .attr("class", "quantile3")
+    .style("stroke", posColors[posNames[i+1]])
+    .style("stroke-width", 1)
+    .attr("x1", xScale(i+0.55))
+    .attr("y1", yScale(posQ3[i]))
+    .attr("x2", xScale(i+1.45))
+    .attr("y2", yScale(posQ3[i]))
+    .attr("opacity",1);  
+}
 
 // Point Data
 svg.selectAll(".bubble")
@@ -294,15 +323,33 @@ function transition() {
       .duration(1000)
       .attr("transform", d => "translate(" + (xScale(d[xVar])+20) + ", " +  yScale(d[yVar]) + ")" )
   // quantiles
-    svg.selectAll(".quantile")
+    svg.selectAll(".quantile1")
       .attr("opacity", xVar=="posEnum" ? 1 : 0)
-    svg.selectAll(".quantile")
+    svg.selectAll(".quantile1")
       .transition()
       .duration(1000)
       .attr("x1", (d,i) => xScale(i+0.55))
-      .attr("y1", (d,i) => yScale(posMedians[i]))
+      .attr("y1", (d,i) => yScale(posQ1[i]))
       .attr("x2", (d,i) => xScale(i+1.45))
-      .attr("y2", (d,i) => yScale(posMedians[i]))
+      .attr("y2", (d,i) => yScale(posQ1[i]))
+    svg.selectAll(".quantile1")
+      .attr("opacity", xVar=="posEnum" ? 1 : 0)
+    svg.selectAll(".quantile2")
+      .transition()
+      .duration(1000)
+      .attr("x1", (d,i) => xScale(i+0.55))
+      .attr("y1", (d,i) => yScale(posQ2[i]))
+      .attr("x2", (d,i) => xScale(i+1.45))
+      .attr("y2", (d,i) => yScale(posQ2[i]))
+    svg.selectAll(".quantile1")
+      .attr("opacity", xVar=="posEnum" ? 1 : 0)
+    svg.selectAll(".quantile3")
+      .transition()
+      .duration(1000)
+      .attr("x1", (d,i) => xScale(i+0.55))
+      .attr("y1", (d,i) => yScale(posQ3[i]))
+      .attr("x2", (d,i) => xScale(i+1.45))
+      .attr("y2", (d,i) => yScale(posQ3[i]))
 }
 
 // redraw the y-axis
