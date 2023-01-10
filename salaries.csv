@@ -146,7 +146,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 144,127000,2023,Argonne National Laboratory,United States,19.29,Mathematics and Computer Science Division,Computer Science,Research Staff,2019
 145,115000,2023,Pennsylvania State University,United States,17.61,Information Science and Technology,Computer Science,Assistant Professor,2019
 146,55600,2022,UC San Diego,United States,22.74,Political Science,Political Science,Postdoc,2022
-147,45500,2022,Massachusetts Institute of Technology,United States,23.93,Aeronautics and Astronautics,Aeronautics,Grad Student,2025
+147,45500,2022,Massachusetts Institute of Technology,United States,23.93,Aeronautics and Astronautics,Engineering,Grad Student,2025
 148,45000,2022,Istituto Italiano di Tecnologia - Genova,Italy,8.94,Unknown,Unknown,Postdoc,2022
 149,68000,2022,Stanford University,United States,30.81,School of Medicine,Health,Postdoc,2022
 150,74000,2022,University of Hamburg,Germany,12.73,Unknown,Unknown,Postdoc,2022
@@ -776,7 +776,7 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 774,8500,2022,Wichita State University,United States,15.91,Psychology,Psychology,Grad Student,2025
 775,41000,2022,University of Washington,United States,19.81,Biochemistry,Chemistry,Grad Student,2027
 776,11478,2022,Western University,Canada,12.4,Biomedical Engineering,Health,Grad Student,2023
-777,1481,2022,University of Prince Edward Island,Canada,12.43,Science,Science,Grad Student,2025
+777,17772,2022,University of Prince Edward Island,Canada,12.43,Science,Science,Grad Student,2025
 778,35370,2022,University of Pennsylvania,United States,17.87,Physics,Physics,Grad Student,2024
 779,129000,2023,James Madison University,United States,16.65,Marketing,Business,Assistant Professor,2023
 780,78000,2016,University of Hawaii,United States,22.69,Medicine,Health,Assistant Professor,2013
@@ -916,3 +916,44 @@ id,salary,year,university,country,livingwage,department,field,position,phd
 914,76000,2022,University of Southern Mississippi,United States,21.89,Chemistry and Biochemistry,Chemistry,Associate Professor,2005
 915,72000,2022,Florida Atlantic University,United States,17.67,Communication,Communication,Assistant Professor,2018
 916,58000,2022,Royal Holloway University of London,United Kingdom,20,Biological sciences,Biology,Lecturer,2011
+917,64000,2021,College of the Holy Cross,United States,18.79,Theatre,Art,Assistant Professor,2007
+918,86900,2022,ETH Zurich,Switzerland,20.93,Information Technology and Electrical Engineering,Engineering,Grad Student,2023
+919,127038.67,2021,University of Arkansas,United States,15.62,Civil Engineering,Engineering,Assistant Professor,2017
+920,108000,2017,University of Arkansas,United States,15.62,Civil Engineering,Engineering,Assistant Professor,2017
+921,184000,2022,University of Indianapolis ,United States,16.35,Engineering ,Engineering,Associate Professor,2012
+922,98333,2021,University of Florida,United States,16.38,Chemical Engineering,Chemistry,Assistant Professor,2017
+923,99000,2022,Public R1 US Midwest,United States,20,Humanities,Humanities,Associate Professor,2009
+924,82000,2022,Dickinson College,United States,16,Psychology,Psychology,Assistant Professor,2013
+925,72500,2022,Leiden University,Netherlands,13.78,Observatory,Astrophysics,Assistant Professor,2016
+926,3795,2022,Immaculata University,United States,17.87,Academic Affairs,Education,Lecturer,2001
+927,56700,2022,Valparaiso University,United States,15.83,English,English,Associate Professor,2011
+928,161441,2022,Wayne State University,United States,16.59,School of Business,Business,Assistant Professor,2014
+929,84642,2022,Stockton University,United States,17.81,School of Natural Sciences and Mathematics,Science,Assistant Professor,2013
+930,22000,2021,University of Montana,United States,16.7,Geoscience,Earth Sciences,Grad Student,2025
+931,49800,2022,Stanford University,United States,30.81,Economics,Economics,Grad Student,2028
+932,110000,2022,Colgate University,United States,16.75,Social Sciences,Social Science,Associate Professor,2014
+933,86000,2021,Colgate University,United States,16.75,Natural Sciences,Natural Sciences,Assistant Professor,2012
+934,31600,2022,Georgia Institute of Technology,United States,19.02,Aerospace Engineering ,Engineering,Grad Student,2023
+935,53000,2023,Drexel University,United States,17.87,Modern Languages,Languages,Lecturer,1991
+936,68000,2021,"State university (small comprehensive), NY",United States,20,Psychology ,Psychology,Associate Professor,2014
+937,3300,2022,Carnegie Mellon University,United States,16.47,Mechanical Engineering,Engineering,Grad Student,2025
+938,2000,2022,University at Buffalo,United States,17.49,Learning and Instruction,Education,Lecturer,2025
+939,25000,2022,Arizona State University,United States,18.08,School of Molecular Sciences,Chemistry,Grad Student,2024
+940,55000,2022,University of Virginia,United States,18.59,Biophysics,Biology,Postdoc,2018
+941,151000,2022,SUNY Upstate,United States,16.75,Biosciences,Biology,Associate Professor,2000
+942,220000,2022,Hong Kong Baptist University,China,20.45,Communication Studies,Communication,Full Professor,1997
+943,83858,2022,Rochester Institute of Technology,United States,17.14,Physics and Astronomy,Physics,Assistant Professor,2016
+944,52000,2022,Rochester Institute of Technology,United States,17.14,Physics and Astronomy,Physics,Lecturer,2018
+945,61800,2021,Princeton University,United States,19.12,Princeton Institute for International and Regional Studies,Social Science,Postdoc,2021
+946,86500,2022,University of Nevada,United States,16.5,Geography,Geography,Associate Professor,2011
+947,55600,2023,Cornell University,United States,19.33,Earth and Atmospheric Sciences,Earth Sciences,Postdoc,2022
+948,37800,2021,Cornell University,United States,19.33,Earth and Atmospheric Sciences,Earth Sciences,Grad Student,2022
+949,45300,2022,University of Maryland - College Park,United States,22.65,Center for Environmental Science,Environment,Grad Student,2026
+950,70000,2022,SETI Institute,United States,29.32,Carl Sagan Institute for Life in the Universe,Astrophysics,Postdoc,2018
+951,112456,2021,Public R2 US East Coast,United States,20,Physics,Physics,Full Professor,2002
+952,72000,2006,Lawrence Livermore National Laboratory,United States,24.26,Division,Physics,Postdoc,2002
+953,84000,2022,University of Arizona,United States,15.82,Astrophysics,Astrophysics,Assistant Professor,2011
+954,17500,2022,public R2 US East Coast,United States,20,Physics,Physics,Grad Student,2026
+955,13735,2021,Jagiellonian University,Poland,6.2,Physics,Physics,Associate Professor,2004
+956,89000,2023,Australian National University,Australia,12.98,Astrophysics,Astrophysics,Postdoc,2019
+957,75000,2022,Stanford University,United States,30.81,Astrophysics,Astrophysics,Postdoc,2021
