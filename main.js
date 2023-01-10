@@ -172,7 +172,7 @@ svg.append("g")
   .attr("transform", "translate(0,500)")   // translate x-axis to bottom of chart
   .attr("id","xAxis")
   .call(d3.axisBottom(xScale)
-          .ticks(5)
+          .ticks(xVar=='posEnum' ? 0 : 5)
           .tickFormat(d3.format("d"))
           .tickSizeOuter(0)
        )
@@ -319,7 +319,7 @@ function redrawY() {
 function redrawX() {
   svg.select("#xAxis")            
     .call(d3.axisBottom(xScale)
-        .ticks(5)
+        .ticks(xVar=='posEnum' ? 0 : 5)
         .tickFormat(d3.format("d"))
         .tickSizeOuter(0)
      )
