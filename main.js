@@ -57,6 +57,12 @@ let svg = d3.select("#plotSVG")
   .append("g")
   .attr("transform", "translate(80,10)")
 
+let bg = svg.append("rect")
+    .attr("width", Math.min(window.innerWidth-100,600))
+    .attr("height", "100%")
+    .attr("id", "bg")
+    .attr("opacity", "0")
+
 let xScale = d3.scaleLinear()
   .domain([2000, 2025])  // x-variable has a max of 2025
   .range([0, Math.min(window.innerWidth-100,600)]);      // x-axis is 600px wide
@@ -252,6 +258,18 @@ svg.selectAll(".bubble")
       d.toolTipVisible = false;
     }
   });
+
+bg.on("dblclick", (e,d) => {
+  if (e.target.id == "bg"){
+    svg.selectAll(".bubble")
+      .data(salaryData)
+      .each(function(d) {
+        d.toolTipVisible = false;
+        d3.select("#bubble-tip-"+d.id)
+          .style("display", "none") // remove all bubble tips if background is double-clicked
+      })
+  }
+})
 
 // Bubble Tips
 svg.selectAll(".bubble-tip")
