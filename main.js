@@ -38,7 +38,9 @@ d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.gith
       lwsalary:   Math.round((+d.salary)*Math.pow(1.025,2022-(d.year))*20.0/(+d.livingwage)),   
       year:      +d.year,
       university: d.university,
+      type:       d.type,
       country:    d.country,
+      state:      d.state,
       department: d.department,
       field:      d.field,
       position:   d.position,
@@ -102,10 +104,12 @@ calcQuantiles();
 
 // Filters:
 let f1university = document.getElementById("filter1-university").value;
+let f1type = document.getElementById("filter1-type").value;
 let f1field = document.getElementById("filter1-field").value;
 let f1position = document.getElementById("filter1-position").value;
 let f1country = document.getElementById("filter1-country").value;
 let f2university = document.getElementById("filter2-university").value;
+let f2type = document.getElementById("filter2-type").value;
 let f2field = document.getElementById("filter2-field").value;
 let f2position = document.getElementById("filter2-position").value;
 let f2country = document.getElementById("filter2-country").value;
@@ -113,17 +117,17 @@ let f2country = document.getElementById("filter2-country").value;
 // return 0 if hidden, i if part of group i & both groups active, else 3
 function visGroup(d) {
   let vis = 0;
-  let grp1active = (f1university=="all" && f1field=="all" && f1position=="all" && f1country=="all") ? false : true;
-  let grp2active = (f2university=="all" && f2field=="all" && f2position=="all" && f2country=="all") ? false : true;
+  let grp1active = (f1university=="all" && f1type=="all" && f1field=="all" && f1position=="all" && f1country=="all") ? false : true;
+  let grp2active = (f2university=="all" && f2type=="all" && f2field=="all" && f2position=="all" && f2country=="all") ? false : true;
   let grpsActive = grp1active || grp2active;
   if(grpsActive) {
 	if(grp1active) {
-	  if( (f1university==d.university || f1university=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") && (f1country==d.country || f1country=="all") ) {
+	  if( (f1university==d.university || f1university=="all") && (f1type==d.type || f1type=="all") && (f1field==d.field || f1field=="all") && (f1position==d.position || f1position=="all") && (f1country==d.country || f1country=="all") ) {
 		  vis = (grp2active) ? 1 : 3;
 	  }
 	}
 	if(grp2active) {
-	  if( (f2university==d.university || f2university=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") && (f2country==d.country || f2country=="all")) {
+	  if( (f2university==d.university || f2university=="all") && (f2type==d.type || f2type=="all") && (f2field==d.field || f2field=="all") && (f2position==d.position || f2position=="all") && (f2country==d.country || f2country=="all")) {
 		  vis = (grp1active) ? 2 : 3;
 	  }
 	}
@@ -455,6 +459,11 @@ document.getElementById("filter1-university").addEventListener("change", (e)=>{
   setVisibilities();
 })
 
+document.getElementById("filter1-type").addEventListener("change", (e)=>{ 
+  f1type = e.target.value;
+  setVisibilities();
+})
+
 document.getElementById("filter1-field").addEventListener("change", (e)=>{ 
   f1field = e.target.value;
   setVisibilities();
@@ -475,6 +484,11 @@ document.getElementById("filter2-university").addEventListener("change", (e)=>{
   setVisibilities();
 })
 
+document.getElementById("filter2-type").addEventListener("change", (e)=>{ 
+  f2type = e.target.value;
+  setVisibilities();
+})
+
 document.getElementById("filter2-field").addEventListener("change", (e)=>{ 
   f2field = e.target.value;
   setVisibilities();
@@ -492,18 +506,22 @@ document.getElementById("filter2-country").addEventListener("change", (e)=>{
 
 document.getElementById("reset").onclick = function() {
 	document.getElementById("filter1-university").selectedIndex = 0;
+	document.getElementById("filter1-type").selectedIndex = 0;
 	document.getElementById("filter1-field").selectedIndex = 0;
 	document.getElementById("filter1-position").selectedIndex = 0;
 	document.getElementById("filter1-country").selectedIndex = 0;
 	document.getElementById("filter2-university").selectedIndex = 0;
+	document.getElementById("filter2-type").selectedIndex = 0;
 	document.getElementById("filter2-field").selectedIndex = 0;
 	document.getElementById("filter2-position").selectedIndex = 0;
 	document.getElementById("filter2-country").selectedIndex = 0;
     f1university = "all";
+    f1type = "all";
     f1field = "all";
     f1position = "all";
     f1country = "all";
     f2university = "all";
+    f2type = "all";
     f2field = "all";
     f2position = "all";
     f2country = "all";
