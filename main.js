@@ -71,7 +71,7 @@ let xScale = d3.scaleLinear()
 
 let yScale = d3.scaleLinear()
   .domain([0, 400000])   // y-variable has a max of 400000
-  .range([500, 0]);      // y-axis is 500px high
+  .range([580, 0]);      // y-axis is 580px high
 
 let xVar = document.getElementById("select-x-var").value;
 let yVar = document.getElementById("select-y-var").value;
@@ -152,12 +152,12 @@ function rescaleY() {
   	yScale = d3.scaleLinear()
   	.domain([ (d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : -1)-d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : 999999)>30000) ? 0 : 
   	d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : posQ1[0])-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : posQ3[6])+1000 ])    
-  	.range([500, 0]);
+  	.range([580, 0]);
   }
   else {
   	yScale = d3.scaleLog()
   	.domain([d3.min(salaryData, d => (visGroup(d)) ? d[yVar] : posQ1[0])-1000, d3.max(salaryData, d => (visGroup(d)) ? d[yVar] : posQ3[6])+1000 ])    
-  	.range([500, 0]);
+  	.range([580, 0]);
   } 
   calcQuantiles();
 }
@@ -186,7 +186,7 @@ svg.append("g")   // the axis will be contained in an SVG group element
           .tickSizeOuter(0)
        )
 svg.append("g")       
-  .attr("transform", "translate(0,500)")   // translate x-axis to bottom of chart
+  .attr("transform", "translate(0,580)")   // translate x-axis to bottom of chart
   .attr("id","xAxis")
   .call(d3.axisBottom(xScale)
           .ticks(xVar=='posEnum' ? 0 : 5)
