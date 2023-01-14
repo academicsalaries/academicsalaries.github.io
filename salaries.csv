@@ -925,7 +925,7 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 923,99000,2022,Public R1 US Midwest,Public,United States,Unknown,Unknown,20,Humanities,Humanities,Associate Professor,2009
 924,82000,2022,Dickinson College,Private,United States,Pennsylvania,Carlisle,16,Psychology,Psychology,Assistant Professor,2013
 925,72500,2022,Leiden University,Public,Netherlands,N/A,Leiden,13.78,Observatory,Astrophysics,Assistant Professor,2016
-926,3795,2022,Immaculata University,Private,United States,Pennsylvania,East Whiteland Township,17.87,Academic Affairs,Education,Lecturer,2001
+926,37950,2022,Immaculata University,Private,United States,Pennsylvania,East Whiteland Township,17.87,Academic Affairs,Education,Lecturer,2001
 927,56700,2022,Valparaiso University,Private,United States,Indiana,Valparaiso,15.83,English,English,Associate Professor,2011
 928,161441,2022,Wayne State University,Public,United States,Michigan,Detroit,16.59,School of Business,Business,Assistant Professor,2014
 929,84642,2022,Stockton University,Public,United States,New Jersey,Galloway Township,17.81,School of Natural Sciences and Mathematics,Science,Assistant Professor,2013
@@ -937,7 +937,7 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 935,53000,2023,Drexel University,Private,United States,Pennsylvania,Philadelphia,17.87,Modern Languages,Languages,Lecturer,1991
 936,68000,2021,"State university (small comprehensive), NY",Public,United States,New York,Unknown,20,Psychology ,Psychology,Associate Professor,2014
 937,33000,2022,Carnegie Mellon University,Private,United States,Pennsylvania,Pittsburgh,16.47,Mechanical Engineering,Engineering,Grad Student,2025
-938,2000,2022,University at Buffalo,Public,United States,New York,Buffalo,17.49,Learning and Instruction,Education,Lecturer,2025
+938,20000,2022,University at Buffalo,Public,United States,New York,Buffalo,17.49,Learning and Instruction,Education,Lecturer,2025
 939,25000,2022,Arizona State University,Public,United States,Arizona,Phoenix,18.08,School of Molecular Sciences,Chemistry,Grad Student,2024
 940,55000,2022,University of Virginia,Public,United States,Virginia,Charlottesville,18.59,Biophysics,Biology,Postdoc,2018
 941,151000,2022,SUNY Upstate,Public,United States,New York,Syracuse,16.75,Biosciences,Biology,Associate Professor,2000
