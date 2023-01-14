@@ -236,10 +236,10 @@ svg.selectAll(".bubble")
   .attr("class", "bubble")
   .attr("cx", d => xScale(d[xVar]))   // set the x position based on xVar
   .attr("cy", d => yScale(d[yVar]))   // set the y position based on salary
-  .attr("r", d => 4)
+  .attr("r", d => 3.8)
   .attr("stroke", d => posColors[d.position])
   .attr("fill", d => posColors[d.position])
-  .attr("fill-opacity", 0.5)
+  .attr("fill-opacity", 0.2)
   .on("mouseover",(e,d) => {    // event listener to show tooltip on hover
     d3.select("#bubble-tip-"+d.id)
       .style("display","block"); 
