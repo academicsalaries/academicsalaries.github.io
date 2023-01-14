@@ -833,7 +833,7 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 831,127000,2022,Ohio State University,Public,United States,Ohio,Columbus,16.53,Neurology,Health,Assistant Professor,2020
 832,130000,2020,Pennsylvania State University,Public,United States,Pennsylvania,State College,17.61,Architectural engineering,Engineering,Assistant Professor,2020
 833,175000,2018,UC San Francisco,Public,United States,California,San Francisco,30.81,Basic science / biology,Biology,Assistant Professor,2011
-834,7000,2022,Christopher Newport University,Public,United States,Virginia,Newport News,18.68,Computer Science,Computer Science,Lecturer,2015
+834,14000,2022,Christopher Newport University,Public,United States,Virginia,Newport News,18.68,Computer Science,Computer Science,Lecturer,2015
 835,53000,2022,Nevada State College,Public,United States,Nevada,Henderson,16.33,"Data, Media, and Design (Mathematics)",Mathematics,Lecturer,2020
 836,85500,2022,California State University,Public,United States,California,Long Beach,20,Biology,Biology,Assistant Professor,2012
 837,97000,2022,Colby College,Private,United States,Maine,Waterville,17.05,Statistics,Mathematics,Assistant Professor,2017
