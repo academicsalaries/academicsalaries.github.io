@@ -266,7 +266,6 @@ svg.selectAll(".bubble")
 bg.on("dblclick", (e,d) => {
   if (e.target.id == "bg"){
     svg.selectAll(".bubble")
-      .data(salaryData)
       .each(function(d) {
         d.toolTipVisible = false;
         d3.select("#bubble-tip-"+d.id)
