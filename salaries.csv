@@ -824,7 +824,7 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 822,31000,2022,Georgia Institute of Technology,Public,United States,Georgia,Atlanta,19.02,Earth Sciences,Earth Sciences,Grad Student,2027
 823,95000,2022,Midwest Private R2,Private,United States,Unknown,Unknown,20,Art,Art,Full Professor,1998
 824,89000,2022,CSU Channel Islands,Public,United States,California,Camarillo,21.11,Environmental Science & Resource Management,Environment,Assistant Professor,2019
-825,69000,2022,University of Louisville,Public,United States,Kentucky,University of Louisville,16.02,Geography,Geography,Assistant Professor,2016
+825,69000,2022,University of Louisville,Public,United States,Kentucky,Louisville,16.02,Geography,Geography,Assistant Professor,2016
 826,60000,2022,Black Hills State University,Public,United States,South Dakota,Spearfish,15.07,Natural Sciences,Natural Sciences,Assistant Professor,2013
 827,97000,2021,Northern Virginia Community College,Public,United States,Virginia,Annandale,22.98,English,English,Full Professor,2012
 828,96000,2022,CSU Fullerton,Public,United States,California,Fullerton,24.92,Mechanical Engineering,Engineering,Assistant Professor,2018
@@ -972,3 +972,13 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 970,36021,2023,University of Maryland - College Park,Public,United States,Maryland,College Park,22.65,Astronomy,Astrophysics,Grad Student,2026
 971,36000,2022,University of Notre Dame,Private,United States,Indiana,South Bend,15.89,Computer Science,Computer Science,Grad Student,2023
 972,37089,2022,Max Planck Institute,Private,Germany,N/A,Munich,14.06,Neuroscience,Neuroscience,Grad Student,2023
+973,35000,2023,French National Center for Scientific Research (CNRS),Public,France,N/A,Paris,15.18,Engineering,Engineering,Associate Professor,2016
+974,5180,2022,Universidade Federal do Rio Grande do Sul,Public,Brazil,N/A,Porto Alegre,5.27,Civil Engineering,Engineering,Grad Student,2025
+975,55000,2022,Public R1 East Coast,Public,United States,Unknown,Unknown,20,Biology,Biology,Research Staff,2015
+976,65000,2022,Muhlenberg College,Private,United States,Pennsylvania,Allentown,17.03,Theatre & Dance,Art,Assistant Professor,2017
+977,140000,2017,University of South Florida,Public,United States,Florida,Tampa,17.71,Computer Science,Computer Science,Assistant Professor,2015
+978,63000,2022,Georgia Gwinnett College,Public,United States,Georgia,Lawrenceville,19.02,English ,English,Assistant Professor,2019
+979,75600,2022,R1 US East Coast,Unknown,United States,Unknown,Unknown,20,Medical Oncology ,Health,Postdoc,2020
+980,42000,2023,Brown University,Private,United States,Rhode Island,Providence,17.72,Pathobiology,Biology,Grad Student,2024
+981,79000,2022,Clark Atlanta University,Private,United States,Georgia,Atlanta,19.02,Social work,Social Science,Associate Professor,2012
+982,100000,2022,University of Tampa,Private,United States,Florida,Tampa,17.71,Accounting ,Business,Lecturer,2010
