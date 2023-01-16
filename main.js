@@ -204,7 +204,7 @@ for (i = 0; i < posQ1.length; i++) {
     .attr("y1", yScale(posQ1[i]))
     .attr("x2", xScale(i+1.45))
     .attr("y2", yScale(posQ1[i]))
-    .attr("opacity",1);  
+    .attr("opacity",0.4);  
 }
 for (i = 0; i < posQ2.length; i++) {  
   svg.append("line")
@@ -215,7 +215,7 @@ for (i = 0; i < posQ2.length; i++) {
     .attr("y1", yScale(posQ2[i]))
     .attr("x2", xScale(i+1.45))
     .attr("y2", yScale(posQ2[i]))
-    .attr("opacity",1);  
+    .attr("opacity",0.4);  
 }
 for (i = 0; i < posQ3.length; i++) {  
   svg.append("line")
@@ -226,7 +226,7 @@ for (i = 0; i < posQ3.length; i++) {
     .attr("y1", yScale(posQ3[i]))
     .attr("x2", xScale(i+1.45))
     .attr("y2", yScale(posQ3[i]))
-    .attr("opacity",1);  
+    .attr("opacity",0.4);  
 }
 
 // Point Data
