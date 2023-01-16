@@ -982,3 +982,6 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 980,42000,2023,Brown University,Private,United States,Rhode Island,Providence,17.72,Pathobiology,Biology,Grad Student,2024
 981,79000,2022,Clark Atlanta University,Private,United States,Georgia,Atlanta,19.02,Social work,Social Science,Associate Professor,2012
 982,100000,2022,University of Tampa,Private,United States,Florida,Tampa,17.71,Accounting ,Business,Lecturer,2010
+983,77000,2020,Unknown,Unknown,United States,Unknown,Unknown,,English,English,Assistant Professor,2016
+984,55000,2022,Tulane University,Private,United States,Louisiana,New Orleans,16.79,Neurology,Health,Postdoc,2020
+985,46000,2022,Public R2 Midwest,Public,United States,Unknown,Unknown,20,Biology,Biology,Assistant Professor,2014
