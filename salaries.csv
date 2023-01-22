@@ -985,3 +985,19 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 983,77000,2020,Unknown,Unknown,United States,Unknown,Unknown,20,English,English,Assistant Professor,2016
 984,55000,2022,Tulane University,Private,United States,Louisiana,New Orleans,16.79,Neurology,Health,Postdoc,2020
 985,46000,2022,Public R2 Midwest,Public,United States,Unknown,Unknown,20,Biology,Biology,Assistant Professor,2014
+986,51600,2023,Valparaiso University,Private,United States,Indiana,Valparaiso,15.83,English,English,Lecturer,2020
+987,54000,2022,Northwestern University,Private,United States,Illinois,Evanston,19.29,Medical ,Health,Postdoc,2022
+988,130169,2022,University of Houston,Public,United States,Texas,Houston,16.95,Electrical and Computer Engineering,Engineering,Associate Professor,2012
+989,58000,2022,University of Colorado - Denver,Public,United States,Colorado,Denver,20.31,Biology,Biology,Postdoc,2021
+990,115000,2023,Liberal arts,Unknown,Unknown,Unknown,Unknown,20,Political Science,Political Science,Assistant Professor,2016
+991,93000,2022,UC Irvine,Public,United States,California,Irvine,24.92,Gender and Sexuality Studies ,Social Science,Assistant Professor,2018
+992,20000,2020,University of Missouri - St. Louis,Public,United States,Missouri,St. Louis,16.73,Chemistry,Chemistry,Grad Student,2023
+993,16405,2022,McGill University,Public,Canada,N/A,Montreal,12.51,Psychology,Psychology,Grad Student,2027
+994,63000,2022,Hope College,Private,United States,Michigan,Holland,14.78,Humanities ,Humanities,Assistant Professor,2016
+995,58500,2021,Private College,Private,Unknown,Unknown,Unknown,20,Humanities ,Humanities,Assistant Professor,2016
+996,98000,2022,Claremont Colleges,Private,United States,California,Claremont,21.89,Politics,Political Science,Associate Professor,2012
+997,79412,2022,Grinnell College ,Private,United States,Iowa,Grinnell,16,Religious Studies ,Religion,Lecturer,2017
+998,22000,2023,University of Bristol,Public,United States,N/A,Bristol,13.04,Population Health ,Health,Grad Student,2025
+999,110871,2022,Pomona College,Private,United States,California,Claremont,21.89,Computer Science,Computer Science,Assistant Professor,2018
+1000,72000,2022,Wheaton College,Private,United States,Illinois,Wheaton,19.29,Social Science,Social Science,Assistant Professor,2012
+1001,75000,2022,Canadian public university (prairie province),Public,Canada,N/A,Unknown,20,Humanities - Teaching track,Humanities,Associate Professor,2015
