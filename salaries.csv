@@ -1001,3 +1001,35 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 999,110871,2022,Pomona College,Private,United States,California,Claremont,21.89,Computer Science,Computer Science,Assistant Professor,2018
 1000,72000,2022,Wheaton College,Private,United States,Illinois,Wheaton,19.29,Social Science,Social Science,Assistant Professor,2012
 1001,75000,2022,Canadian public university (prairie province),Public,Canada,N/A,Unknown,20,Humanities - Teaching track,Humanities,Associate Professor,2015
+1002,78000,2022,Michigan Technological University,Public,United States,Michigan,Houghton,14.96,Biological Sciences,Biology,Assistant Professor,2016
+1003,80000,2022,CSU Chico,Public,United States,California,Chico,17.65,College of Business,Business,Lecturer,2010
+1004,168500,2022,Top 25 SLAC,Unknown,United States,Unknown,Unknown,20,Political Science,Political Science,Full Professor,2007
+1005,92000,2020,Private R1 US West Coast,Private,United States,Unknown,Unknown,20,Department of Political Science and International Relations ,Political Science,Assistant Professor,2019
+1006,101000,2022,Private R1 US West Coast ,Private,United States,Unknown,Unknown,20,Department of Political Science and International Relations ,Political Science,Assistant Professor,2019
+1007,14879,2022,University of Ljubljana,Public,Slovenia,N/A,Ljubljana,8.43,Faculty of Arts,Art,Grad Student,2025
+1008,17623,2022,University of Ljubljana,Public,Slovenia,N/A,Ljubljana,8.43,Faculty of Arts,Art,Grad Student,2025
+1009,20212,2022,University of Ljubljana,Public,Slovenia,N/A,Ljubljana,8.43,Faculty of Arts,Art,Postdoc,2021
+1010,24116,2022,University of Ljubljana,Public,Slovenia,N/A,Ljubljana,8.43,Faculty of Arts,Art,Postdoc,2010
+1011,72000,2021,University of North Georgia ,Public,Georgia,N/A,Dahlonega,5.88,History,History,Full Professor,2011
+1012,28558,2022,University of Ljubljana,Public,Slovenia,N/A,Ljubljana,8.43,Faculty of Arts,Art,Full Professor,1995
+1013,32644,2022,University of Ljubljana,Public,Slovenia,N/A,Ljubljana,8.43,Faculty of Arts,Art,Full Professor,1985
+1014,94645,2023,University of Memphis,Public,United States,Tennessee,Memphis,15.37,Electrical and Computer Engineering,Engineering,Assistant Professor,2015
+1015,31000,2022,University of Maryland - Baltimore,Public,United States,Maryland,Baltimore,18.07,Program in Neuroscience,Neuroscience,Grad Student,2025
+1016,95000,2020,East coast R1 in major city,Unknown,United States,Unknown,Unknown,20,Political Science,Political Science,Assistant Professor,2009
+1017,117000,2021,Boston University,Private,United States,Massachusetts,Boston,22.56,International Relations,Political Science,Associate Professor,2011
+1018,112000,2022,San Francisco State University ,Public,United States,California,San Francisco,30.81,Humanities,Humanities,Full Professor,2005
+1019,60000,2021,Northeastern University,Private,United States,Massachusetts,Boston,22.56,Electrical and Computer Engineering,Engineering,Postdoc,2021
+1020,26000,2023,Clemson University,Public,United States,South Carolina,Clemson,17.3,Engineering and Science Education,Engineering,Grad Student,2025
+1021,82200,2022,Appalachian State University,Public,United States,North Carolina,Boone,15.83,Geological and environment sciences ,Geology,Associate Professor,2013
+1022,87000,2022,Penn State Abington,Public,United States,Pennsylvania,Abington,17.87,Information Sciences & Technology ,Computer Science,Assistant Professor,2017
+1023,27000,2022,Oregon State University,Public,United States,Oregon,Corvallis,19.08,Microbiology,Biology,Grad Student,2025
+1024,29000,2023,Purdue University,Public,United States,Indiana,West Lafayette,16.16,Biomedical Engineering,Health,Grad Student,2024
+1025,50000,2023,Italian University,Public,Italy,N/A,Unknown,11.2,Mechanical Engineering,Engineering,Assistant Professor,2019
+1026,33000,2023,University of Nottingham ,Public,United Kingdom,N/A,Nottingham,10.15,Faculty of Engineering,Engineering,Postdoc,2019
+1027,66000,2020,East coast private PUI,Private,United States,Unknown,Unknown,20,Biology ,Biology,Assistant Professor,2014
+1028,30000,2020,University of Colorado,Public,United States,Colorado,Boulder,21.07,Clinical Science,Health,Grad Student,2021
+1029,64500,2022,"Regional state university, midwest",Public,United States,Unknown,Unknown,20,Social Sciences,Social Science,Assistant Professor,2015
+1030,18000,2021,Point Park University and Seton Hill University,Private,United States,Pennsylvania,Pittsburgh,16.47,Philosophy,Philosophy,Adjunct Professor,2028
+1031,167000,2022,R1 Midwest,Unknown,United States,Unknown,Unknown,20,Engineering,Engineering,Associate Professor,2014
+1032,153000,2022,University of Michigan,Public,United States,Michigan,Ann Arbor,19.12,College of Engineering,Engineering,Assistant Professor,2016
+1033,34000,2022,University of Michigan,Public,United States,Michigan,Ann Arbor,19.12,Education,Education,Grad Student,2024
