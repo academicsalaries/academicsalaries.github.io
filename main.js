@@ -28,14 +28,27 @@ let posNames = {
     7 : "Full Professor",
 }
 
+// inflation data since 1980
+// https://data.bls.gov/pdq/SurveyOutputServlet
+let inflation = [12.4, 10.4, 7.4, 4.0, 5.0, 4.3, 4.0, 4.1, 4.4, 4.5, 5.0, 4.9, 3.7, 3.3, 2.8, 3.0, 2.7, 2.4, 2.3, 2.1, 2.4, 2.6, 2.4, 1.4, 1.8, 2.2, 2.5, 2.3, 2.3, 1.7, 1.0, 1.7, 2.1, 1.8, 1.7, 1.8, 2.2, 1.8, 2.1, 2.2, 1.7, 3.6, 6.2]
+
+function infAdj(salary,year) {
+	//return Math.round((salary)*Math.pow(1.025,2022-year));
+	var corrected = salary
+	for (i = year-1980; i < 2023-1980; i++) { 
+		corrected *= (1.0 + inflation[i]/100.0)
+	}
+	return corrected;
+}
+
 d3.csv("https://raw.githubusercontent.com/academicsalaries/academicsalaries.github.io/main/salaries.csv", function(d) {
     return {
       // parse the data into an array of csv objects
       id:        +d.id,
       salary:    +d.salary,   
-      infsalary:  Math.round((+d.salary)*Math.pow(1.025,2022-(d.year))),   
+      infsalary:  infAdj(+d.salary,+d.year),   
       livingwage: +d.livingwage,
-      lwsalary:   Math.round((+d.salary)*Math.pow(1.025,2022-(d.year))*20.0/(+d.livingwage)),   
+      lwsalary:   infAdj(+d.salary,+d.year)*(20.0/(+d.livingwage)),   
       year:      +d.year,
       university: d.university,
       type:       d.type,
