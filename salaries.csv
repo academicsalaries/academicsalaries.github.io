@@ -461,7 +461,7 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 459,22000,2022,North Carolina State University,Public,United States,North Carolina,Raleigh,18.95,Mechanical Engineering,Engineering,Grad Student,2025
 460,98000,2023,University of Central Florida,Public,United States,Florida,Orlando,18.19,Health Sciences,Health,Assistant Professor,2020
 461,133000,2022,Vanderbilt University,Private,United States,Tennessee,Nashville,17.63,Social Science,Social Science,Assistant Professor,2018
-462,14592,2022,Public University,Unknown,Unknown,Unknown,Unknown,20,Departamento de quimica,Chemistry,Grad Student,2024
+462,14592,2022,Public University,Public,Unknown,Unknown,Unknown,20,Departamento de quimica,Chemistry,Grad Student,2024
 463,82000,2020,UC Riverside,Public,United States,California,Riverside,18.66,Social Science,Social Science,Assistant Professor,2018
 464,18386,2022,McMaster University,Public,Canada,N/A,Hamilton,13.96,Neuroscience,Neuroscience,Grad Student,2025
 465,21000,2022,University of Oklahoma,Public,United States,Oklahoma,Norman,16.41,Biology,Biology,Grad Student,2024
@@ -863,7 +863,7 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 861,93200,2022,University of the Pacific,Private,United States,California,Stockton,17.81,Political Science,Political Science,Full Professor,1996
 862,168000,2021,University of Washington,Public,United States,Washington,Seattle,19.81,Genome Sciences,Biology,Associate Professor,2007
 863,24000,2022,Clemson University,Public,United States,South Carolina,Clemson,17.3,Biological Sciences,Biology,Grad Student,2026
-864,84000,2022,"Public, R1, Mid South US",Unknown,United States,Unknown,Unknown,20,Geosciences,Earth Sciences,Associate Professor,1992
+864,84000,2022,"Public, R1, Mid South US",Public,United States,Unknown,Unknown,20,Geosciences,Earth Sciences,Associate Professor,1992
 865,62757,2022,Valparaiso University,Private,United States,Indiana,Valparaiso,15.83,Arts and Sciences,Science,Associate Professor,2009
 866,64000,2022,Duke University,Private,United States,North Carolina,Durham,18.64,Music,Music,Full Professor,2003
 867,64000,2022,Regional state university,Public,United States,Unknown,Unknown,20,Criminal justice,Criminology,Assistant Professor,2019
@@ -1029,7 +1029,70 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 1027,66000,2020,East coast private PUI,Private,United States,Unknown,Unknown,20,Biology ,Biology,Assistant Professor,2014
 1028,30000,2020,University of Colorado,Public,United States,Colorado,Boulder,21.07,Clinical Science,Health,Grad Student,2021
 1029,64500,2022,"Regional state university, midwest",Public,United States,Unknown,Unknown,20,Social Sciences,Social Science,Assistant Professor,2015
-1030,18000,2021,Point Park University and Seton Hill University,Private,United States,Pennsylvania,Pittsburgh,16.47,Philosophy,Philosophy,Adjunct Professor,2028
+1030,18000,2021,Point Park University and Seton Hill University,Private,United States,Pennsylvania,Pittsburgh,16.47,Philosophy,Philosophy,Lecturer,2028
 1031,167000,2022,R1 Midwest,Unknown,United States,Unknown,Unknown,20,Engineering,Engineering,Associate Professor,2014
 1032,153000,2022,University of Michigan,Public,United States,Michigan,Ann Arbor,19.12,College of Engineering,Engineering,Assistant Professor,2016
 1033,34000,2022,University of Michigan,Public,United States,Michigan,Ann Arbor,19.12,Education,Education,Grad Student,2024
+1034,38000,2022,Public R1 US Texas,Public,United States,Texas,Unknown,20,Biostatistics,Biology,Grad Student,2023
+1035,170000,2021,University of North Carolina at Chapel Hill,Public,United States,North Carolina,Chapel Hill,18.64,Psychology,Psychology,Full Professor,1997
+1036,128000,2023,Singapore Institute of Technology,Public,Singapore,N/A,Singapore,17.53,"Business, Communication and Design",Business,Associate Professor,2005
+1037,45000,2022,University of Calgary,Public,Canada,N/A,Calgary,13.63,Biochemistry ,Chemistry,Postdoc,2016
+1038,45000,2022,Russell Group UK,Public,United Kingdom,N/A,Unknown,20,Public Health,Health,Research Staff,2021
+1039,52000,2022,University of Cambridge,Public,United Kingdom,N/A,Cambridge,14,Institute of Criminology,Criminology,Assistant Professor,2021
+1040,16000,2022,Washington State University,Public,United States,Washington,Pullman,14.74,Anthropology ,Anthropology,Grad Student,2025
+1041,88700,2022,Swiss Federal Institute of Technology Lausanne,Public,Switzerland,N/A,Lausanne,18.88,Department of Environmental Engineering ,Engineering,Postdoc,2020
+1042,20000,2022,IMDEA Nanoscience,Private,Spain,N/A,Madrid,11.48,Department of Chemistry,Chemistry,Grad Student,2026
+1043,105000,2022,University of Colorado,Public,United States,Colorado,Boulder,21.07,School of Public Health,Health,Research Staff,2020
+1044,75000,2022,New York University,Private,United States,New York,New York,25.42,Psychology,Psychology,Lecturer,2010
+1045,143000,2022,Weber State University,Public,United States,Utah,Ogden,17.22,Medical Laboratory Science,Health,Full Professor,2012
+1046,89500,2023,Friedrich Miescher Institute for Biomedical Research,Public,Switzerland,N/A,Basel,18.04,Unknown,Unknown,Postdoc,2020
+1047,24000,2022,King Abdullah University of Science and Technology,Private,Saudi Arabia,N/A,Thuwal,8.05,Biological an Environmental Science and Engineering ,Biology,Grad Student,2025
+1048,54000,2022,King Abdullah University of Science and Technology,Private,Saudi Arabia,N/A,Thuwal,8.05,Physical Science and Engineering ,Engineering,Postdoc,2020
+1049,32500,2022,University of Helsinki,Public,Finland,N/A,Helsinki,13.04,Institute for Molecular Medicine Finland (FIMM),Health,Grad Student,2026
+1050,42500,2022,KTH Royal Institute of Technology,Public,Sweden,N/A,Stockholm,13.54,Applied Physics,Physics,Research Staff,2017
+1051,25500,2021,Max Planck Institute,Private,Germany,N/A,Munich,14.06,Junior Group,Science,Grad Student,2025
+1052,20300,2022,Ariel University,Public,Israel,N/A,Ariel,11.63,Molecular Biology,Biology,Grad Student,2022
+1053,24364,2022,Weizmann Institute of Science,Public,Israel,N/A,Rehovot,12.6,Life Science,Life Sciences,Grad Student,2027
+1054,61000,2023,Vrije Universiteit Amsterdam,Private,Netherlands,N/A,Amsterdam,15.65,Alzheimer Genetic Hub,Health,Research Staff,2028
+1055,57000,2022,Lomonosov Moscow State University,Public,Russia,N/A,Moscow,9.08,Department of Chemistry,Chemistry,Grad Student,2024
+1056,41800,2023,BioMed X Institute,Public,Germany,N/A,Heidelberg,11.23,EPD,Neuroscience,Research Staff,2027
+1057,28000,2022,Ohio State University,Public,United States,Ohio,Columbus,16.53,Food Science and Technology,Science,Grad Student,2026
+1058,30000,2022,King Abdullah University of Science and Technology,Private,Saudi Arabia,N/A,Thuwal,8.05,"Computer, Electrical and Mathematical Science and Engineering (CEMSE)",Science,Grad Student,2024
+1059,67000,2022,Erasmus University Rotterdam,Public,Netherlands,N/A,Rotterdam,13.04,Economics,Economics,Assistant Professor,2021
+1060,55675,2022,University of Geneva,Public,Switzerland,N/A,Geneva,21.82,Genetics and Development ,Biology,Grad Student,2026
+1061,30000,2020,King Abdullah University of Science and Technology,Private,Saudi Arabia,N/A,Thuwal,8.05,"Computer, Electrical and Mathematical Science and Engineering (CEMSE)",Science,Grad Student,2023
+1062,9740,2023,University of Western Ontario,Public,Canada,Ontatio,London,12.43,Chemical Engineering,Chemistry,Grad Student,2024
+1063,68652,2022,Duke University,Private,United States,North Carolina,Durham,18.64,Medicine,Health,Research Staff,2012
+1064,128037,2022,UC Santa Barbara,Public,United States,California,Santa Barbara,24.85,Psychology,Psychology,Associate Professor,2016
+1065,114000,2022,University of Rochester Medical Center,Private,United States,New York,Rochester,17.14,Psychiatry,Psychology,Assistant Professor,2015
+1066,30000,2022,Pennsylvania State University,Public,United States,Pennsylvania,State College,17.61,Philosophy,Philosophy,Grad Student,2023
+1067,160000,2022,New York University,Private,United States,New York,New York,25.42,Arts & Sciences,Science,Associate Professor,2008
+1068,25487,2022,Iowa State University,Public,United States,Iowa,Ames,17.58,Microbiology ,Biology,Grad Student,2025
+1069,19100,2023,Victoria University of Wellington,Public,New Zealand,N/A,Wellington,15.25,Neuroscience,Neuroscience,Grad Student,2024
+1070,34000,2022,UC Irvine,Public,United States,California,Irvine,24.92,"Criminology, Law & Society",Social Science,Grad Student,2024
+1071,24200,2022,University of Cambridge,Public,United Kingdom,N/A,Cambridge,14,Psychology,Psychology,Grad Student,2025
+1072,19000,2022,Drexel University,Private,United States,Pennsylvania,Philadelphia,17.87,Clinical Psychology,Psychology,Grad Student,2027
+1073,92500,2023,Genentech,Private,United States,California,San Francisco,30.81,Data Science ,Science,Postdoc,2023
+1074,30000,2016,American Museum of Natural History ,Public,United States,New York,New York,25.42,Richard Gilder graduate school ,Biology,Grad Student,2020
+1075,48000,2020,Ohio State University,Public,United States,Ohio,Columbus,16.53,"Evolution, Ecology and Organismal Biology (EEOB)",Biology,Postdoc,2020
+1076,80000,2023,Loyola University Chicago,Private,United States,Illinois,Chicago,19.29,Biology,Biology,Assistant Professor,2018
+1077,54875,2022,Valparaiso University,Private,United States,Indiana,Valparaiso,15.83,History,History,Assistant Professor,2021
+1078,135000,2022,University of Arizona,Public,United States,Arizona,Tucson,15.82,College of Agriculture ,Agriculture,Research Staff,2008
+1079,66000,2022,UC Berkeley,Public,United States,California,Berkeley,24.26,Physics,Physics,Postdoc,2021
+1080,86320,2023,Stanford University,Private,United States,California,Stanford,30.81,Stanford Science Fellow,Science,Postdoc,2021
+1081,220000,2023,University of Chicago,Private,United States,Illinois,Chicago,19.29,Astronomy,Astrophysics,Full Professor,2007
+1082,67000,2022,National university in western Japan,Public,Japan,N/A,Unknown,20,Education,Education,Associate Professor,2008
+1083,60000,2023,UiT the Arctic University of Norway,Public,Norway,N/A,Tromso,12.9,Institute for language and culture,Languages,Postdoc,2020
+1084,67000,2022,Kyoto University,Public,Japan,N/A,Kyoto,8.88,Humanities,Humanities,Associate Professor,2008
+1085,165000,2022,"Public R1, Four Corners Area",Public,United States,Unknown,Unknown,20,Astronomy,Astrophysics,Associate Professor,2012
+1086,178000,2021,Pennsylvania State University,Public,United States,Pennsylvania,State College,17.61,Applied Research Lab,Science,Research Staff,2022
+1087,48000,2021,Princeton University,Private,United States,New Jersey,Princeton,19.12,Geosciences,Earth Sciences,Grad Student,2027
+1088,33000,2023,Oregon State University,Public,United States,Oregon,Corvallis,19.08,"College of Earth, Ocean, and Atmospheric Sciences",Earth Sciences,Grad Student,2024
+1089,20177,2022,Federation University Australia,Public,Australia,Victoria,Ballarat,12.29,Biology,Biology,Grad Student,2022
+1090,29148,2022,University of Hawaii,Public,United States,Hawaii,Honolulu,22.69,School of Ocean Earth Science and Technology,Earth Sciences,Grad Student,2025
+1091,77500,2022,University of Cincinnati,Public,United States,Ohio,Cincinnati,15.68,Epidemiology ,Health,Research Staff,2025
+1092,55000,2022,UC Davis,Public,United States,California,Davis,19.68,Neuroscience,Neuroscience,Postdoc,2022
+1093,47000,2023,Icahn School of Medicine at Mount Sinai,Private,United States,New York,New York,25.42,Graduate School of Biomedical Sciences ,Health,Grad Student,2024
+1094,42500,2022,UC Berkeley,Public,United States,California,Berkeley,24.26,Physics,Physics,Grad Student,2028
+1095,48000,2023,University of Maryland - College Park,Public,United States,Maryland,College Park,22.65,Electrical Engineering,Engineering,Grad Student,2028
+1096,167000,2023,National Laboratory,Public,United States,Unknown,Unknown,20,Physics/Astronomy,Physics,Research Staff,2015
