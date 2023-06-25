@@ -1096,3 +1096,10 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 1094,42500,2022,UC Berkeley,Public,United States,California,Berkeley,24.26,Physics,Physics,Grad Student,2028
 1095,48000,2023,University of Maryland - College Park,Public,United States,Maryland,College Park,22.65,Electrical Engineering,Engineering,Grad Student,2028
 1096,167000,2023,National Laboratory,Public,United States,Unknown,Unknown,20,Physics/Astronomy,Physics,Research Staff,2015
+1097,181000,2023,Lawrence Livermore National Laboratory,Public,United States,California,Livermore,24.26,Weapons and Complex Integration,Physics,Research Staff,2017
+1098,57680,2022,University of Pennsylvania,Private,United States,Pennsylvania,Philadelphia,17.87,Bioengineering,Biology,Postdoc,2020
+1099,131000,2022,Fordham University,Private,United States,New York,New York,25.42,Biological Sciences,Biology,Full Professor,2006
+1100,50000,2023,Public R1 US East Coast,Public,United States,Unknown,Unknown,20,Materials Science and Engineering,Material Science,Postdoc,2023
+1101,60000,2022,Public R1 US Midwest,Public,United States,Unknown,Unknown,20,Mathematics,Mathematics,Postdoc,2021
+1102,57000,2023,Montana State University,Public,United States,Montana,Bozeman,17.47,Earth Sciences,Earth Sciences,Postdoc,2022
+1103,93988,2023,University of Hamburg,Public,Germany,N/A,Hamburg,12.73,Earth Sciences,Earth Sciences,Full Professor,2011
