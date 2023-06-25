@@ -1119,3 +1119,8 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 1117,45000,2018,College of William and Mary,Public,United States,Virginia,Williamsburg,18.37,World Languages,Languages,Lecturer,2017
 1118,24000,2017,Georgetown University,Private,United States,Washington DC,Washington DC,22.07,Arabic and Islamic Studies,Arabic Studies,Grad Student,2017
 1119,75000,2023,UC Berkeley,Public,United States,California,Berkeley,24.26,Plant and Microbial Biology,Biology,Postdoc,2023
+1120,58000,2022,Haverford College,Private,United States,Pennsylvania,Haverford,17.53,Social Science,Social Science,Assistant Professor,2018
+1121,110000,2022,University of Michigan,Public,United States,Michigan,Ann Arbor,19.12,Linguistics,Linguistics,Associate Professor,2015
+1122,81000,2021,Pennsylvania State University,Public,United States,Pennsylvania,State College,17.61,Social Sciences,Social Science,Associate Professor,2015
+1123,60000,2022,Mount Holyoke College,Private,United States,Massachusetts,"South Hadley,",17.22,Biology,Biology,Lecturer,2018
+1124,21000,2021,Syracuse University,Private,United States,New York,Syracuse,16.75,Communication & Rhetorical Studies,Communication,Grad Student,2023
