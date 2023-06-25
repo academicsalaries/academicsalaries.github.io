@@ -1106,12 +1106,16 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 1104,27200,2023,Saarland University,Public,Germany,N/A,Saarbrucken,9.26,Computational Linguistics,Linguistics,Grad Student,2025
 1105,50000,2023,Private Italian University,Private,Italy,N/A,Unknown,20,Management ,Business,Lecturer,2024
 1106,32000,2023,UT Austin,Public,United States,Texas,Austin,18.04,Chemistry,Chemistry,Grad Student,2023
-1108,120000,2022,R1 on West Coast,Unknown,United States,Unknown,Unknown,20,Psychiatry ,Psychology,Assistant Professor,2016
-1109,33000,2022,Rensselaer Polytechnic Institute,Private,United States,New York,Troy,18,Applied Math,Mathematics,Grad Student,2024
-1110,132048,2023,University of Washington,Public,United States,Washington,Seattle,19.81,Earth and Space Sciences,Earth Sciences,Assistant Professor,2017
-1111,22000,2023,Indiana University,Public,United States,Indiana,Bloomington,16.66,Anthropology,Anthropology,Grad Student,2025
-1112,69000,2021,Carleton College,Private,United States,Minnesota,Northfield,16.09,Computer Science,Computer Science,Assistant Professor,2018
-1113,60000,2022,UC Los Angeles,Public,United States,California,Los Angeles,21.89,Public Affairs,Political Science,Grad Student,2022
-1114,88600,2022,Toronto Metropolitan University,Public,Canada,N/A,Toronto,16.56,The Creative School,Art,Assistant Professor,2026
-1115,80000,2023,University of Iowa,Public,United States,Iowa,Iowa City,17.47,College of Engineering,Engineering,Research Staff,2020
-1116,59500,2020,University of Iowa,Public,United States,Iowa,Iowa City,17.47,College of Engineering,Engineering,Postdoc,2020
+1107,120000,2022,R1 on West Coast,Unknown,United States,Unknown,Unknown,20,Psychiatry ,Psychology,Assistant Professor,2016
+1108,33000,2022,Rensselaer Polytechnic Institute,Private,United States,New York,Troy,18,Applied Math,Mathematics,Grad Student,2024
+1109,132048,2023,University of Washington,Public,United States,Washington,Seattle,19.81,Earth and Space Sciences,Earth Sciences,Assistant Professor,2017
+1110,22000,2023,Indiana University,Public,United States,Indiana,Bloomington,16.66,Anthropology,Anthropology,Grad Student,2025
+1111,69000,2021,Carleton College,Private,United States,Minnesota,Northfield,16.09,Computer Science,Computer Science,Assistant Professor,2018
+1112,60000,2022,UC Los Angeles,Public,United States,California,Los Angeles,21.89,Public Affairs,Political Science,Grad Student,2022
+1113,88600,2022,Toronto Metropolitan University,Public,Canada,N/A,Toronto,16.56,The Creative School,Art,Assistant Professor,2026
+1114,80000,2023,University of Iowa,Public,United States,Iowa,Iowa City,17.47,College of Engineering,Engineering,Research Staff,2020
+1115,59500,2020,University of Iowa,Public,United States,Iowa,Iowa City,17.47,College of Engineering,Engineering,Postdoc,2020
+1116,68000,2022,Syracuse University,Private,United States,New York,Syracuse,16.75,College of Visual & Performing Arts,Art,Assistant Professor,2016
+1117,45000,2018,College of William and Mary,Public,United States,Virginia,Williamsburg,18.37,World Languages,Languages,Lecturer,2017
+1118,24000,2017,Georgetown University,Private,United States,Washington DC,Washington DC,22.07,Arabic and Islamic Studies,Arabic Studies,Grad Student,2017
+1119,75000,2023,UC Berkeley,Public,United States,California,Berkeley,24.26,Plant and Microbial Biology,Biology,Postdoc,2023
