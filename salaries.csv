@@ -1103,3 +1103,15 @@ id,salary,year,university,type,country,state,city,livingwage,department,field,po
 1101,60000,2022,Public R1 US Midwest,Public,United States,Unknown,Unknown,20,Mathematics,Mathematics,Postdoc,2021
 1102,57000,2023,Montana State University,Public,United States,Montana,Bozeman,17.47,Earth Sciences,Earth Sciences,Postdoc,2022
 1103,93988,2023,University of Hamburg,Public,Germany,N/A,Hamburg,12.73,Earth Sciences,Earth Sciences,Full Professor,2011
+1104,27200,2023,Saarland University,Public,Germany,N/A,Saarbrucken,9.26,Computational Linguistics,Linguistics,Grad Student,2025
+1105,50000,2023,Private Italian University,Private,Italy,N/A,Unknown,20,Management ,Business,Lecturer,2024
+1106,32000,2023,UT Austin,Public,United States,Texas,Austin,18.04,Chemistry,Chemistry,Grad Student,2023
+1108,120000,2022,R1 on West Coast,Unknown,United States,Unknown,Unknown,20,Psychiatry ,Psychology,Assistant Professor,2016
+1109,33000,2022,Rensselaer Polytechnic Institute,Private,United States,New York,Troy,18,Applied Math,Mathematics,Grad Student,2024
+1110,132048,2023,University of Washington,Public,United States,Washington,Seattle,19.81,Earth and Space Sciences,Earth Sciences,Assistant Professor,2017
+1111,22000,2023,Indiana University,Public,United States,Indiana,Bloomington,16.66,Anthropology,Anthropology,Grad Student,2025
+1112,69000,2021,Carleton College,Private,United States,Minnesota,Northfield,16.09,Computer Science,Computer Science,Assistant Professor,2018
+1113,60000,2022,UC Los Angeles,Public,United States,California,Los Angeles,21.89,Public Affairs,Political Science,Grad Student,2022
+1114,88600,2022,Toronto Metropolitan University,Public,Canada,N/A,Toronto,16.56,The Creative School,Art,Assistant Professor,2026
+1115,80000,2023,University of Iowa,Public,United States,Iowa,Iowa City,17.47,College of Engineering,Engineering,Research Staff,2020
+1116,59500,2020,University of Iowa,Public,United States,Iowa,Iowa City,17.47,College of Engineering,Engineering,Postdoc,2020
